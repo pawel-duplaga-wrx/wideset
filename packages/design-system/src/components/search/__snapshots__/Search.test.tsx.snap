@@ -1,0 +1,532 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Search Snapshots > Preset and size > matches snapshot for preset border size lg 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border-ws-dynamic-secondary-default border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-md h-ws-forms-lg rounded-ws-control-xl transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-5"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > Preset and size > matches snapshot for preset border size md 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border-ws-dynamic-secondary-default border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-md rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > Preset and size > matches snapshot for preset border size sm 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border-ws-dynamic-secondary-default border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-sm rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-5"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-7"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > Preset and size > matches snapshot for preset ghost size lg 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle border border-transparent bg-transparent hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-md h-ws-forms-lg rounded-ws-control-xl transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-5"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > Preset and size > matches snapshot for preset ghost size md 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle border border-transparent bg-transparent hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-md rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > Preset and size > matches snapshot for preset ghost size sm 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle border border-transparent bg-transparent hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-sm rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-5"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-7"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > States > matches snapshot when disabled 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border-ws-dynamic-secondary-default border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-md rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="true"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="true"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="true"
+    data-slot="text-input-input"
+    disabled=""
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="true"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > States > matches snapshot with custom className 1`] = `
+<div
+  class="text-ws-static-strong relative flex max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border-ws-dynamic-secondary-default border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-md rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear] w-full"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > States > matches snapshot with value (clear button visible) 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border-ws-dynamic-secondary-default border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-md rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value="query"
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  >
+    <button
+      aria-label="Clear"
+      class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm gap-ws-3 rounded-ws-control-lg bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) shrink-0 p-0 size-ws-13"
+      data-slot="text-input-clear-button"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon shrink-0 p-0 size-ws-9"
+        data-slot="button-icon"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Search Snapshots > Variant > matches snapshot for variant danger 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-danger-strong-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-danger-strong-pressed focus-within:not-active:border-ws-dynamic-danger-strong-default focus-within:not-active:shadow-ws-forms-active-danger focus-within:has-[button:active]:border-ws-dynamic-danger-strong-default focus-within:has-[button:active]:shadow-ws-forms-active-danger typography-label-sm h-ws-forms-md rounded-ws-control-lg border-ws-dynamic-danger-strong-default transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="true"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    aria-invalid="true"
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;
+
+exports[`Search Snapshots > Variant > matches snapshot for variant primary 1`] = `
+<div
+  class="text-ws-static-strong relative flex w-full max-w-full items-center overflow-hidden data-[disabled=true]:text-ws-static-subtle shadow-ws-forms-base bg-ws-static-highlight-base border-ws-dynamic-secondary-default border data-[disabled=true]:border-ws-dynamic-secondary-disabled data-[disabled=true]:bg-ws-static-alpha-subtle data-[disabled=true]:hover:not-focus-within:border-ws-dynamic-secondary-disabled data-[disabled=true]:active:border-ws-dynamic-secondary-disabled data-[disabled=true]:focus-within:not-active:border-ws-dynamic-secondary-disabled hover:not-focus-within:not-data-[disabled=true]:border-ws-dynamic-secondary-hover active:not-has-[button:active]:not-data-[disabled=true]:border-ws-dynamic-secondary-pressed focus-within:not-active:border-ws-dynamic-primary-strong-default focus-within:not-active:shadow-ws-forms-active focus-within:has-[button:active]:border-ws-dynamic-primary-strong-default focus-within:has-[button:active]:shadow-ws-forms-active typography-label-sm h-ws-forms-md rounded-ws-control-lg transition-[border-color,box-shadow,background-color,color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) has-data-[shake=true]:animate-[ws-field-shake_calc(var(--ws-motion-duration-micro)*3.5)_linear]"
+  data-danger="false"
+  data-disabled="false"
+  data-slot="search"
+>
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pl-ws-7"
+    data-disabled="false"
+    data-slot="text-input-prefix"
+    role="none"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9"
+      data-slot="text-input-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+      />
+    </svg>
+  </div>
+  <input
+    class="placeholder:text-ws-static-subtle h-full w-full appearance-none bg-transparent text-inherit outline-hidden data-[disabled=true]:opacity-75 data-[disabled=true]:placeholder-shown:opacity-50 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none px-ws-9"
+    data-disabled="false"
+    data-slot="text-input-input"
+    placeholder="Search..."
+    type="search"
+    value=""
+  />
+  <div
+    class="text-ws-static-subtle border-ws-static-base flex h-full shrink-0 items-center justify-center data-[disabled=true]:border-ws-static-base data-[disabled=true]:opacity-50 empty:hidden pr-ws-3"
+    data-disabled="false"
+    data-slot="text-input-suffix"
+    role="none"
+  />
+</div>
+`;

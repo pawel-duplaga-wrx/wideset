@@ -1,0 +1,65 @@
+---
+title: Motion
+description: How components animate, how to turn it off, and the tokens behind it.
+section: Foundations
+---
+
+import Example from '../../components/Example';
+import { guideExample } from '../../lib/guideExamples';
+import TokenTable from '../../components/foundations/TokenTable.astro';
+
+Components animate out of the box: press feedback, hover tints, menus, toasts, field errors.
+Every transition reads its duration, easing, distance and scale from `--ws-motion-*` tokens,
+and all of it respects `prefers-reduced-motion`. There is nothing to set up.
+
+## Turn it off
+
+`MotionProvider` for the whole app or a subtree, `defaultMotion` for one component. The prop
+wins over the provider, so it can also switch motion back on inside a disabled subtree.
+
+```tsx
+import { Button, MotionProvider } from '@wideset/react';
+
+<MotionProvider enabled={false}>
+  <App />
+</MotionProvider>
+
+<Button defaultMotion={false}>Save</Button>
+```
+
+## Change it
+
+Redefine a token in your stylesheet, loaded after Wideset's, and every component that reads it
+follows:
+
+```css
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    --ws-motion-duration-quick: 100ms; /* snappier hovers and closes */
+    --ws-motion-scale-small: 1; /* no shrink on press */
+  }
+}
+```
+
+For one component, switch its motion off and add your own classes:
+
+```tsx
+<Button
+  defaultMotion={false}
+  className="hover:opacity-80 motion-safe:transition-opacity motion-safe:duration-300"
+>
+  Save
+</Button>
+```
+
+## Shake on validation
+
+`useShake` plays a short horizontal shake on a field to flag a rejected value. It returns a
+`ref` for `TextInput` or `Textarea` and a `shake()` to call when validation fails; calling it
+again restarts the animation.
+
+<Example {...guideExample('motion', 'shake')} client:visible />
+
+## Tokens
+
+<TokenTable of="motion" />

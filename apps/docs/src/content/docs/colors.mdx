@@ -1,0 +1,41 @@
+---
+title: Colors
+description: The colour ramps and the classes components use, in light and dark.
+section: Foundations
+---
+
+import ColorTokens from '../../components/foundations/ColorTokens.astro';
+import Palette from '../../components/foundations/Palette.astro';
+
+Colours come in two layers. The **palette** is the raw ramps; nothing in a component reads it
+directly. The **classes** (`bg-ws-…`, `text-ws-…`, `border-ws-…`) are what components use; they
+point at the palette and switch with dark mode. Every swatch on this page reads the live token,
+so switch the site theme to see the dark values. To change any of them, see
+[Theming](/docs/theming).
+
+## Palette
+
+Primitives are named `--ws-colors-light-<family>-<step>` (and `-dark-` for the dark ramps).
+Override the `brand` ramps, both of them, for a re-brand: [Theming](/docs/theming#re-brand) has the
+recipe.
+
+<Palette />
+
+## Background
+
+`bg-ws-*`. Static tokens are the page and its containers; dynamic tokens are interactive
+surfaces with `default`, `hover`, `pressed` and `disabled` states.
+
+<ColorTokens kind="Background" />
+
+## Text
+
+`text-ws-*`. Use `on-*` tokens for text on a filled surface of the same role.
+
+<ColorTokens kind="Text" />
+
+## Border
+
+`border-ws-*`.
+
+<ColorTokens kind="Border" />

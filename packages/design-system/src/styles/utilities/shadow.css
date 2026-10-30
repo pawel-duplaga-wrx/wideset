@@ -1,0 +1,96 @@
+/*
+  Shadows. Source of truth: Figma Wideset Core 1.0 — hand-maintained, not part of the
+  token pipeline. Full notes in src/styles/tokens/README.md.
+
+  low = small controls and cards · medium = dropdowns, cards, nav · high = modals, popovers
+
+  The --elevation-* indirection is what switches shadows off in dark mode — don't inline it
+  back into @theme. Use `0 0 0 0 transparent`, not `none`: Tailwind compiles to a comma list
+  and `none` would invalidate the whole declaration.
+*/
+
+:root {
+  /* Elevation/Low */
+  --ws-elevation-low:
+    0px 0px 0px 1px var(--ws-static-shadow-outline, rgba(0, 0, 0, 0.08)),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.1), 0px 2px 2px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 6px 0px rgba(0, 0, 0, 0.04);
+
+  /* Elevation/Medium */
+  --ws-elevation-medium:
+    0px 0px 0px 1px var(--ws-static-shadow-outline, rgba(0, 0, 0, 0.08)),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.03), 0px 2px 2px 0px rgba(0, 0, 0, 0.04),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 8px 24px 0px rgba(0, 0, 0, 0.07),
+    0px 1px 0px 0px rgba(0, 0, 0, 0.08);
+
+  /* Elevation/High */
+  --ws-elevation-high:
+    0px 1px 0px 0px rgba(0, 0, 0, 0.08),
+    0px 0px 0px 1px var(--ws-static-shadow-outline, rgba(0, 0, 0, 0.08)),
+    0px 20px 26px 0px rgba(0, 0, 0, 0.09), 0px 5px 7px 0px rgba(0, 0, 0, 0.06),
+    0px 2px 3px 0px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.03);
+
+  /* Controls/Control — Button (filled + border, never ghost), FilterButton, Slider thumb */
+  --ws-elevation-controls-control: 0px 1px 1px 0px rgba(20, 21, 26, 0.03);
+
+  /* Forms/Base — TextInput, Select trigger. Same geometry as Controls/Control, different
+     colour in Figma; two tokens so each maps 1:1 to its effect style. */
+  --ws-elevation-forms-base: 0px 1px 1px 0px rgba(26, 26, 26, 0.03);
+
+  /* Table "Column Divider / Type=Freeze (Scrolling)" */
+  --ws-elevation-table-freeze: 16px 0px 16px 0px rgba(0, 0, 0, 0.06);
+
+  /* Elevation/Medium as a filter, for Tooltip's clip-path arrow. Layer order matters here:
+     chained drop-shadow()s each render the previous result. drop-shadow() has no spread, so
+     the 1px outline layer is approximated with blur 1. */
+  --ws-elevation-drop-medium: drop-shadow(0px 1px 0px rgb(0 0 0 / 0.08))
+    drop-shadow(0px 8px 24px rgb(0 0 0 / 0.07)) drop-shadow(0px 4px 4px rgb(0 0 0 / 0.05))
+    drop-shadow(0px 2px 2px rgb(0 0 0 / 0.04)) drop-shadow(0px 1px 1px rgb(0 0 0 / 0.03))
+    drop-shadow(0px 0px 1px rgb(0 0 0 / 0.08));
+
+  /* Controls/Tooltip. The effect style has negative spreads, which drop-shadow()
+     cannot express; blur values follow Figma's own code export, which shrinks blur
+     to compensate (10/-2 → 5, 4/-3 → 2). */
+  --ws-elevation-drop-controls-tooltip: drop-shadow(0px 2px 2px rgb(20 21 26 / 0.12))
+    drop-shadow(0px 3px 5px rgb(20 21 26 / 0.04));
+}
+
+.dark {
+  --ws-elevation-low: 0 0 0 0 transparent;
+  --ws-elevation-medium: 0px 0px 0px 1px var(--ws-static-shadow-outline);
+  --ws-elevation-high: 0px 0px 0px 1px var(--ws-static-shadow-outline);
+  --ws-elevation-controls-control: 0 0 0 0 transparent;
+  --ws-elevation-forms-base: 0 0 0 0 transparent;
+  --ws-elevation-table-freeze: 0 0 0 0 transparent;
+  --ws-elevation-drop-medium: drop-shadow(0 0 1px var(--ws-static-shadow-outline));
+  --ws-elevation-drop-controls-tooltip: none;
+}
+
+@theme {
+  --shadow-ws-low: var(--ws-elevation-low);
+  --shadow-ws-medium: var(--ws-elevation-medium);
+  --shadow-ws-high: var(--ws-elevation-high);
+  --shadow-ws-controls-control: var(--ws-elevation-controls-control);
+  --shadow-ws-forms-base: var(--ws-elevation-forms-base);
+  --shadow-ws-table-freeze: var(--ws-elevation-table-freeze);
+
+  --shadow-ws-forms-active: 0px 0px 0px 2px
+    color-mix(in srgb, var(--ws-dynamic-stroke-primary-strong-default) 20%, transparent);
+  --shadow-ws-forms-active-danger: 0px 0px 0px 2px
+    color-mix(in srgb, var(--ws-dynamic-stroke-danger-strong-default) 20%, transparent);
+
+  /* Focus/Base — unused; prefer wds-focus-visible, the band below is opaque */
+  --shadow-ws-focus-base:
+    0px 0px 0px 2px var(--ws-static-fill-background, #ffffff),
+    0px 0px 0px 4px var(--ws-static-shadow-focus, #0f0f0f);
+}
+
+@layer utilities {
+  .drop-shadow-ws-medium {
+    filter: var(--ws-elevation-drop-medium);
+  }
+
+  .drop-shadow-ws-controls-tooltip {
+    filter: var(--ws-elevation-drop-controls-tooltip);
+  }
+}

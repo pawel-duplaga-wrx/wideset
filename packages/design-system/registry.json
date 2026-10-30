@@ -1,0 +1,905 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "wideset",
+  "homepage": "https://wideset-docs.widelab.workers.dev",
+  "items": [
+    {
+      "name": "utils",
+      "type": "registry:lib",
+      "title": "cn()",
+      "description": "clsx + tailwind-merge configured for the ws-* token scales. Every Wideset component imports it.",
+      "files": [
+        {
+          "path": "src/lib/utils.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "logic",
+      "type": "registry:lib",
+      "title": "Date helpers",
+      "description": "Date formatting and range helpers shared by the date pickers.",
+      "files": [
+        {
+          "path": "src/logic/date.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/date.ts"
+        },
+        {
+          "path": "src/logic/helpers.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/helpers.ts"
+        },
+        {
+          "path": "src/consts.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/consts.ts"
+        },
+        {
+          "path": "src/types/date.types.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/date.types.ts"
+        }
+      ]
+    },
+    {
+      "name": "icon-types",
+      "type": "registry:lib",
+      "title": "Icon types",
+      "description": "Type for the Remix Icon components Wideset accepts as props.",
+      "files": [
+        {
+          "path": "src/types/icon.types.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/icon.types.ts"
+        }
+      ]
+    },
+    {
+      "name": "motion",
+      "type": "registry:lib",
+      "title": "Motion",
+      "description": "MotionProvider, the motion recipes and useShake: how components animate, and the switch that turns motion off.",
+      "files": [
+        {
+          "path": "src/motion/index.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/motion/index.ts"
+        },
+        {
+          "path": "src/motion/Motion.types.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/motion/Motion.types.ts"
+        },
+        {
+          "path": "src/motion/MotionProvider.tsx",
+          "type": "registry:lib",
+          "target": "lib/wideset/motion/MotionProvider.tsx"
+        },
+        {
+          "path": "src/motion/recipes.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/motion/recipes.ts"
+        },
+        {
+          "path": "src/motion/useShake.ts",
+          "type": "registry:lib",
+          "target": "lib/wideset/motion/useShake.ts"
+        }
+      ]
+    },
+    {
+      "name": "use-theme",
+      "type": "registry:hook",
+      "title": "useTheme",
+      "description": "Toggles the dark class on the document root.",
+      "files": [
+        {
+          "path": "src/hooks/useTheme.ts",
+          "type": "registry:hook",
+          "target": "hooks/wideset/useTheme.ts"
+        }
+      ]
+    },
+    {
+      "name": "styles",
+      "type": "registry:item",
+      "title": "Wideset styles",
+      "description": "Compiled tokens, component CSS and the Tailwind utilities components use. No reset, no font. Every component depends on it.",
+      "files": [
+        {
+          "path": "dist/styles.css",
+          "type": "registry:file",
+          "target": "styles/wideset.css"
+        }
+      ],
+      "docs": "Import it once in your app. Vite: `import '@/styles/wideset.css'` in main.tsx. Tailwind entry file: `@import './wideset.css';` next to your other imports."
+    },
+    {
+      "name": "skills",
+      "type": "registry:item",
+      "title": "Wideset agent skills",
+      "description": "Agent Skills for building with Wideset, for Codex, Cursor and other agents that read .agents/skills, plus AGENTS.wideset.md and a Cursor rule.",
+      "files": [
+        { "path": "../skills/skills", "type": "registry:file", "target": "~/.agents/skills" },
+        {
+          "path": "../skills/AGENTS.wideset.md",
+          "type": "registry:file",
+          "target": "~/AGENTS.wideset.md"
+        },
+        {
+          "path": "../skills/cursor/wideset.mdc",
+          "type": "registry:file",
+          "target": "~/.cursor/rules/wideset.mdc"
+        }
+      ],
+      "docs": "Point your agent at the rules: add `See AGENTS.wideset.md for Wideset rules.` to AGENTS.md. With @wideset/react installed, `npx --no-install wideset skills` does this for you."
+    },
+    {
+      "name": "skills-claude",
+      "type": "registry:item",
+      "title": "Wideset agent skills for Claude Code",
+      "description": "The same Agent Skills in .claude/skills, where Claude Code reads them, plus the two reviewer agents.",
+      "files": [
+        { "path": "../skills/skills", "type": "registry:file", "target": "~/.claude/skills" },
+        { "path": "../skills/agents", "type": "registry:file", "target": "~/.claude/agents" }
+      ],
+      "docs": "Import the rules from CLAUDE.md: add `@AGENTS.wideset.md`. With @wideset/react installed, `npx --no-install wideset skills` does this for you."
+    },
+    {
+      "name": "preflight",
+      "type": "registry:item",
+      "title": "Wideset preflight",
+      "description": "Tailwind's browser reset, for apps without Tailwind. Apps with Tailwind v4 already have it.",
+      "files": [
+        {
+          "path": "dist/preflight.css",
+          "type": "registry:file",
+          "target": "styles/wideset-preflight.css"
+        }
+      ],
+      "docs": "Import it before wideset.css. Vite: `import '@/styles/wideset-preflight.css'` in main.tsx."
+    },
+    {
+      "name": "theme",
+      "type": "registry:item",
+      "title": "Wideset theme",
+      "description": "Uncompiled @theme and @utility source for apps running Tailwind v4, so their own build compiles the ws-* classes. Add it next to styles: it has no element rules (font smoothing, 1em icon sizing) and no plugins; radix-* and animate-* classes need tailwindcss-radix and tailwindcss-animate.",
+      "files": [
+        {
+          "path": "dist/theme.css",
+          "type": "registry:file",
+          "target": "styles/wideset-theme.css"
+        }
+      ],
+      "docs": "In your Tailwind entry file, after `@import 'tailwindcss';` add `@import './wideset-theme.css';` and `@plugin 'tailwindcss-radix'; @plugin 'tailwindcss-animate';`."
+    },
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "Accordion organizes content into collapsible sections.",
+      "files": [
+        {
+          "path": "src/components/accordion/Accordion.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/accordion/Accordion.tsx"
+        }
+      ]
+    },
+    {
+      "name": "action-bar",
+      "type": "registry:ui",
+      "title": "ActionBar",
+      "description": "ActionBar is a fixed floating toolbar that appears at the top or bottom of the screen, used to surface contextual actions when items are selected.",
+      "files": [
+        {
+          "path": "src/components/action-bar/ActionBar.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/action-bar/ActionBar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "action-tile",
+      "type": "registry:ui",
+      "title": "ActionTile",
+      "description": "ActionTile is a tile-shaped entry point to an action or a destination: an entity badge, a title and description, and a trailing arrow.",
+      "files": [
+        {
+          "path": "src/components/action-tile/ActionTile.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/action-tile/ActionTile.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "Avatar represents a user with an image, initials, an icon, or the agent orb.",
+      "files": [
+        {
+          "path": "src/components/avatar/Avatar.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/avatar/Avatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumbs",
+      "type": "registry:ui",
+      "title": "Breadcrumbs",
+      "description": "A navigation aid that shows the user's current location within a page hierarchy.",
+      "files": [
+        {
+          "path": "src/components/breadcrumbs/Breadcrumbs.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/breadcrumbs/Breadcrumbs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Button triggers an action. Composes with Button.Icon and Button.TruncatedText.",
+      "files": [
+        {
+          "path": "src/components/button/Button.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/button/Button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "Calendar lets the user pick a single date or a date range.",
+      "files": [
+        {
+          "path": "src/components/calendar/Calendar.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/calendar/Calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Card is a flexible surface for grouping related content, media, and actions into one container.",
+      "files": [
+        {
+          "path": "src/components/card/Card.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/card/Card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "Checkbox allows users to select one or more items from a set.",
+      "files": [
+        {
+          "path": "src/components/checkbox/Checkbox.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/checkbox/Checkbox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "chip",
+      "type": "registry:ui",
+      "title": "Chip",
+      "description": "Chip is a compact interactive label for lightweight actions, selections, and filters.",
+      "files": [
+        {
+          "path": "src/components/chip/Chip.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/chip/Chip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "combo-box",
+      "type": "registry:ui",
+      "title": "ComboBox",
+      "description": "Select combined with a text input: filter the option list and either pick an option or type a custom value.",
+      "files": [
+        {
+          "path": "src/components/combo-box/ComboBox.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/combo-box/ComboBox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "DatePicker",
+      "description": "DatePicker is a single-date input that pairs a text-style trigger with a calendar popover.",
+      "files": [
+        {
+          "path": "src/components/datepicker/DatePicker.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/datepicker/DatePicker.tsx"
+        }
+      ]
+    },
+    {
+      "name": "date-range-picker",
+      "type": "registry:ui",
+      "title": "DateRangePicker",
+      "description": "DateRangePicker is a two-date input that pairs a text-style trigger with a calendar popover and an optional preset side panel.",
+      "files": [
+        {
+          "path": "src/components/daterangepicker/DateRangePicker.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/daterangepicker/DateRangePicker.tsx"
+        }
+      ]
+    },
+    {
+      "name": "divider",
+      "type": "registry:ui",
+      "title": "Divider",
+      "description": "A horizontal rule used to visually separate content sections.",
+      "files": [
+        {
+          "path": "src/components/divider/Divider.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/divider/Divider.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "DropdownMenu",
+      "description": "DropdownMenu is a floating menu anchored to a trigger that presents a short list of contextual actions or commands.",
+      "files": [
+        {
+          "path": "src/components/dropdown/DropdownMenu.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/dropdown/DropdownMenu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "field-label",
+      "type": "registry:component",
+      "title": "FieldLabel",
+      "description": "FieldLabel is the label above a form control, with optional required marker and info tooltip.",
+      "files": [
+        {
+          "path": "src/components/field-label/FieldLabel.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/field-label/FieldLabel.tsx"
+        }
+      ]
+    },
+    {
+      "name": "file-item",
+      "type": "registry:ui",
+      "title": "FileItem",
+      "description": "One file in a list — thumbnail, title, a secondary line, and the trailing control: a spinner while loading, the remove button once done, the warning icon on error.",
+      "files": [
+        {
+          "path": "src/components/file-upload/FileItem.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/file-upload/FileItem.tsx"
+        }
+      ]
+    },
+    {
+      "name": "file-upload",
+      "type": "registry:ui",
+      "title": "FileUpload",
+      "description": "The upload trigger — a dropzone or a button — plus the hidden file input.",
+      "files": [
+        {
+          "path": "src/components/file-upload/FileUpload.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/file-upload/FileUpload.tsx"
+        }
+      ]
+    },
+    {
+      "name": "filter-button",
+      "type": "registry:ui",
+      "title": "FilterButton",
+      "description": "FilterButton is a compact multi-select trigger that opens a checklist in a popup.",
+      "files": [
+        {
+          "path": "src/components/filter-button/FilterButton.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/filter-button/FilterButton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "form-field",
+      "type": "registry:ui",
+      "title": "FormField",
+      "description": "FormField wraps a control with its label and helper text.",
+      "files": [
+        {
+          "path": "src/components/form-field/FormField.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/form-field/FormField.tsx"
+        }
+      ]
+    },
+    {
+      "name": "helper-text",
+      "type": "registry:component",
+      "title": "HelperText",
+      "description": "HelperText is the hint or validation message under a form control.",
+      "files": [
+        {
+          "path": "src/components/helper-text/HelperText.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/helper-text/HelperText.tsx"
+        }
+      ]
+    },
+    {
+      "name": "icon-button",
+      "type": "registry:ui",
+      "title": "IconButton",
+      "description": "IconButton is an icon-only action for compact toolbars, utility controls, and dense interfaces where a full text label would add unnecessary visual weight.",
+      "files": [
+        {
+          "path": "src/components/button/IconButton.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/button/IconButton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "inline-alert",
+      "type": "registry:ui",
+      "title": "InlineAlert",
+      "description": "InlineAlert presents persistent, in-context feedback inside the current layout.",
+      "files": [
+        {
+          "path": "src/components/inline-alert/InlineAlert.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/inline-alert/InlineAlert.tsx"
+        },
+        {
+          "path": "src/components/inline-alert/InlineAlert.hooks.ts",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/inline-alert/InlineAlert.hooks.ts"
+        }
+      ]
+    },
+    {
+      "name": "link-button",
+      "type": "registry:ui",
+      "title": "LinkButton",
+      "description": "LinkButton preserves link semantics while applying button-like styling for navigation actions that need stronger visual emphasis.",
+      "files": [
+        {
+          "path": "src/components/button/LinkButton.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/button/LinkButton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "list-item",
+      "type": "registry:ui",
+      "title": "ListItem",
+      "description": "ListItem is a row in menus, selects and lists: leading slot, label, description, trailing slot.",
+      "files": [
+        {
+          "path": "src/components/list-item/ListItem.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/list-item/ListItem.tsx"
+        }
+      ]
+    },
+    {
+      "name": "modal",
+      "type": "registry:ui",
+      "title": "Modal",
+      "description": "Modal is a dialog for focused interactions that require user attention before continuing.",
+      "files": [
+        {
+          "path": "src/components/modal/Modal.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/modal/Modal.tsx"
+        }
+      ]
+    },
+    {
+      "name": "multi-select",
+      "type": "registry:ui",
+      "title": "MultiSelect",
+      "description": "A flexible multi-select dropdown built on Radix UI DropdownMenu.",
+      "files": [
+        {
+          "path": "src/components/multi-select/MultiSelect.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/multi-select/MultiSelect.tsx"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "Pagination helps users move through a long collection of results one page at a time.",
+      "files": [
+        {
+          "path": "src/components/pagination/Pagination.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/pagination/Pagination.tsx"
+        }
+      ]
+    },
+    {
+      "name": "popup",
+      "type": "registry:ui",
+      "title": "Popup",
+      "description": "Popup is a floating panel anchored to a trigger, built on Radix Popover.",
+      "files": [
+        {
+          "path": "src/components/popup/Popup.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/popup/Popup.tsx"
+        }
+      ]
+    },
+    {
+      "name": "progress-bar",
+      "type": "registry:ui",
+      "title": "ProgressBar",
+      "description": "ProgressBar communicates the progress of a task or loading operation.",
+      "files": [
+        {
+          "path": "src/components/progress-bar/ProgressBar.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/progress-bar/ProgressBar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "progress-stepper",
+      "type": "registry:ui",
+      "title": "ProgressStepper",
+      "description": "A multi-step progress indicator that shows the user's position in a sequential workflow.",
+      "files": [
+        {
+          "path": "src/components/progress-stepper/ProgressStepper.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/progress-stepper/ProgressStepper.tsx"
+        }
+      ]
+    },
+    {
+      "name": "progress-tracker",
+      "type": "registry:ui",
+      "title": "ProgressTracker",
+      "description": "A horizontal progress indicator made of coloured step segments.",
+      "files": [
+        {
+          "path": "src/components/progress-tracker/ProgressTracker.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/progress-tracker/ProgressTracker.tsx"
+        }
+      ]
+    },
+    {
+      "name": "radio-button",
+      "type": "registry:ui",
+      "title": "RadioButton",
+      "description": "RadioButton lets users pick exactly one option from a set.",
+      "files": [
+        {
+          "path": "src/components/radio-button/RadioButton.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/radio-button/RadioButton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:component",
+      "title": "ScrollArea",
+      "description": "ScrollArea adds styled, cross-browser scrollbars to overflowing content.",
+      "files": [
+        {
+          "path": "src/components/scroll-area/ScrollArea.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/scroll-area/ScrollArea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "search",
+      "type": "registry:ui",
+      "title": "Search",
+      "description": "Deprecated: compose a search field from TextInput instead. Search is a TextInput with a fixed leading search icon and type=\"search\" on the underlying input.",
+      "files": [
+        {
+          "path": "src/components/search/Search.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/search/Search.tsx"
+        }
+      ]
+    },
+    {
+      "name": "segmented-control",
+      "type": "registry:ui",
+      "title": "SegmentedControl",
+      "description": "SegmentedControl lets users pick one option from a compact horizontal group.",
+      "files": [
+        {
+          "path": "src/components/segmented-control/SegmentedControl.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/segmented-control/SegmentedControl.tsx"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "A flexible dropdown select component built on Radix UI primitives.",
+      "files": [
+        {
+          "path": "src/components/select/Select.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/select/Select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "title": "Sidebar",
+      "description": "Sidebar is a collapsible vertical navigation panel.",
+      "files": [
+        {
+          "path": "src/components/sidebar/Sidebar.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/sidebar/Sidebar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sidepanel",
+      "type": "registry:ui",
+      "title": "Sidepanel",
+      "description": "Sidepanel is an overlay panel that slides in from the left or right edge of the viewport.",
+      "files": [
+        {
+          "path": "src/components/sidepanel/Sidepanel.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/sidepanel/Sidepanel.tsx"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "An accessible slider built on Radix UI.",
+      "files": [
+        {
+          "path": "src/components/slider/Slider.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/slider/Slider.tsx"
+        }
+      ]
+    },
+    {
+      "name": "split-button",
+      "type": "registry:ui",
+      "title": "SplitButton",
+      "description": "SplitButton is two independent interactive elements sharing a single visual unit: the left button triggers the primary action; the right icon button opens a dropdown menu.",
+      "files": [
+        {
+          "path": "src/components/button/SplitButton.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/button/SplitButton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "status-badge",
+      "type": "registry:ui",
+      "title": "StatusBadge",
+      "description": "StatusBadge is a small, non-interactive label used to convey status, category, or count at a glance.",
+      "files": [
+        {
+          "path": "src/components/status-badge/StatusBadge.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/status-badge/StatusBadge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "status-modal",
+      "type": "registry:ui",
+      "title": "StatusModal",
+      "description": "StatusModal is a dialog variant that communicates status through icon style, color accents, and layout orientation.",
+      "files": [
+        {
+          "path": "src/components/status-modal/StatusModal.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/status-modal/StatusModal.tsx"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "Switch is a binary toggle control — use it for settings that take immediate effect without a confirmation step.",
+      "files": [
+        {
+          "path": "src/components/switch/Switch.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/switch/Switch.tsx"
+        }
+      ]
+    },
+    {
+      "name": "system-alert",
+      "type": "registry:ui",
+      "title": "SystemAlert",
+      "description": "SystemAlert is a full-width banner for app-level messages.",
+      "files": [
+        {
+          "path": "src/components/system-alert/SystemAlert.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/system-alert/SystemAlert.tsx"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "Table displays structured data in rows and columns.",
+      "files": [
+        {
+          "path": "src/components/table/Table.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/table/Table.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "Tabs organise content into named sections that the user can switch between without leaving the page.",
+      "files": [
+        {
+          "path": "src/components/tabs/Tabs.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/tabs/Tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tag",
+      "type": "registry:ui",
+      "title": "Tag",
+      "description": "Tag is a compact label used to categorize, classify, or annotate content with color-coded visual styles.",
+      "files": [
+        {
+          "path": "src/components/tag/Tag.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/tag/Tag.tsx"
+        }
+      ]
+    },
+    {
+      "name": "text-input",
+      "type": "registry:ui",
+      "title": "TextInput",
+      "description": "A single-line text field for short free-form input (search, email, amounts, URLs).",
+      "files": [
+        {
+          "path": "src/components/text-input/TextInput.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/text-input/TextInput.tsx"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "title": "Textarea",
+      "description": "Textarea is a multi-line text field for free-form input such as comments, descriptions, or messages.",
+      "files": [
+        {
+          "path": "src/components/textarea/Textarea.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/textarea/Textarea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "thumbnail",
+      "type": "registry:component",
+      "title": "Thumbnail",
+      "description": "A small square tile that stands for a thing.",
+      "files": [
+        {
+          "path": "src/components/thumbnail/Thumbnail.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/thumbnail/Thumbnail.tsx"
+        },
+        {
+          "path": "src/components/thumbnail/Thumbnail.logic.ts",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/thumbnail/Thumbnail.logic.ts"
+        }
+      ]
+    },
+    {
+      "name": "tile",
+      "type": "registry:ui",
+      "title": "Tile",
+      "description": "Tile groups related information in a bordered container.",
+      "files": [
+        {
+          "path": "src/components/tile/Tile.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/tile/Tile.tsx"
+        }
+      ]
+    },
+    {
+      "name": "timepicker",
+      "type": "registry:ui",
+      "title": "TimePicker",
+      "description": "TimePicker lets the user pick a time from hour and minute selects.",
+      "files": [
+        {
+          "path": "src/components/timepicker/Timepicker.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/timepicker/Timepicker.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "Toast surfaces brief, non-blocking feedback about the result of a user action or system event.",
+      "files": [
+        {
+          "path": "src/components/toast/Toast.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/toast/Toast.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "Tooltip displays contextual information when a user hovers over or focuses a trigger element.",
+      "files": [
+        {
+          "path": "src/components/tooltip/Tooltip.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/wideset/tooltip/Tooltip.tsx"
+        }
+      ]
+    }
+  ]
+}

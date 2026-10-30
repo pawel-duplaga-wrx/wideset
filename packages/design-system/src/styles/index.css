@@ -1,0 +1,29 @@
+/*
+  Entry point for the published stylesheet — `@wideset/react/styles`. It compiles the
+  tokens and utilities from theme.css, the component classes Tailwind finds in src/, and the
+  element rules in utilities/overrides.css. No browser reset (that is preflight.css) and no
+  font (the consumer's page decides).
+
+  - theme(inline): plain Tailwind utilities used inside components compile to literal values,
+    so Tailwind's default theme variables are not emitted on :root, where they would override
+    a consumer's own spacing, font sizes or radii.
+  - source('../'): classes come from src/ only, never from docs, changesets or READMEs.
+
+  Keep every @import above any other statement (@source, @plugin): Vite drops imports that follow.
+*/
+@layer properties, theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme) theme(inline);
+@import 'tailwindcss/utilities.css' layer(utilities) source('../');
+
+@import './theme.css';
+@import './utilities/overrides.css';
+
+@source not './tokens/tokens_figma.css';
+@source not './tokens/README.md';
+/* Tests quote class names and variables as strings; they are not usage. */
+@source not '../**/*.test.ts';
+@source not '../**/*.test.tsx';
+@source not '../**/__snapshots__';
+
+@plugin 'tailwindcss-radix';
+@plugin 'tailwindcss-animate';

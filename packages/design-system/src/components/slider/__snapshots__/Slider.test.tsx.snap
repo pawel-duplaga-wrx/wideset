@@ -1,0 +1,699 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Slider Snapshots > should match snapshot for default single slider 1`] = `
+<div
+  class=""
+  data-slot="slider"
+>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="false"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-default"
+          data-orientation="horizontal"
+          style="left: 0%; right: 50%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+      >
+        <span
+          aria-label="Slider thumb"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Slider Snapshots > should match snapshot for disabled slider 1`] = `
+<div
+  class=""
+  data-slot="slider"
+>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="true"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-disabled=""
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-disabled=""
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-disabled"
+          data-disabled=""
+          data-orientation="horizontal"
+          style="left: 0%; right: 50%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+      >
+        <span
+          aria-label="Slider thumb"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-disabled=""
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Slider Snapshots > should match snapshot for range slider 1`] = `
+<div
+  class=""
+  data-slot="slider"
+>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="false"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-default"
+          data-orientation="horizontal"
+          style="left: 25%; right: 25%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(25% + 0px);"
+      >
+        <span
+          aria-label="Minimum"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="25"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(75% + 0px);"
+      >
+        <span
+          aria-label="Maximum"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Slider Snapshots > should match snapshot for slider with bottom labels 1`] = `
+<div
+  class=""
+  data-slot="slider"
+>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="false"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-default"
+          data-orientation="horizontal"
+          style="left: 0%; right: 50%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+      >
+        <span
+          aria-label="Slider thumb"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+    <div
+      class="pt-ws-8 flex justify-between"
+    >
+      <span
+        class="text-ws-static-subtle typography-number-sm"
+        data-slot="slider-label"
+      >
+        0
+      </span>
+      <span
+        class="text-ws-static-subtle typography-number-sm"
+        data-slot="slider-label"
+      >
+        100
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Slider Snapshots > should match snapshot for slider with left label 1`] = `
+<div
+  class="gap-ws-9 flex items-center"
+  data-slot="slider"
+>
+  <span
+    class="text-ws-static-subtle typography-number-sm"
+    data-slot="slider-label"
+  >
+    0
+  </span>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="false"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-default"
+          data-orientation="horizontal"
+          style="left: 0%; right: 50%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+      >
+        <span
+          aria-label="Slider thumb"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Slider Snapshots > should match snapshot for slider with right label 1`] = `
+<div
+  class="gap-ws-9 flex items-center"
+  data-slot="slider"
+>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="false"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-default"
+          data-orientation="horizontal"
+          style="left: 0%; right: 50%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+      >
+        <span
+          aria-label="Slider thumb"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </div>
+  <span
+    class="text-ws-static-subtle typography-number-sm"
+    data-slot="slider-label"
+  >
+    100
+  </span>
+</div>
+`;
+
+exports[`Slider Snapshots > should match snapshot for slider with side labels 1`] = `
+<div
+  class="gap-ws-9 flex items-center"
+  data-slot="slider"
+>
+  <span
+    class="text-ws-static-subtle typography-number-sm"
+    data-slot="slider-label"
+  >
+    0
+  </span>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="false"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-default"
+          data-orientation="horizontal"
+          style="left: 0%; right: 50%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+      >
+        <span
+          aria-label="Slider thumb"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </div>
+  <span
+    class="text-ws-static-subtle typography-number-sm"
+    data-slot="slider-label"
+  >
+    100
+  </span>
+</div>
+`;
+
+exports[`Slider Snapshots > should match snapshot for slider with tooltip 1`] = `
+<div
+  class=""
+  data-slot="slider"
+>
+  <div
+    class="w-full"
+  >
+    <span
+      aria-disabled="false"
+      class="h-ws-3 relative flex w-full touch-none items-center select-none before:-inset-y-ws-6 before:absolute before:inset-x-0 before:content-[""]"
+      data-orientation="horizontal"
+      dir="ltr"
+      style="--radix-slider-thumb-transform: translateX(-50%);"
+    >
+      <span
+        class="rounded-ws-control-full bg-ws-static-alpha-strong h-ws-3 relative w-full grow overflow-hidden"
+        data-orientation="horizontal"
+      >
+        <span
+          class="absolute h-full bg-ws-dynamic-primary-default"
+          data-orientation="horizontal"
+          style="left: 0%; right: 50%;"
+        />
+      </span>
+      <span
+        style="transform: var(--radix-slider-thumb-transform); position: absolute; left: calc(50% + 0px);"
+      >
+        <span
+          aria-label="Slider thumb"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="group shadow-ws-controls-control rounded-ws-control-lg h-ws-9 px-ws-4 py-ws-2 flex w-[23px] items-center justify-center border-ws-dynamic-primary-default bg-ws-static-foreground border-2 hover:border-ws-dynamic-primary-hover active:border-ws-dynamic-primary-strong-default cursor-pointer outline-2 outline-offset-2 outline-transparent data-disabled:border-ws-dynamic-secondary-default data-disabled:pointer-events-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="slider-thumb"
+          data-state="closed"
+          role="slider"
+          style=""
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="fill-[var(--ws-dynamic-stroke-primary-default)] group-data-disabled:hidden"
+            height="4"
+            shape-rendering="crispEdges"
+            viewBox="0 0 7 4"
+            width="7"
+          >
+            <rect
+              height="4"
+              width="1"
+              x="0"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="3"
+              y="0"
+            />
+            <rect
+              height="4"
+              width="1"
+              x="6"
+              y="0"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;

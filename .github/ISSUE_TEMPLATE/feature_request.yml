@@ -1,0 +1,20 @@
+name: Small improvement
+description: A missing prop, an accessibility gap, a docs fix. New components start in Discussions.
+labels: [enhancement]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Component or page
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is missing
+      description: The problem you hit, not only the solution you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: The change you suggest, with a code example if it touches the API.

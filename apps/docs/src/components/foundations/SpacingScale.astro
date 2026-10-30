@@ -1,0 +1,81 @@
+---
+import tokens from '../../generated/tokens.json';
+
+/**
+ * The `--spacing-ws-*` scale, or the control and forms sizes, as rows with a sample drawn at
+ * the token's own size (`width: var(--spacing-ws-…)`), so an override shows here too.
+ */
+interface Props {
+  of: 'scale' | 'control' | 'forms';
+}
+const { of } = Astro.props;
+
+const rows =
+  of === 'scale'
+    ? tokens.spacing.map((token) => ({
+        className: token.className,
+        name: token.name,
+        value: token.value,
+        primitive: token.primitive as string | null,
+      }))
+    : tokens.sizes
+        .filter((token) => token.group === of)
+        .map((token) => ({
+          className: token.className,
+          name: token.name,
+          value: token.value,
+          primitive: null as string | null,
+        }));
+const head =
+  of === 'scale'
+    ? ['Class and variable', 'Value', 'Primitive', 'Sample']
+    : ['Class and variable', 'Value', 'Sample'];
+---
+
+<div class="border-ws-static-subtle mt-4 overflow-x-auto rounded-[12px] border">
+  <table class="w-full text-left text-[13px] leading-5">
+    <thead>
+      <tr class="border-ws-static-subtle text-ws-static-subtle border-b">
+        {head.map((cell) => (
+          <th class="px-4 py-2 font-normal">{cell}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr class="border-ws-static-subtle border-b last:border-0">
+          <td class="px-4 py-2 whitespace-nowrap">
+            <code>{row.className}</code>
+            <div class="text-ws-static-subtle font-mono text-[11px] leading-4">{row.name}</div>
+          </td>
+          <td class="text-ws-static-strong px-4 py-2 font-mono text-[12px] whitespace-nowrap">
+            {row.value}
+          </td>
+          {of === 'scale' && (
+            <td class="text-ws-static-subtle px-4 py-2 font-mono text-[12px] whitespace-nowrap">
+              {row.primitive}
+            </td>
+          )}
+          <td class="w-full px-4 py-2">
+            {of === 'forms' ? (
+              <div
+                class="border-ws-static-base bg-ws-static-container w-40 rounded-[6px] border"
+                style={`height: var(${row.name})`}
+              />
+            ) : of === 'control' ? (
+              <div
+                class="bg-ws-dynamic-primary-default rounded-[4px]"
+                style={`width: var(${row.name}); height: var(${row.name})`}
+              />
+            ) : (
+              <div
+                class="bg-ws-dynamic-primary-default h-3 rounded-[2px]"
+                style={`width: var(${row.name})`}
+              />
+            )}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

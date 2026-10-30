@@ -1,0 +1,23 @@
+---
+title: Typography
+description: The type scale as typography-* classes, and how the font is chosen.
+section: Foundations
+---
+
+import TypeScale from '../../components/foundations/TypeScale.astro';
+
+Each `typography-*` class sets four things at once: size, line height, letter spacing and
+weight. It never sets the font family: components inherit the font on `body`, so your brand
+font applies to them too (see [Installation](/docs/installation#4-load-the-font)).
+
+```tsx
+<h2 className="typography-title-sm">Settings</h2>
+<p className="typography-body-md">Changes save automatically.</p>
+```
+
+Weights come from Figma and are not round numbers (`font-ws-medium` is 520, `font-ws-normal`
+480). Load a variable font to see them as designed.
+
+The samples below are drawn from the tokens each class applies.
+
+<TypeScale />

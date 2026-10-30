@@ -1,0 +1,425 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot for default tooltip 1`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="top"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_9_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot for inverse variant 1`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-overlay drop-shadow-ws-medium text-ws-static-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="top"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-overlay"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_a_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-overlay"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot with Portal 1`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="top"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_i_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot with custom className 1`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick) max-w-48"
+  data-align="center"
+  data-side="top"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <p
+    class="text-ws-static-inverse-subtle typography-body-md"
+    data-slot="tooltip-description"
+  >
+    Long description text
+  </p>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_h_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <p
+      class="text-ws-static-inverse-subtle typography-body-md"
+      data-slot="tooltip-description"
+    >
+      Long description text
+    </p>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot with different sides 1`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="top"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_d_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot with different sides 2`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="right"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_e_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot with different sides 3`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="bottom"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_f_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot with different sides 4`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="left"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_g_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot with label and description 1`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="top"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <p
+    class="text-ws-static-inverse-subtle typography-body-md"
+    data-slot="tooltip-description"
+  >
+    Tooltip Description
+  </p>
+  <div
+    class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+    data-slot="tooltip-arrow"
+    data-testid="tooltip-arrow"
+  />
+  <span
+    id="radix-_r_c_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+    <p
+      class="text-ws-static-inverse-subtle typography-body-md"
+      data-slot="tooltip-description"
+    >
+      Tooltip Description
+    </p>
+    <div
+      class="absolute [[data-side=top]>&]:h-ws-3 [[data-side=top]>&]:w-ws-5 [[data-side=top]>&]:top-full [[data-side=top]>&]:left-1/2 [[data-side=top]>&]:-translate-x-1/2 [[data-side=top]>&]:[clip-path:polygon(0_0,100%_0,50%_100%)] [[data-side=right]>&]:h-ws-5 [[data-side=right]>&]:w-ws-3 [[data-side=right]>&]:top-1/2 [[data-side=right]>&]:right-full [[data-side=right]>&]:-translate-y-1/2 [[data-side=right]>&]:[clip-path:polygon(100%_0,0_50%,100%_100%)] [[data-side=bottom]>&]:h-ws-3 [[data-side=bottom]>&]:w-ws-5 [[data-side=bottom]>&]:bottom-full [[data-side=bottom]>&]:left-1/2 [[data-side=bottom]>&]:-translate-x-1/2 [[data-side=bottom]>&]:[clip-path:polygon(50%_0,100%_100%,0_100%)] [[data-side=left]>&]:h-ws-5 [[data-side=left]>&]:w-ws-3 [[data-side=left]>&]:top-1/2 [[data-side=left]>&]:left-full [[data-side=left]>&]:-translate-y-1/2 [[data-side=left]>&]:[clip-path:polygon(0_0,100%_50%,0_100%)] bg-ws-static-inverse-background"
+      data-slot="tooltip-arrow"
+      data-testid="tooltip-arrow"
+    />
+  </span>
+</div>
+`;
+
+exports[`Tooltip > Tooltip Snapshots > matches snapshot without arrow 1`] = `
+<div
+  class="rounded-ws-control-md z-ws-popout px-ws-5 flex flex-col gap-0 bg-ws-static-inverse-background drop-shadow-ws-controls-tooltip text-ws-static-inverse-strong py-ws-4 origin-radix-tooltip transition-none animate-in fade-in-0 zoom-in-95 duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) data-[state=instant-open]:animate-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[state=closed]:duration-(--ws-motion-duration-quick)"
+  data-align="center"
+  data-side="top"
+  data-slot="tooltip-content"
+  data-state="instant-open"
+  data-testid="tooltip-content"
+  style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height); animation: none;"
+>
+  <span
+    class="text-ws-static-inverse-strong typography-body-strong-md"
+    data-slot="tooltip-label"
+  >
+    Tooltip Label
+  </span>
+  <span
+    id="radix-_r_b_"
+    role="tooltip"
+    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+  >
+    <span
+      class="text-ws-static-inverse-strong typography-body-strong-md"
+      data-slot="tooltip-label"
+    >
+      Tooltip Label
+    </span>
+  </span>
+</div>
+`;

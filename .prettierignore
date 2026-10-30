@@ -1,0 +1,12 @@
+# One Prettier for the whole workspace (`pnpm prettier` at the root). Build output, lockfiles,
+# generated files and third-party scaffolds are not ours to format.
+node_modules
+dist
+storybook-static
+.turbo
+.astro
+pnpm-lock.yaml
+CHANGELOG.md
+packages/design-system/public
+packages/design-system/playground
+apps/docs/src/generated

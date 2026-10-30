@@ -1,0 +1,56 @@
+---
+title: Elevation
+description: The shadows that lift a surface, and the z-index bands that decide what covers what.
+section: Foundations
+---
+
+import ShadowSamples from '../../components/foundations/ShadowSamples.astro';
+import TokenTable from '../../components/foundations/TokenTable.astro';
+
+Elevation has two parts: a shadow that shows a surface sits above the page, and a z-index band
+that decides what actually covers what. A modal uses both, `shadow-ws-high` and `z-ws-modal`.
+
+## Shadows
+
+`shadow-ws-low`, `shadow-ws-medium` and `shadow-ws-high` are the general levels: low for small
+controls and cards, medium for dropdowns, cards and navigation, high for modals and popovers.
+The others belong to one kind of component: buttons, form fields, the focus ring of an active
+field, a frozen table column.
+
+```tsx
+<div className="rounded-ws-container-md bg-ws-static-container shadow-ws-medium">…</div>
+```
+
+In dark mode most shadows are switched off or reduced to a 1px outline, because a dark
+shadow on a dark page does not read. Each class below is drawn on a light and a dark panel.
+
+<ShadowSamples />
+
+To change a shadow, override its `--ws-elevation-*` variable in your stylesheet, under `.dark`
+for the dark value. The three without one (`forms-active`, `forms-active-danger`, `focus-base`)
+are compiled into the class; they take their colour from the dynamic and static colour tokens,
+so they follow a re-brand.
+
+`drop-shadow-ws-*` are `filter` shadows for shapes a box shadow cannot follow, such as the
+tooltip with its arrow.
+
+## Z-index
+
+Stacking uses named bands instead of numbers: `z-ws-modal`, `z-ws-sticky`. Components own the
+upper bands (drawer, modal, popout, notification), so a tooltip opened inside a modal always
+clears it. The lower bands are for your page layout.
+
+```tsx
+<header className="sticky top-0 z-ws-sticky">…</header>
+```
+
+Each value is a range, not one step. Something that has to sit just above a band can add to it,
+as long as it stays below the next one:
+
+```tsx
+<div className="z-[calc(var(--ws-z-index-sticky)+1)]" />
+```
+
+`z-10`, `z-50` and the rest are Tailwind's own scale and do not line up with these bands.
+
+<TokenTable of="z-index" />

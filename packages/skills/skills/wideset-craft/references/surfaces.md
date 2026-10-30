@@ -1,0 +1,89 @@
+# Colour and surfaces
+
+## One accent
+
+### The rule
+
+The brand colour marks **one thing per view: the primary action** (a filled `Button`, default
+variant) and the selected state of navigation (Sidebar, Tabs, SegmentedControl do this themselves).
+Everything else is neutral: text in three greys, surfaces in two whites, borders in one line
+colour. Status colours (positive, negative, notice, info) appear only to say a status, through the
+components that carry them: `StatusBadge`, `InlineAlert`, `SystemAlert`, Toast, `Button
+variant="danger"` for destructive actions.
+
+### Why
+
+A screen with a purple button, an orange badge, a green link and a blue highlight has four places
+asking to be looked at, so it has none. With one accent the eye finds the next action instantly,
+and status colours keep their meaning because they are not used for decoration.
+
+### Do / don't
+
+- Do: one filled primary per view; the second action `variant="secondary" preset="border"`.
+- Do: links and inline actions as `LinkButton` or ghost buttons, not brand-coloured text you style.
+- Don't: brand-coloured icons, headings, card borders or backgrounds "to add personality".
+- Don't: a second filled primary in the same view. Two equal buttons mean you have not decided.
+- Don't: status colour as decoration (a green "Active" heading, a red icon on a neutral setting).
+- Don't: palette classes (`text-gray-600`, `bg-purple-500`) or hex. Only `ws` tokens, which also
+  switch in dark mode.
+
+The main call to action is the default `Button` (primary, brand colour). No near-black primary.
+
+## Text colours
+
+| Token                   | Use                                                     |
+| ----------------------- | ------------------------------------------------------- |
+| `text-ws-static-strong` | Titles, key values, the thing to read first             |
+| `text-ws-static-base`   | Body text that is read in full                          |
+| `text-ws-static-subtle` | Descriptions, metadata, secondary columns, placeholders |
+
+Three levels; never `opacity-*` to make a fourth.
+
+## Surfaces
+
+### The rule
+
+Pick **one surface language per screen**:
+
+- **Layered** (default for product screens): the page canvas is `bg-ws-static-background`
+  (off-white in light, the darkest grey in dark); content sits on `Card`s (`bg-ws-static-container`,
+  white, bordered). Elevation means "this is a unit of content".
+- **Flat**: one surface (`bg-ws-static-container`) and separation by space and section titles
+  only. Good for forms, settings, reading pages and anything inside a Modal or Sidepanel.
+
+### Why
+
+Mixing the two — some content in cards, some floating on the canvas, a card inside a card — gives
+the eye three depths to sort out. One language makes the structure obvious and the screen calm.
+
+### Do / don't
+
+- Do: on a layered page, put every block of content in a Card; nothing floats on the grey canvas
+  except the page header.
+- Do: inside a Card, separate groups with space and `Card.Header` / `Card.Content`, not with
+  nested Cards.
+- Don't: Card inside Card, Card inside Modal, or a Card with a single line of text.
+- Don't: add shadows to Cards. Shadows (`shadow-ws-low`, `-medium`, `-high`) belong to things that
+  float: menus, popovers, Modal, Toast, ActionBar. The components set them.
+- Don't: tint section backgrounds (`bg-ws-static-highlight-*`) to group content; that is a
+  hover or selected state, so it reads as interactive.
+
+## Radius
+
+Use the components' radii; do not override them. For your own containers: `rounded-ws-container-lg`
+(16px, Card's) for content blocks, `rounded-ws-control-lg` (8px) for anything control-sized. A
+container that holds controls with padding follows outer = inner + padding (a 16px outer radius
+around 8px controls with 8px padding).
+
+## Borders
+
+`border-ws-static-base` (the default line), 1px, for dividers and container edges.
+`border-ws-static-strong` only where a line must hold its own (a selected outline, a table header
+underline the component sets). No dashed or coloured borders for decoration.
+
+## Dark mode
+
+Every screen is checked in dark (`.dark` on a parent). If you used only `ws` tokens it works
+without changes; anything that breaks in dark is a hard-coded colour or a missing token. In dark,
+layered surfaces get lighter as they rise (canvas darkest, cards lighter) — the tokens do this, do
+not invert it.

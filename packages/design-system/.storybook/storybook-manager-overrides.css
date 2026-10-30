@@ -1,0 +1,78 @@
+/*
+ * Manager esbuild does not expand @theme onto :root, so any var() used below must
+ * exist here. All variables mirror the ones from theme css files.
+ */
+:root {
+  --ws-colors-light-orange-600: #f48d27;
+  --ws-colors-light-teal-600: #1ec3be;
+  --ws-colors-dark-neutral-300: #c2c2c2;
+  --ws-colors-dark-neutral-600: #858585;
+  --ws-colors-dark-neutral-700: #525252;
+  --ws-colors-dark-neutral-800: #383838;
+  --ws-colors-dark-neutral-900: #292929;
+  --ws-colors-dark-neutral-1000: #141414;
+  --ws-colors-dark-brand-300: #9f96ff;
+  --background-color-ws-static-overlay: var(--ws-colors-dark-neutral-800);
+  --background-color-ws-static-container: var(--ws-colors-dark-neutral-900);
+  --background-color-ws-static-foreground: var(--ws-colors-dark-neutral-1000);
+  --text-color-ws-static-base: var(--ws-colors-dark-neutral-300);
+}
+
+/* ── Inputs ── */
+
+html.dark body [role='tabpanel'] input[type='text'],
+html.dark body [role='tabpanel'] input[type='number'],
+html.dark body [role='tabpanel'] input[type='date'],
+html.dark body [role='tabpanel'] input[type='color'],
+html.dark body [role='tabpanel'] textarea,
+html.dark body [role='tabpanel'] select {
+  background-color: var(--background-color-ws-static-overlay);
+  color: var(--text-color-ws-static-base);
+  border-color: var(--ws-colors-dark-neutral-700);
+}
+
+/*
+ * Tailwind preflight sets `background-color: transparent` on all inputs. Native
+ * radio/checkbox then paint with a dark interior in Chrome/Safari when the
+ * Storybook manager is in light theme (`html.light`). Dark theme is unchanged.
+ */
+html.light body [role='tabpanel'] input[type='radio'],
+html.light body [role='tabpanel'] input[type='checkbox'] {
+  accent-color: var(--ws-colors-light-brand-600, #4e3ee0);
+}
+
+body [role='tabpanel'] input[type='text']:focus,
+body [role='tabpanel'] input[type='text']:focus-visible,
+body [role='tabpanel'] input[type='number']:focus,
+body [role='tabpanel'] input[type='number']:focus-visible,
+body [role='tabpanel'] input[type='date']:focus,
+body [role='tabpanel'] input[type='date']:focus-visible,
+body [role='tabpanel'] input[type='color']:focus,
+body [role='tabpanel'] input[type='color']:focus-visible,
+body [role='tabpanel'] textarea:focus,
+body [role='tabpanel'] textarea:focus-visible,
+body [role='tabpanel'] select:focus,
+body [role='tabpanel'] select:focus-visible {
+  border-color: var(--ws-colors-dark-brand-300);
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-300) 0px 0px 0px 1px inset;
+}
+
+/* ── Sidebar icons ── */
+
+html body [data-nodetype='document'] svg {
+  color: var(--ws-colors-light-orange-600);
+}
+
+html body [data-nodetype='story'] svg {
+  color: var(--ws-colors-light-teal-600);
+}
+
+/* ── Code blocks ── */
+
+html.dark body [role='tabpanel'] code,
+html.dark body [role='tabpanel'] span[class*='type'],
+html.dark body [role='tabpanel'] span[class*='prop'] {
+  color: var(--ws-colors-dark-neutral-600);
+  background-color: var(--background-color-ws-static-foreground);
+}

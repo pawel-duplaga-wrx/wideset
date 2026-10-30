@@ -1,0 +1,6 @@
+---
+description: Wideset design system rules
+alwaysApply: true
+---
+
+This project builds UI with the Wideset design system. Follow AGENTS.wideset.md in the project root. Before using a component, read its file, listed in `references/good-practices.md` of the `wideset-build` skill.

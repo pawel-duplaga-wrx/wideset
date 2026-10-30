@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Widelab Component Convention'
+  short_description: 'Review components for Widelab DS readiness'
+  default_prompt: 'Use $wideset-component-convention to review changed components for Widelab DS conventions and design-system readiness.'

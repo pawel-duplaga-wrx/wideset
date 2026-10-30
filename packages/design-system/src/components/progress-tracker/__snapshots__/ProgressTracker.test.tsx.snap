@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProgressTracker Snapshots > matches snapshot for active steps 1`] = `
+<div
+  aria-valuemax="3"
+  aria-valuemin="0"
+  aria-valuenow="2"
+  class="flex w-full items-center"
+  data-slot="progress-tracker"
+  role="progressbar"
+>
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-(--ws-dynamic-stroke-secondary-default)"
+    data-slot="progress-tracker-step"
+    data-state="closed"
+  />
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-ws-dynamic-success-default"
+    data-slot="progress-tracker-step"
+    data-state="closed"
+  />
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-(--ws-dynamic-stroke-danger-strong-default)"
+    data-slot="progress-tracker-step"
+    data-state="closed"
+  />
+</div>
+`;
+
+exports[`ProgressTracker Snapshots > matches snapshot for default progress tracker 1`] = `
+<div
+  aria-valuemax="3"
+  aria-valuemin="0"
+  aria-valuenow="0"
+  class="flex w-full items-center"
+  data-slot="progress-tracker"
+  role="progressbar"
+>
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-(--ws-dynamic-stroke-secondary-default)"
+    data-slot="progress-tracker-step"
+    data-state="closed"
+  />
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-ws-dynamic-success-default"
+    data-slot="progress-tracker-step"
+    data-state="closed"
+  />
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-(--ws-dynamic-stroke-danger-strong-default)"
+    data-slot="progress-tracker-step"
+    data-state="closed"
+  />
+</div>
+`;
+
+exports[`ProgressTracker Snapshots > matches snapshot for tracker without tooltips 1`] = `
+<div
+  aria-valuemax="3"
+  aria-valuemin="0"
+  aria-valuenow="1"
+  class="flex w-full items-center"
+  data-slot="progress-tracker"
+  role="progressbar"
+>
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-(--ws-dynamic-stroke-secondary-default)"
+    data-slot="progress-tracker-step"
+  />
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-ws-dynamic-success-default"
+    data-slot="progress-tracker-step"
+  />
+  <div
+    class="outline-ws-dynamic-primary-strong-default h-ws-5 p-ws-2 w-full rounded-full bg-clip-content outline-offset-2 transition-colors focus-visible:outline-2 bg-(--ws-dynamic-stroke-danger-strong-default)"
+    data-slot="progress-tracker-step"
+  />
+</div>
+`;

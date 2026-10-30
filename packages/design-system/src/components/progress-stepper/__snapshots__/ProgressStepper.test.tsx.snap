@@ -1,0 +1,1754 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProgressStepper Snapshots > matches snapshot for all orientation × clickability combinations > ProgressStepper with horizontal orientation and all steps clickable 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 1
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-secondary-default text-ws-dynamic-on-secondary-default hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          2
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 2
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-secondary-default text-ws-dynamic-on-secondary-default hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 3
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-secondary-default text-ws-dynamic-on-secondary-default hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          4
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 4
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 4
+        </span>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for all orientation × clickability combinations > ProgressStepper with horizontal orientation and non-clickable future/current 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 1
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          2
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 2
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 3
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          4
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 4
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 4
+        </span>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for all orientation × clickability combinations > ProgressStepper with vertical orientation and all steps clickable 1`] = `
+<ol
+  class="flex w-full gap-ws-3 flex-col"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-ws-control-lg bg-ws-dynamic-tertiary-alpha-strong-default hover:bg-ws-dynamic-tertiary-alpha-strong-hover active:bg-ws-dynamic-tertiary-alpha-strong-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm text-ws-dynamic-primary-default size-ws-12 cursor-pointer border-ws-dynamic-secondary-default hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed border bg-transparent group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent"
+            data-slot="progress-stepper-icon"
+          >
+            <div
+              class="bg-ws-dynamic-primary-default size-ws-5 rounded-full"
+            />
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            Step 1
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            Caption 1
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-ws-control-lg hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm text-ws-dynamic-on-secondary-default size-ws-12 cursor-pointer border-ws-dynamic-secondary-default hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed border bg-transparent group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent"
+            data-slot="progress-stepper-icon"
+          />
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            Step 2
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            Caption 2
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-ws-control-lg hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm text-ws-dynamic-on-secondary-default size-ws-12 cursor-pointer border-ws-dynamic-secondary-default hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed border bg-transparent group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent"
+            data-slot="progress-stepper-icon"
+          />
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            Step 3
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            Caption 3
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 rounded-ws-control-lg hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm text-ws-dynamic-on-secondary-default size-ws-12 cursor-pointer border-ws-dynamic-secondary-default hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed border bg-transparent group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent"
+            data-slot="progress-stepper-icon"
+          />
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            Step 4
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            Caption 4
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for all orientation × clickability combinations > ProgressStepper with vertical orientation and non-clickable future/current 1`] = `
+<ol
+  class="flex w-full gap-ws-3 flex-col"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-ws-control-lg bg-ws-dynamic-tertiary-alpha-strong-default hover:bg-ws-dynamic-tertiary-alpha-strong-hover active:bg-ws-dynamic-tertiary-alpha-strong-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm text-ws-dynamic-primary-default size-ws-12 cursor-pointer border-ws-dynamic-secondary-default hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed border bg-transparent group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent"
+            data-slot="progress-stepper-icon"
+          >
+            <div
+              class="bg-ws-dynamic-primary-default size-ws-5 rounded-full"
+            />
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            Step 1
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            Caption 1
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-ws-control-lg hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm size-ws-12 pointer-events-none hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+            data-slot="progress-stepper-icon"
+          />
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-subtle"
+          >
+            Step 2
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-inverse-subtle"
+          >
+            Caption 2
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-ws-control-lg hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm size-ws-12 pointer-events-none hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+            data-slot="progress-stepper-icon"
+          />
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-subtle"
+          >
+            Step 3
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-inverse-subtle"
+          >
+            Caption 3
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none rounded-ws-control-lg hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm size-ws-12 pointer-events-none hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+            data-slot="progress-stepper-icon"
+          />
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-subtle"
+          >
+            Step 4
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-inverse-subtle"
+          >
+            Caption 4
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for children fallback (no steps provided) > ProgressStepper with children fallback 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li>
+    <button
+      type="button"
+    >
+      Custom Child
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for children usage > ProgressStepper with composed Steps as children 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <div
+      class="flex min-w-0 items-center gap-ws-7"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-success-default text-ws-dynamic-on-success-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed group-hover:bg-ws-dynamic-success-hover group-active:bg-ws-dynamic-success-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="remixicon size-ws-11"
+            fill="currentColor"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Custom 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          C1
+        </span>
+      </div>
+    </div>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <div
+      class="flex min-w-0 items-center gap-ws-7"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          2
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Custom 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          C2
+        </span>
+      </div>
+    </div>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <div
+      class="flex min-w-0 items-center gap-ws-7"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-secondary-default text-ws-dynamic-on-secondary-default hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Custom 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          C3
+        </span>
+      </div>
+    </div>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for controlled activeStep values > ProgressStepper controlled activeStep=0 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 1
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          2
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 2
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 3
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          4
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 4
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 4
+        </span>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for controlled activeStep values > ProgressStepper controlled activeStep=2 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-success-default text-ws-dynamic-on-success-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed group-hover:bg-ws-dynamic-success-hover group-active:bg-ws-dynamic-success-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="remixicon size-ws-11"
+            fill="currentColor"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 1
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-success-default text-ws-dynamic-on-success-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed group-hover:bg-ws-dynamic-success-hover group-active:bg-ws-dynamic-success-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="remixicon size-ws-11"
+            fill="currentColor"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 2
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 3
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          4
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 4
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 4
+        </span>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for custom className on root > ProgressStepper with custom className 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between custom-classname"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 1
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          2
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 2
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 3
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          4
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 4
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 4
+        </span>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for default ProgressStepper 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 1
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          2
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 2
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 3
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          4
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 4
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 4
+        </span>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for error state > ProgressStepper with error on steps 1 and 3 1`] = `
+<ol
+  class="flex w-full gap-ws-9 items-center justify-between"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-primary-alpha-strong-default text-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-alpha-strong-hover active:bg-ws-dynamic-primary-alpha-strong-pressed group-hover:bg-ws-dynamic-primary-alpha-strong-hover group-active:bg-ws-dynamic-primary-alpha-strong-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer"
+          data-slot="progress-stepper-icon"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-base"
+        >
+          Step 1
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-subtle"
+        >
+          Caption 1
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full typography-label-strong-sm bg-ws-dynamic-danger-default hover:bg-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-pressed group-hover:bg-ws-dynamic-danger-hover group-active:bg-ws-dynamic-danger-pressed text-ws-dynamic-on-danger-default outline-ws-dynamic-danger-strong-default size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none"
+          data-slot="progress-stepper-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="remixicon size-ws-11"
+            fill="currentColor"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 2
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 2
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none grow rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm hover:bg-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-pressed group-hover:bg-ws-dynamic-secondary-hover group-active:bg-ws-dynamic-secondary-pressed size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none text-ws-dynamic-on-secondary-disabled border-ws-dynamic-secondary-disabled border bg-transparent"
+          data-slot="progress-stepper-icon"
+        >
+          3
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 3
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 3
+        </span>
+      </div>
+    </button>
+    <div
+      class="h-px min-w-[1rem] flex-1 grow bg-(--ws-static-stroke-base)"
+      role="none"
+    />
+  </li>
+  <li
+    class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none rounded-none flex items-center"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="flex min-w-0 items-center gap-ws-7 group cursor-pointer focus-visible:outline-none disabled:cursor-default"
+      disabled=""
+      type="button"
+    >
+      <div
+        class="flex-none shrink-0"
+      >
+        <div
+          class="flex shrink-0 items-center justify-center rounded-full typography-label-strong-sm bg-ws-dynamic-danger-default hover:bg-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-pressed group-hover:bg-ws-dynamic-danger-hover group-active:bg-ws-dynamic-danger-pressed text-ws-dynamic-on-danger-default outline-ws-dynamic-danger-strong-default size-ws-14 group-focus-visible:outline-2 group-focus-visible:outline-offset-2 focus-visible:outline-2 focus-visible:outline-offset-2 pointer-events-none"
+          data-slot="progress-stepper-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="remixicon size-ws-11"
+            fill="currentColor"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start text-left"
+      >
+        <span
+          class="typography-label-strong-sm text-ws-static-subtle"
+        >
+          Step 4
+        </span>
+        <span
+          class="typography-body-sm text-ws-static-inverse-subtle"
+        >
+          Caption 4
+        </span>
+      </div>
+    </button>
+  </li>
+</ol>
+`;
+
+exports[`ProgressStepper Snapshots > matches snapshot for vertical composed steps (interactive buttons) > ProgressStepper vertical with composed Steps 1`] = `
+<ol
+  class="flex w-full gap-ws-3 flex-col"
+  data-slot="progress-stepper"
+>
+  <li
+    aria-current="step"
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-ws-control-lg focus-visible:outline-ws-dynamic-primary-strong-default focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm bg-ws-dynamic-success-default text-ws-dynamic-on-success-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed group-hover:bg-ws-dynamic-success-hover group-active:bg-ws-dynamic-success-pressed size-ws-12 cursor-pointer"
+            data-slot="progress-stepper-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="remixicon size-ws-9"
+              fill="currentColor"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            V1
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            VC1
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 grow rounded-ws-control-lg bg-ws-dynamic-tertiary-alpha-strong-default hover:bg-ws-dynamic-tertiary-alpha-strong-hover active:bg-ws-dynamic-tertiary-alpha-strong-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm text-ws-dynamic-primary-default size-ws-12 cursor-pointer border-ws-dynamic-secondary-default hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed border bg-transparent group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent"
+            data-slot="progress-stepper-icon"
+          >
+            <div
+              class="bg-ws-dynamic-primary-default size-ws-5 rounded-full"
+            />
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            V2
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            VC2
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+  <li
+    data-slot="progress-stepper-step"
+  >
+    <button
+      class="gap-ws-9 outline-ws-dynamic-primary-strong-default focus-visible:outline-2 focus-visible:outline-offset-2 rounded-ws-control-lg hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed focus-visible:bg-ws-dynamic-secondary-alpha-default group flex cursor-pointer items-center disabled:cursor-default"
+      type="button"
+    >
+      <div
+        class="flex min-w-0 items-center gap-ws-7 px-ws-7 py-ws-5"
+      >
+        <div
+          class="flex-none shrink-0"
+        >
+          <div
+            class="flex shrink-0 items-center justify-center rounded-full outline-ws-dynamic-primary-strong-default typography-label-strong-sm text-ws-dynamic-on-secondary-default size-ws-12 cursor-pointer border-ws-dynamic-secondary-default hover:border-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed group-hover:border-ws-dynamic-secondary-hover group-active:border-ws-dynamic-secondary-pressed border bg-transparent group-hover:bg-transparent group-active:bg-transparent hover:bg-transparent active:bg-transparent"
+            data-slot="progress-stepper-icon"
+          />
+        </div>
+        <div
+          class="flex flex-col items-start text-left"
+        >
+          <span
+            class="typography-label-strong-sm text-ws-static-base"
+          >
+            V3
+          </span>
+          <span
+            class="typography-body-sm text-ws-static-subtle"
+          >
+            VC3
+          </span>
+        </div>
+      </div>
+    </button>
+  </li>
+</ol>
+`;

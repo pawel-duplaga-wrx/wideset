@@ -1,0 +1,269 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Divider > Snapshots > Emphasis variants > matches snapshot for emphasis base 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Emphasis variants > matches snapshot for emphasis strong 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-strong"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-strong"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Emphasis variants > matches snapshot for emphasis subtle 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-subtle"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-subtle"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Styles > matches snapshot for lineStyle dashed 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <svg
+    aria-hidden="true"
+    class="min-w-ws-14 flex-1 shrink-0 [stroke:var(--border-color-ws-static-base)]"
+    height="2"
+  >
+    <line
+      stroke-dasharray="4 4"
+      stroke-width="2"
+      x1="0"
+      x2="100%"
+      y1="1"
+      y2="1"
+    />
+  </svg>
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <svg
+    aria-hidden="true"
+    class="min-w-ws-14 flex-1 shrink-0 [stroke:var(--border-color-ws-static-base)]"
+    height="2"
+  >
+    <line
+      stroke-dasharray="4 4"
+      stroke-width="2"
+      x1="0"
+      x2="100%"
+      y1="1"
+      y2="1"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Divider > Snapshots > Styles > matches snapshot for lineStyle solid 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Text alignments > matches snapshot for textAlign center 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Text alignments > matches snapshot for textAlign left 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-left"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Text alignments > matches snapshot for textAlign right 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-right"
+  >
+    Divider
+  </span>
+</div>
+`;
+
+exports[`Divider > Snapshots > Weight variants > matches snapshot for weight bold 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-4 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-4 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Weight variants > matches snapshot for weight default 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > Weight variants > matches snapshot for weight thin 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-1 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-1 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > matches snapshot with text 1`] = `
+<div
+  class="flex w-full items-center h-ws-9 gap-ws-7"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+  <span
+    class="typography-caption-strong-md text-ws-static-subtle min-w-0 shrink overflow-hidden text-ellipsis whitespace-nowrap text-center"
+  >
+    Divider
+  </span>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+</div>
+`;
+
+exports[`Divider > Snapshots > matches snapshot without text 1`] = `
+<div
+  class="flex w-full items-center"
+  data-slot="divider"
+  role="separator"
+>
+  <div
+    class="min-w-ws-14 flex-1 shrink-0 border-solid border-b-2 border-ws-static-base"
+  />
+</div>
+`;

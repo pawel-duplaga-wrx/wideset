@@ -1,0 +1,42 @@
+---
+import tokens from '../../generated/tokens.json';
+
+/** The z-index bands or the motion tokens as a plain table, read from the library's CSS. */
+interface Props {
+  of: 'z-index' | 'motion';
+}
+const { of } = Astro.props;
+
+const rows =
+  of === 'z-index'
+    ? tokens.zIndex.map((token) => [token.className, String(token.value), token.note])
+    : tokens.motion.flatMap((group) =>
+        group.tokens.map((token) => [token.name, token.value, group.group]),
+      );
+const head = of === 'z-index' ? ['Class', 'Value', 'Use it for'] : ['Token', 'Value', 'Group'];
+---
+
+<div class="border-ws-static-subtle mt-4 overflow-x-auto rounded-[12px] border">
+  <table class="w-full text-left text-[13px] leading-5">
+    <thead>
+      <tr class="border-ws-static-subtle text-ws-static-subtle border-b">
+        {head.map((cell) => (
+          <th class="px-4 py-2 font-normal">{cell}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map(([name, value, note]) => (
+        <tr class="border-ws-static-subtle border-b last:border-0">
+          <td class="px-4 py-2 whitespace-nowrap">
+            <code>{name}</code>
+          </td>
+          <td class="text-ws-static-strong px-4 py-2 font-mono text-[12px] whitespace-nowrap">
+            {value}
+          </td>
+          <td class="text-ws-static-subtle px-4 py-2">{note}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

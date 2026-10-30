@@ -1,0 +1,521 @@
+name: CI
+
+# A newer push to a PR supersedes the older run. On main and develop runs queue instead: a
+# cancelled run does not undo a publish or a `wrangler deploy` already sent, so an older deploy
+# could otherwise land after a newer one.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+      - develop
+  # Weekly: the registry smoke against shadcn@latest, so a CLI release that changes what consumers
+  # receive shows up here first (the docs recommend `npx shadcn@latest`).
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    name: Build & validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write # create tags + GitHub Release on main
+      id-token: write # npm provenance on main
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history for tags + GitHub Release
+
+      # Version comes from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Prettier
+        run: pnpm prettier
+
+      # `pnpm build` does not type-check: vite strips types and the dts plugin
+      # only prints TS errors without failing. This is the real type gate.
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build library
+        run: pnpm build
+
+      # The skills' references are generated and committed; `pnpm build` just rewrote them.
+      - name: Check generated skills are committed
+        run: |
+          if [ -n "$(git status --porcelain -- packages/skills)" ]; then
+            git status --short -- packages/skills
+            git diff -- packages/skills | head -100
+            echo "::error::packages/skills is stale. Run pnpm build:skills and commit the result."
+            exit 1
+          fi
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Validate skills against the Agent Skills spec
+        run: pnpm --filter @wideset/skills validate
+
+      - name: Test
+        run: pnpm test
+
+      # Proves Storybook builds; the deploy job builds it again with its own URLs.
+      - name: Build Storybook
+        run: pnpm build:storybook
+
+      # Publish before deploying so a failed publish does not ship a half release.
+      # No pending changesets on main (consumed on develop) => publish mode only.
+      - name: Publish to npm
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: changesets/action@v1 # consider pinning to a full SHA
+        with:
+          publish: pnpm changeset publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: 'true'
+
+  # Storybook and the docs site (with the shadcn registry under /r) on Cloudflare Workers, in the
+  # Widelab account. Runs after `build`, so on main the npm publish has already succeeded and the
+  # docs never describe an unreleased version. Setup: RELEASING.md.
+  #   push to main    → production Workers wideset-storybook, wideset-docs (environment production)
+  #   push to develop → wideset-storybook-develop, wideset-docs-develop (environment develop)
+  #   pull request    → a preview version of each develop Worker (PRs target develop), alias
+  #                     pr-<number>, URLs commented on the PR (environment preview)
+  # Every build bakes in the addresses it is served from: the registry its own URL
+  # (REGISTRY_URL), the docs their site and Storybook links. The environments' variables
+  # DOCS_URL / STORYBOOK_URL hold the custom domains; unset, the workers.dev address is used.
+  # Needs: secrets CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID; variable CF_WORKERS_SUBDOMAIN.
+  deploy:
+    name: Deploy ${{ matrix.app }}
+    needs: build
+    # Fork and Dependabot PRs get no secrets, so they get no preview. A manual run (Actions → CI →
+    # Run workflow) on main or develop redeploys that environment without a release; publishing
+    # stays tied to a push.
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'workflow_dispatch' &&
+       (github.ref_name == 'main' || github.ref_name == 'develop')) ||
+      (github.event_name == 'pull_request' &&
+       github.event.pull_request.head.repo.full_name == github.repository &&
+       github.actor != 'dependabot[bot]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: ${{ github.event_name == 'pull_request' && 'preview' || (github.ref_name == 'main' && 'production' || 'develop') }}
+      url: ${{ steps.target.outputs.app_url }}
+    permissions:
+      contents: read
+      pull-requests: write # the preview URL comment
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - app: storybook
+            dir: packages/design-system
+            build: pnpm build:storybook
+          - app: docs
+            dir: apps/docs
+            build: pnpm turbo run build --filter=@wideset/docs
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # the docs show the version each component shipped in (git)
+          persist-credentials: false # nothing here pushes; keep the token out of .git/config
+
+      # Version comes from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Resolve target
+        id: target
+        env:
+          EVENT: ${{ github.event_name }}
+          REF: ${{ github.ref_name }}
+          PR: ${{ github.event.pull_request.number }}
+          APP: ${{ matrix.app }}
+          SUB: ${{ vars.CF_WORKERS_SUBDOMAIN }}
+          DOCS: ${{ vars.DOCS_URL }}
+          STORYBOOK: ${{ vars.STORYBOOK_URL }}
+        run: |
+          # Accept the label (`widelab`) or the whole host (`widelab.workers.dev`).
+          SUB="${SUB%.workers.dev}"
+          if [ -z "$SUB" ]; then
+            echo "::error::Repository variable CF_WORKERS_SUBDOMAIN is not set (RELEASING.md)."
+            exit 1
+          fi
+          if [ "$EVENT" = "pull_request" ]; then
+            mode=preview
+            alias="pr-$PR"
+            docs="https://$alias-wideset-docs-develop.$SUB.workers.dev"
+            storybook="https://$alias-wideset-storybook-develop.$SUB.workers.dev"
+            echo "alias=$alias" >> "$GITHUB_OUTPUT"
+          elif [ "$REF" = "develop" ]; then
+            mode=develop
+            docs="${DOCS:-https://wideset-docs-develop.$SUB.workers.dev}"
+            storybook="${STORYBOOK:-https://wideset-storybook-develop.$SUB.workers.dev}"
+          else
+            mode=production
+            docs="${DOCS:-https://wideset-docs.$SUB.workers.dev}"
+            storybook="${STORYBOOK:-https://wideset-storybook.$SUB.workers.dev}"
+          fi
+          if [ "$APP" = "docs" ]; then app_url="$docs"; else app_url="$storybook"; fi
+          {
+            echo "mode=$mode"
+            echo "docs=${docs%/}"
+            echo "storybook=${storybook%/}"
+            echo "app_url=${app_url%/}"
+          } >> "$GITHUB_OUTPUT"
+          echo "$mode: docs ${docs}, storybook ${storybook}"
+
+      # Turbo passes these through (turbo.json `env`). The registry lives on the docs host, in
+      # both builds, so Storybook's copy points at the same items.
+      - name: Build
+        env:
+          REGISTRY_URL: ${{ steps.target.outputs.docs }}/r
+          DOCS_URL: ${{ steps.target.outputs.docs }}
+          PUBLIC_STORYBOOK_URL: ${{ steps.target.outputs.storybook }}
+        run: ${{ matrix.build }}
+
+      - name: Deploy to Cloudflare
+        id: deploy
+        working-directory: ${{ matrix.dir }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          MODE: ${{ steps.target.outputs.mode }}
+          ALIAS: ${{ steps.target.outputs.alias }}
+        # --env="" pins the top-level (production) Worker; wrangler warns otherwise, since a
+        # "develop" environment exists too. A preview is a version of the develop Worker, not a
+        # deployment: develop keeps serving its branch, the alias serves this PR. Until the first
+        # push to develop has created that Worker there is nothing to attach a preview to, so the
+        # step skips with a warning instead of failing the PR.
+        run: |
+          case "$MODE" in
+            production) pnpm dlx wrangler@4 deploy --env="" ;;
+            develop)    pnpm dlx wrangler@4 deploy --env develop ;;
+            preview)
+              set +e
+              pnpm dlx wrangler@4 versions upload --env develop --preview-alias "$ALIAS" 2>&1 | tee /tmp/wrangler.log
+              status=${PIPESTATUS[0]}
+              set -e
+              if [ "$status" -ne 0 ] && grep -q "does not yet exist" /tmp/wrangler.log; then
+                echo "::warning title=No preview::The develop Worker does not exist yet; it is created by the first push to develop."
+                echo "skipped=true" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+              exit "$status"
+              ;;
+          esac
+
+      - name: Comment the preview URL
+        if: steps.target.outputs.mode == 'preview' && steps.deploy.outputs.skipped != 'true'
+        uses: actions/github-script@v7
+        env:
+          APP: ${{ matrix.app }}
+          URL: ${{ steps.target.outputs.app_url }}
+        with:
+          script: |
+            const { APP, URL } = process.env;
+            const marker = `<!-- preview:${APP} -->`;
+            const extra = APP === 'docs' ? `\nRegistry: \`${URL}/r/registry.json\`` : '';
+            const body = `${marker}\n**${APP === 'docs' ? 'Docs' : 'Storybook'} preview:** ${URL}${extra}\n(commit ${context.sha.slice(0, 7)})`;
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
+            const existing = comments.find((c) => c.body && c.body.startsWith(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
+
+  # A PR into develop that changes shipping code (packages/design-system/src or cli, minus stories,
+  # tests, snapshots, Figma specs and docs pages; or the skills in packages/skills) must add a file in .changeset/. Nothing to release:
+  # `pnpm changeset --empty`. Same rule as the pre-push hook: scripts/check-changeset.mjs.
+  changeset:
+    name: Changeset present
+    if: github.event_name == 'pull_request' && github.base_ref == 'develop' && !startsWith(github.head_ref, 'changeset-release/')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check for a changeset
+        run: node scripts/check-changeset.mjs origin/${{ github.base_ref }} HEAD
+
+  # The smoke jobs install fresh apps from npm and pull shadcn presets from ui.shadcn.com, so
+  # they are slow and can flake. They only prove something when a file that ends up in the
+  # registry, or the tooling that builds it, changed.
+  registry-changes:
+    name: Detect registry-relevant changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    outputs:
+      run: ${{ steps.diff.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - id: diff
+        env:
+          EVENT: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "$EVENT" = "schedule" ] || [ "$EVENT" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$EVENT" = "pull_request" ]; then
+            range="origin/$BASE_REF...HEAD"
+          else
+            range="$BEFORE..HEAD"
+          fi
+          # Anything unexpected (first push of a branch, shallow history) runs the smoke jobs.
+          if ! files=$(git diff --name-only "$range" -- \
+            packages/design-system/src packages/design-system/registry.json \
+            packages/design-system/scripts packages/design-system/package.json pnpm-lock.yaml \
+            packages/design-system/vite.config.ts packages/design-system/cli .github/workflows/build.yaml \
+            packages/skills apps/docs/scripts .claude-plugin \
+            2>/dev/null); then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ -n "$files" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Every registry item has to install into a fresh Vite + Tailwind v4 + shadcn app and type-check.
+  # Sharded because each item is a separate install; "all" adds every item to one app and runs
+  # vite build. Runs against a locally served build of the registry, never a deployed one.
+  registry-smoke:
+    name: Registry smoke (${{ matrix.shard }})
+    needs: [build, registry-changes]
+    if: needs.registry-changes.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ['1/4', '2/4', '3/4', '4/4', 'all', 'next']
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Version comes from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build library (registry ships dist/*.css)
+        run: pnpm build:lib
+
+      # "next" builds a Next.js App Router app: Server Components importing the scaffolded files and
+      # the packed npm package by name. It is what keeps 'use client' and the named exports honest.
+      - name: Install registry items
+        env:
+          # Scheduled runs test the CLI consumers actually get; everything else tests the pin.
+          SHADCN_VERSION: ${{ github.event_name == 'schedule' && 'latest' || '' }}
+        working-directory: packages/design-system
+        run: |
+          case "${{ matrix.shard }}" in
+            all)  node scripts/registry-smoke.mjs --all ;;
+            next) node scripts/registry-smoke.mjs --next ;;
+            *)    node scripts/registry-smoke.mjs --shard "${{ matrix.shard }}" ;;
+          esac
+
+  # The `wideset` CLI (shipped in @wideset/react) on real starter projects: npm create vite, create-next-app, and
+  # that Next app after shadcn init. Each runs the packed CLI (init, list, add button, skills, info) and the
+  # project's own build.
+  cli-smoke:
+    name: CLI smoke (${{ matrix.scenario }})
+    needs: [build, registry-changes]
+    if: needs.registry-changes.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario: [vite, next, next-shadcn, no-config]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Version comes from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build library (registry ships dist/*.css)
+        run: pnpm build:lib
+
+      - name: Run the CLI on a fresh ${{ matrix.scenario }} project
+        env:
+          # Scheduled runs use the starters people get today; everything else the pins.
+          STARTERS: ${{ github.event_name == 'schedule' && 'latest' || '' }}
+        working-directory: packages/design-system
+        run: node scripts/cli-smoke.mjs --only ${{ matrix.scenario }}
+
+  # The skills' other channels: the npm tarball, `npx skills add` from the repository and from the
+  # docs' /.well-known/agent-skills, built here so the real site is what gets served.
+  skills-smoke:
+    name: Skills smoke
+    needs: [build, registry-changes]
+    if: needs.registry-changes.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Version comes from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build the docs site
+        run: pnpm turbo run build --filter=@wideset/docs
+
+      - name: Install the skills through every channel
+        run: pnpm test:skills
+
+  version:
+    name: Version Packages
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+    timeout-minutes: 15
+    permissions:
+      contents: write # commit the version bump
+      pull-requests: write # open/update the "Version Packages" PR
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Version comes from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # No publish here: on develop this only opens/updates the Version PR
+      # (bump package.json + CHANGELOG, consume changesets). Publishing happens on main.
+      - name: Create Version Packages PR
+        uses: changesets/action@v1 # consider pinning to a full SHA
+        with:
+          version: pnpm version-packages
+          title: 'Version Packages'
+          commit: 'Version Packages'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  chromatic:
+    name: Publish to Chromatic
+    needs: build
+    runs-on: ubuntu-latest
+    # Off until the repository has a Chromatic project (variable CHROMATIC_APP_ID + token secret).
+    if: github.event_name == 'push' && github.ref == 'refs/heads/develop' && vars.CHROMATIC_APP_ID != ''
+    timeout-minutes: 15
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Version comes from `packageManager` in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Publish to Chromatic
+        uses: chromaui/action@latest
+        env:
+          # The registry inside this Storybook links its items to each other by absolute URL. Without
+          # this they point at the production host, so installing from the Chromatic preview fails.
+          # Needs the repository variable CHROMATIC_APP_ID; unset, the production URL is used.
+          REGISTRY_URL: ${{ vars.CHROMATIC_APP_ID && format('https://{0}--{1}.chromatic.com/r', github.ref_name, vars.CHROMATIC_APP_ID) || '' }}
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          workingDir: packages/design-system
+          buildScriptName: build:storybook
+          autoAcceptChanges: true

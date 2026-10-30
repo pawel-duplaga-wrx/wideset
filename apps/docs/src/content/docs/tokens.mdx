@@ -1,0 +1,29 @@
+---
+title: Tokens
+description: Every token family the classes read, with its CSS variable and light and dark value.
+section: Foundations
+---
+
+import TokenReference from '../../components/foundations/TokenReference.astro';
+
+This is the full list, read from the library's CSS when the site is built. Each row is a class,
+the CSS variable it reads, and the value that variable ends on. Colours end on a palette
+primitive, printed without its `--ws-colors-light-` or `--ws-colors-dark-` prefix
+(`brand-600`) and drawn as a swatch. The dark column says "Same" where dark mode does not change
+the value. For what each family is for, see [Colors](/docs/colors),
+[Typography](/docs/typography), [Spacing](/docs/spacing), [Radius](/docs/radius),
+[Elevation](/docs/elevation) and [Motion](/docs/motion).
+
+Every class carries `-ws-`. A class without it (`p-4`, `rounded-lg`, `text-sm`) is Tailwind's
+own scale, not Wideset's. To change a value, override the variable in a stylesheet loaded after
+Wideset's ([Theming](/docs/theming)).
+
+Three families read differently:
+
+- **Spacing** is shown as padding (`p-ws-4`); the same variable drives `m-`, `gap-`, `w-`, `h-`,
+  `size-` and `inset-`.
+- **Text decoration colour** (`--decoration-ws-*`) has no working class: Tailwind's
+  `decoration-*` utilities read a different namespace.
+- **Motion** tokens are read by component styles, not by a class per token.
+
+<TokenReference />

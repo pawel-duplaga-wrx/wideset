@@ -1,0 +1,105 @@
+---
+title: CLI
+description: Copy a component's source into your own repo with the shadcn CLI.
+section: Guide
+---
+
+Instead of installing the package you can copy a component's source into your repo. The code
+is then yours: editable, no dependency on `@wideset/react`, no registry login, and no
+automatic updates. It works in Vite and Next.js projects with TypeScript, with or without
+Tailwind.
+
+Wideset is published as a [shadcn registry](https://ui.shadcn.com/docs/registry), so the
+[shadcn CLI](https://ui.shadcn.com/docs/cli) does the copying. You do not need shadcn's
+components, theme or `cn`, and you do not need to run `shadcn init`.
+
+{/* prettier-ignore-start */}
+
+{/* TODO(wideset-cli): once the `wideset` package is published, lead with `npx wideset init` and `npx wideset add button` (see the commented block in packages/design-system/README.md) and keep the shadcn steps below as "Without the Wideset CLI". */}
+
+{/* prettier-ignore-end */}
+
+## 1. Create components.json
+
+A `components.json` in your project root tells the CLI where files go and which registry
+`@wideset` means. Vite, sources in `src/`:
+
+```json
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "radix-nova",
+  "tsx": true,
+  "rsc": false,
+  "tailwind": {
+    "config": "",
+    "css": "src/index.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "aliases": {
+    "components": "@/components",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks",
+    "utils": "@/lib/utils"
+  },
+  "registries": { "@wideset": "https://wideset-docs.widelab.workers.dev/r/{name}.json" }
+}
+```
+
+Next.js App Router: `"rsc": true`, `"css": "app/globals.css"`, and `@/` pointing at the project
+root (`"@/*": ["./*"]`). The `@/*` alias has to exist in `tsconfig.json` (`paths`) and, for Vite,
+in `vite.config.ts` (`resolve.alias`).
+
+**Already using shadcn?** Keep your `components.json` and only register the namespace:
+
+```bash
+npx shadcn@latest registry add @wideset=https://wideset-docs.widelab.workers.dev/r/{name}.json
+```
+
+Wideset files land next to your shadcn components, under `components/ui/wideset/`, with their
+own `cn` in `lib/wideset/`.
+
+## 2. Add components
+
+Names are the component names in kebab case; sub-components come with their parent. The full
+list is `/r/registry.json` on the same host.
+
+```bash
+npx shadcn@latest add @wideset/button @wideset/select
+```
+
+Files land in `components/ui/wideset/`, `lib/wideset/` and `hooks/wideset/`, with everything
+the component depends on.
+
+## 3. Import the stylesheet
+
+Every component brings `styles/wideset.css`. Import it once at your app's entry point:
+
+```tsx
+import '@/styles/wideset.css';
+```
+
+Apps without Tailwind also add `@wideset/preflight` and import it first.
+
+Tailwind v4 apps can add `@wideset/theme` (`styles/wideset-theme.css`) next to it, so their own
+build compiles the `ws` classes for their own markup. Keep importing `wideset.css`: the theme has
+tokens and utilities only, without the two element rules components rely on (font smoothing and
+`1em` sizing for Remix icons) and without the `tailwindcss-radix` and `tailwindcss-animate`
+plugins the components' `radix-*` and `animate-*` classes need. Replace `wideset.css` with it
+only if you add those plugins and rules yourself.
+
+Load the font as described in [Installation](/docs/installation#4-load-the-font).
+
+## 4. Use it
+
+```tsx
+import { Button } from '@/components/ui/wideset/button/Button';
+
+export function Example() {
+  return <Button>Save</Button>;
+}
+```
+
+The registry is tested in CI against the pinned shadcn version on every change and against
+`shadcn@latest` weekly, so use `@latest`.

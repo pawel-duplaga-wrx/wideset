@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Wideset PR Review Resolve'
+  short_description: 'Evaluate PR feedback, fix locally, draft replies for approval'
+  default_prompt: 'Use $wideset-pr-review-resolve for the PR URL or number I provide: read all feedback, compare it with repository rules and applicable skills, apply clear fixes locally, collect decisions and exact reply drafts in a local report, then publish approved replies and resolve eligible threads only after my approval.'

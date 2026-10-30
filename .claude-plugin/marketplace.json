@@ -1,0 +1,12 @@
+{
+  "name": "wideset",
+  "description": "Skills and reviewer agents for building apps with the Wideset design system.",
+  "owner": { "name": "Widelab" },
+  "plugins": [
+    {
+      "name": "wideset",
+      "source": "./packages/skills",
+      "description": "Build apps with the Wideset design system: component choice, props, ws- tokens, craft, compositions and review."
+    }
+  ]
+}

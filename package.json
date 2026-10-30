@@ -1,0 +1,70 @@
+{
+  "name": "wideset",
+  "private": true,
+  "packageManager": "pnpm@11.1.1",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "build:lib": "pnpm --filter @wideset/react build:lib",
+    "build:storybook": "turbo run build:storybook",
+    "typecheck": "turbo run typecheck",
+    "lint": "turbo run lint",
+    "prettier": "prettier --check .",
+    "format": "pnpm prettier:fix && pnpm lint:fix",
+    "test": "turbo run test",
+    "storybook": "pnpm --filter @wideset/react storybook",
+    "chromatic": "pnpm --filter @wideset/react chromatic",
+    "prefix-tokens": "pnpm --filter @wideset/react prefix-tokens",
+    "generate-semantic-variables": "pnpm --filter @wideset/react generate-semantic-variables",
+    "changeset": "changeset",
+    "version-packages": "changeset version && pnpm build:skills",
+    "prepare": "husky install",
+    "docs:dev": "turbo run dev --filter=@wideset/docs",
+    "docs:build": "turbo run build --filter=@wideset/docs",
+    "docs:preview": "turbo run preview --filter=@wideset/docs",
+    "build:registry": "pnpm --filter @wideset/react build:registry",
+    "build:skills": "pnpm --filter @wideset/skills build",
+    "test:registry": "pnpm --filter @wideset/react test:registry",
+    "test:cli": "pnpm --filter @wideset/react test:cli",
+    "test:skills": "pnpm --filter @wideset/skills test:skills",
+    "playground": "pnpm --filter @wideset/react playground",
+    "prettier:fix": "prettier --write .",
+    "lint:fix": "turbo run lint:fix"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.31.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.6.0",
+    "prettier-plugin-astro": "^1.0.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "turbo": "^2.5.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,mjs,cjs,astro,css,json,jsonc,md,mdx,yml,yaml}": [
+      "prettier --write"
+    ],
+    "packages/design-system/{src,scripts,cli}/**/*.{ts,tsx,mjs}": [
+      "pnpm --filter @wideset/react exec eslint --fix"
+    ],
+    "apps/docs/{src,scripts}/**/*.{ts,tsx,mjs}": [
+      "pnpm --filter @wideset/docs exec eslint --fix"
+    ],
+    "packages/skills/{src,scripts}/**/*.{ts,mjs}": [
+      "pnpm --filter @wideset/skills exec eslint --fix"
+    ]
+  }
+}

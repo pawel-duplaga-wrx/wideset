@@ -1,0 +1,31 @@
+/*
+  The only element rules Wideset ships. Everything else a component needs lives in its own
+  classes, so importing `@wideset/react/styles` restyles as little of the host page as
+  possible. Two rules earn their place here:
+
+  - font smoothing, which Wideset's type scale is drawn against (it matters on macOS);
+  - Remix Icon sizing, which cannot be expressed as a class (see below).
+
+  Page-level opinions (`button { cursor: pointer }`, a monospace stack on `code`/`kbd`) do not
+  belong here: they would leak into every consumer's page. Components that want a pointer
+  cursor ask for it in their own variants.
+*/
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /*
+    Remix Icon renders hardcoded width/height attributes (default 24). Those are
+    attributes, not styles, so any CSS rule wins over them. Resetting to 1em makes
+    icons scale with `font-size`, which is what the `text-*` utilities control.
+
+    This lives in `base` on purpose: Tailwind's `utilities` layer takes precedence,
+    so explicit `size-ws-11` / `h-ws-11 w-ws-11` on an icon still overrides this.
+  */
+  .remixicon {
+    width: 1em;
+    height: 1em;
+  }
+}

@@ -1,0 +1,490 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Switch Snapshots > Disabled state > matches snapshot for disabled checked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center pointer-events-none"
+  for="snapshot"
+>
+  <button
+    aria-checked="true"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-disabled=""
+    data-slot="switch"
+    data-state="checked"
+    disabled=""
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-disabled=""
+      data-state="checked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-disabled"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Disabled state > matches snapshot for disabled unchecked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center pointer-events-none"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-disabled=""
+    data-slot="switch"
+    data-state="unchecked"
+    disabled=""
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-disabled=""
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-disabled"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Label positions > matches snapshot for labelPosition left 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center flex-row-reverse cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch Label
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Label positions > matches snapshot for labelPosition right 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch Label
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for lg size checked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="true"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="checked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="checked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for lg size unchecked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for lg size with label 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch Label
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for lg size without label 1`] = `
+<div
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+</div>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for sm size checked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="true"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-sm w-ws-control-xl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="checked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-xs w-ws-control-xs translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%+var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-xs)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-xs)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%+var(--spacing-ws-2)-var(--spacing-ws-control-xs)*0.6)]"
+      data-state="checked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for sm size unchecked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-sm w-ws-control-xl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-xs w-ws-control-xs translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%+var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-xs)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-xs)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%+var(--spacing-ws-2)-var(--spacing-ws-control-xs)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for sm size with label 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-sm w-ws-control-xl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-xs w-ws-control-xs translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%+var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-xs)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-xs)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%+var(--spacing-ws-2)-var(--spacing-ws-control-xs)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch Label
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > Sizes > matches snapshot for sm size without label 1`] = `
+<div
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-sm w-ws-control-xl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-xs w-ws-control-xs translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%+var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-xs)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-xs)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%+var(--spacing-ws-2)-var(--spacing-ws-control-xs)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+</div>
+`;
+
+exports[`Switch Snapshots > Switch Snapshots with Switch.Label > matches snapshot for disabled switch with Switch.Label 1`] = `
+<div
+  class="gap-ws-7 flex w-fit items-center pointer-events-none"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-disabled=""
+    data-slot="switch"
+    data-state="unchecked"
+    disabled=""
+    id="snapshot-2"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-disabled=""
+      data-state="unchecked"
+    />
+  </button>
+  <div
+    class="gap-ws-3 flex flex-col"
+  >
+    <label
+      class="typography-label-sm cursor-pointer text-ws-dynamic-secondary-disabled pointer-events-none"
+      data-slot="switch-label"
+      for="snapshot-2"
+    >
+      Disabled switch
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Switch Snapshots > Switch Snapshots with Switch.Label > matches snapshot for switch with Switch.Label 1`] = `
+<div
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot-1"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <div
+    class="gap-ws-3 flex flex-col"
+  >
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default cursor-pointer"
+      data-slot="switch-label"
+      for="snapshot-1"
+    >
+      Test switch
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Switch Snapshots > matches snapshot with label checked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="true"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="checked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="checked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > matches snapshot with label unchecked 1`] = `
+<label
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+  for="snapshot"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+  <span
+    class="typography-label-sm text-ws-dynamic-secondary-default"
+    data-slot="switch-label"
+  >
+    Switch
+  </span>
+</label>
+`;
+
+exports[`Switch Snapshots > matches snapshot without label 1`] = `
+<div
+  class="gap-ws-7 flex w-fit items-center cursor-pointer"
+>
+  <button
+    aria-checked="false"
+    class="group focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default relative cursor-pointer focus-visible:select-none disabled:pointer-events-none disabled:cursor-default rounded-full bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover focus-visible:bg-ws-dynamic-secondary-alpha-strong-default active:bg-ws-dynamic-secondary-alpha-strong-pressed disabled:bg-ws-dynamic-secondary-disabled radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed h-ws-control-md w-ws-control-xxl transition-[background-color] duration-(--ws-motion-duration-micro) ease-(--ws-motion-ease-out)"
+    data-slot="switch"
+    data-state="unchecked"
+    id="snapshot"
+    role="switch"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-0 shrink-0 -translate-y-1/2 transform rounded-full shadow-ws-medium bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) group-disabled:shadow-none h-ws-control-sm w-ws-control-sm translate-x-(--spacing-ws-2) radix-state-checked:translate-x-[calc(100%-var(--spacing-ws-2))] transition-[translate,width,height] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) group-[:active:not(:disabled)]:h-[calc(var(--spacing-ws-control-sm)*0.75)] group-[:active:not(:disabled)]:w-[calc(var(--spacing-ws-control-sm)*1.3)] group-[:active:not(:disabled)[data-state=checked]]:translate-x-[calc(100%-var(--spacing-ws-2)-var(--spacing-ws-control-sm)*0.6)]"
+      data-state="unchecked"
+    />
+  </button>
+</div>
+`;

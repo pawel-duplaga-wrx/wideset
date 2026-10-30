@@ -1,0 +1,42 @@
+---
+import Thumbnail from '../../components/Thumbnail';
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import { entries } from '../../lib/catalog';
+import { GALLERY_SPAN, gallerySize } from '../../lib/gallery';
+---
+
+<DocsLayout
+  title="Components"
+  description={`${entries.length} components, read from the package.`}
+  frame
+  full
+>
+  <div class="docs-prose">
+    <h1>Components</h1>
+    <p class="text-ws-static-subtle">
+      {entries.length} components the package exports. Each card shows the component as its page's
+      playground opens; the page adds the examples, code, install line and props read from the
+      source.
+    </p>
+  </div>
+  <section class="@container mt-ws-18">
+    <ul class="mt-ws-9 grid grid-flow-dense auto-rows-[280px] grid-cols-2 gap-ws-9 @[36rem]:grid-cols-4">
+      {entries.map((entry) => (
+        <li class={GALLERY_SPAN[gallerySize(entry.id)]} data-playground={entry.id}>
+          <a
+            href={`/components/${entry.id}`}
+            class="docs-pane docs-card border-ws-static-subtle hover:border-ws-static-base flex h-full flex-col gap-ws-3 rounded-ws-container-xl border p-ws-4 pb-ws-8 transition-colors"
+          >
+            <Thumbnail component={entry.id} client:idle />
+            <span class="text-ws-static-strong mt-ws-7 px-ws-6 typography-label-strong-sm">
+              {entry.title}
+            </span>
+            <span class="text-ws-static-subtle line-clamp-2 px-ws-6 typography-body-md">
+              {entry.description ?? 'Description pending.'}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</DocsLayout>

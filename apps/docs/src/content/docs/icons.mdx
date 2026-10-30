@@ -1,0 +1,43 @@
+---
+title: Icons
+description: Remix Icon components, sized by text and coloured by currentColor.
+section: Foundations
+---
+
+Wideset ships no icon set of its own. Components that show an icon take an icon **component**
+from [Remix Icon](https://remixicon.com) (`@remixicon/react`), the set the Figma library uses.
+Search for an icon on remixicon.com, then import it by name: `arrow-right-line` is
+`RiArrowRightLine`.
+
+```bash
+npm install @remixicon/react
+```
+
+```tsx
+import { RiArrowRightLine, RiMoreLine } from '@remixicon/react';
+import { Button, IconButton } from '@wideset/react';
+
+<Button>
+  Continue
+  <Button.Icon icon={RiArrowRightLine} />
+</Button>
+
+<IconButton icon={RiMoreLine} aria-label="More actions" />
+```
+
+Pass the component itself, not an element: `icon={RiArrowRightLine}`, not
+`icon={<RiArrowRightLine />}`. The component sizes it for you.
+
+## Size and colour
+
+Inside a component the icon is sized and coloured for you. On its own, an icon is `1em` and
+uses `currentColor`, so it follows the text around it:
+
+```tsx
+<RiCheckLine className="text-[20px] text-ws-semantic-positive" />
+```
+
+## Accessibility
+
+An icon next to a label is decoration and is hidden from screen readers. An icon-only control
+needs a name: give `IconButton` an `aria-label`.

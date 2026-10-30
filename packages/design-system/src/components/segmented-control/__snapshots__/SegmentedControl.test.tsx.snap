@@ -1,0 +1,1038 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SegmentedControl Snapshots > Disabled state > matches snapshot for disabled control 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="-1"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-disabled=""
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    disabled=""
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-disabled=""
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    disabled=""
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 0;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Disabled state > matches snapshot for disabled item 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-disabled=""
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    disabled=""
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Layout variants > matches snapshot for variant fullWidth 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 flex w-full rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Layout variants > matches snapshot for variant regular 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size and variant combinations > matches snapshot for size lg and variant fullWidth 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 flex w-full rounded-ws-control-xl h-ws-forms-lg gap-ws-3 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 3
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-lg"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size and variant combinations > matches snapshot for size lg and variant regular 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-xl h-ws-forms-lg gap-ws-3 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 3
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-lg"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size and variant combinations > matches snapshot for size md and variant fullWidth 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 flex w-full rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 3
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size and variant combinations > matches snapshot for size md and variant regular 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 3
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size and variant combinations > matches snapshot for size sm and variant fullWidth 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 flex w-full rounded-ws-control-lg h-ws-forms-sm gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 flex-1 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 3
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size and variant combinations > matches snapshot for size sm and variant regular 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-sm gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 3
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size variants > matches snapshot for size lg 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-xl h-ws-forms-lg gap-ws-3 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 px-ws-11 py-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-lg"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size variants > matches snapshot for size md 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 px-ws-9 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > Size variants > matches snapshot for size sm 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-sm gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 1
+  </button>
+  <button
+    aria-checked="false"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 px-ws-7 py-ws-3 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    Item 2
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > With icons > matches snapshot for Icon subcomponent with size lg 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-xl h-ws-forms-lg gap-ws-3 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    aria-label="Done"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 p-ws-8 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </button>
+  <button
+    aria-checked="false"
+    aria-label="Close"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 p-ws-8 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-lg"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > With icons > matches snapshot for Icon subcomponent with size md 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    aria-label="Done"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 p-ws-6 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </button>
+  <button
+    aria-checked="false"
+    aria-label="Close"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 p-ws-6 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > With icons > matches snapshot for Icon subcomponent with size sm 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-sm gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    aria-label="Done"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 p-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </button>
+  <button
+    aria-checked="false"
+    aria-label="Close"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 p-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > With icons > matches snapshot for icon items with size lg 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-xl h-ws-forms-lg gap-ws-3 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    aria-label="Done"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 p-ws-8 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </button>
+  <button
+    aria-checked="false"
+    aria-label="Close"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-md rounded-ws-control-lg min-w-ws-17 gap-ws-5 p-ws-8 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-lg"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > With icons > matches snapshot for icon items with size md 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-md gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    aria-label="Done"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 p-ws-6 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </button>
+  <button
+    aria-checked="false"
+    aria-label="Close"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-15 gap-ws-5 p-ws-6 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;
+
+exports[`SegmentedControl Snapshots > With icons > matches snapshot for icon items with size sm 1`] = `
+<div
+  class="bg-ws-static-alpha-base p-ws-2 inline-flex w-fit rounded-ws-control-lg h-ws-forms-sm gap-ws-2 relative isolate *:data-[state=on]:bg-transparent! *:data-[state=on]:shadow-none!"
+  data-slot="segmented-control"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <button
+    aria-checked="true"
+    aria-label="Done"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 p-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="on"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </button>
+  <button
+    aria-checked="false"
+    aria-label="Close"
+    class="text-ws-dynamic-secondary-default flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed data-[state=on]:bg-ws-static-highlight-strong data-[state=on]:shadow-ws-low data-[state=on]:hover:bg-ws-static-highlight-strong data-[state=on]:active:bg-ws-static-highlight-strong disabled:text-ws-dynamic-secondary-disabled disabled:pointer-events-none disabled:bg-transparent disabled:shadow-none disabled:data-[state=on]:bg-transparent disabled:data-[state=on]:shadow-none data-disabled:bg-transparent data-disabled:shadow-none data-disabled:data-[state=on]:bg-transparent data-disabled:data-[state=on]:shadow-none disabled:hover:bg-transparent disabled:active:bg-transparent disabled:data-[state=on]:hover:bg-transparent disabled:data-[state=on]:active:bg-transparent typography-label-strong-sm rounded-ws-control-md min-w-ws-13 gap-ws-5 p-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-radix-collection-item=""
+    data-slot="segmented-control-item"
+    data-state="off"
+    role="radio"
+    tabindex="-1"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 shrink-0"
+      data-slot="segmented-control-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+  <span
+    aria-hidden="true"
+    class="bg-ws-static-highlight-base shadow-ws-low pointer-events-none absolute top-0 left-0 -z-[var(--ws-z-index-base)] rounded-ws-control-md"
+    style="width: 0px; height: 0px; transform: translate(0px, 0px); opacity: 1;"
+  />
+</div>
+`;

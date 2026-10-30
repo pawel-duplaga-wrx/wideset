@@ -1,0 +1,29 @@
+---
+import tokens from '../../generated/tokens.json';
+
+/**
+ * Every `typography-*` class with a sample. The sample is painted from the same four tokens
+ * the class applies (size, leading, tracking, weight), so it needs no generated class.
+ */
+---
+
+{tokens.typography.map((group) => (
+  <section class="mt-8">
+    <h3 class="capitalize">{group.group}</h3>
+    <div class="border-ws-static-subtle mt-3 divide-y divide-(--border-color-ws-static-subtle) rounded-[12px] border">
+      {group.styles.map((style) => (
+        <div class="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-baseline sm:gap-6">
+          <code class="text-ws-static-subtle w-56 shrink-0 font-mono text-[12px]">
+            {style.className}
+          </code>
+          <span
+            class="text-ws-static-strong min-w-0"
+            style={`font-size: var(${style.size}); line-height: var(${style.leading}); letter-spacing: var(${style.tracking}); font-weight: var(${style.weight})`}
+          >
+            {group.group === 'number' ? '1,234.56' : 'The quick brown fox'}
+          </span>
+        </div>
+      ))}
+    </div>
+  </section>
+))}

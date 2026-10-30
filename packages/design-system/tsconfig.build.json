@@ -1,0 +1,30 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "outDir": "./dist",
+    "noEmit": false
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.stories.tsx",
+    "**/examples/**",
+    "src/stories/**",
+    "**/__snapshots__/**",
+    "**/__tests__/**",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/routes.ts",
+    "src/store.ts",
+    "src/pages/**",
+    "src/layout/**",
+    "src/api.ts",
+    "src/listenerMiddleware.ts"
+  ]
+}

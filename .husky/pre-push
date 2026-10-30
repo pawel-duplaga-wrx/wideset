@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Guard: main and develop only change through pull requests.
+# Designers work on design/<topic>, developers on <type>/<description>.
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/main|refs/heads/develop)
+      echo "✖ Direct pushes to ${remote_ref#refs/heads/} are not allowed. Open a pull request instead." >&2
+      echo "  (See CONTRIBUTING.md. A maintainer doing a deliberate sync can use --no-verify.)" >&2
+      exit 1
+      ;;
+  esac
+done
+
+# Changeset: a branch that changes shipping code needs a file in .changeset/ (scripts/check-changeset.mjs).
+# Designers' design/<topic> branches are exempt: the developer who merges writes the changeset.
+branch=$(git rev-parse --abbrev-ref HEAD)
+case "$branch" in
+  design/*|changeset-release/*) ;;
+  *)
+    if git rev-parse --verify --quiet origin/develop >/dev/null; then
+      node scripts/check-changeset.mjs origin/develop HEAD || exit 1
+    else
+      echo "⚠ origin/develop not found, skipping the changeset check (git fetch origin develop)." >&2
+    fi
+    ;;
+esac
+
+pnpm lint
+pnpm prettier
+pnpm test

@@ -1,0 +1,615 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card > Card.Media > should match snapshot for media with variant="bordered" 1`] = `
+<div>
+  <div
+    class="flex flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border w-[300px]"
+    data-slot="card"
+  >
+    <div
+      class="overflow-hidden -mx-px [&:first-child]:-mt-px [&:last-child]:-mb-px"
+      data-slot="card-media"
+      style="aspect-ratio: 16/9;"
+    >
+      <img
+        alt="Test"
+        src="https://example.com/image.jpg"
+        width="200"
+      />
+    </div>
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Media Card
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Media Card Description
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > Card.Media > should match snapshot for media with variant="flat" 1`] = `
+<div>
+  <div
+    class="flex flex-col overflow-clip [overflow-clip-margin:border-box] w-[300px]"
+    data-slot="card"
+  >
+    <div
+      class="overflow-hidden rounded-ws-container-md"
+      data-slot="card-media"
+      style="aspect-ratio: 16/9;"
+    >
+      <img
+        alt="Test"
+        src="https://example.com/image.jpg"
+        width="200"
+      />
+    </div>
+    <div
+      class="ws-card-header flex flex-col pb-ws-9 [&:not(:first-child)]:pt-ws-9"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Media Card
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Media Card Description
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > Card.Media > should match snapshot for ratio="1/1" 1`] = `
+<div>
+  <div
+    class="flex flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border w-[300px]"
+    data-slot="card"
+  >
+    <div
+      class="overflow-hidden -mx-px [&:first-child]:-mt-px [&:last-child]:-mb-px"
+      data-slot="card-media"
+      style="aspect-ratio: 1/1;"
+    >
+      <img
+        alt="Test"
+        src="https://example.com/image.jpg"
+        width="200"
+      />
+    </div>
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Media Card 
+        1/1
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Media Card Description
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > Card.Media > should match snapshot for ratio="16/9" 1`] = `
+<div>
+  <div
+    class="flex flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border w-[300px]"
+    data-slot="card"
+  >
+    <div
+      class="overflow-hidden -mx-px [&:first-child]:-mt-px [&:last-child]:-mb-px"
+      data-slot="card-media"
+      style="aspect-ratio: 16/9;"
+    >
+      <img
+        alt="Test"
+        src="https://example.com/image.jpg"
+        width="200"
+      />
+    </div>
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Media Card 
+        16/9
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Media Card Description
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > Card.Media > should match snapshot for ratio="21/9" 1`] = `
+<div>
+  <div
+    class="flex flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border w-[300px]"
+    data-slot="card"
+  >
+    <div
+      class="overflow-hidden -mx-px [&:first-child]:-mt-px [&:last-child]:-mb-px"
+      data-slot="card-media"
+      style="aspect-ratio: 21/9;"
+    >
+      <img
+        alt="Test"
+        src="https://example.com/image.jpg"
+        width="200"
+      />
+    </div>
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Media Card 
+        21/9
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Media Card Description
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot for variant="bordered" 1`] = `
+<div>
+  <div
+    class="flex w-full flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border"
+    data-slot="card"
+  >
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Card Title
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Card Description
+      </p>
+    </div>
+    <div
+      class="overflow-hidden grow"
+      data-slot="card-content"
+      dir="ltr"
+      style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+    >
+      <style>
+        [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+      </style>
+      <div
+        class="h-full w-full max-w-full min-w-0 pr-ws-6"
+        data-radix-scroll-area-viewport=""
+        data-slot="scroll-area-viewport"
+        style="overflow-x: hidden; overflow-y: scroll;"
+      >
+        <div
+          style="min-width: 100%; display: table;"
+        >
+          <div
+            class="min-h-full p-ws-11"
+          >
+            Content here
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex border-ws-static-base px-ws-11 py-ws-9 [&:not(:first-child)]:border-t [.ws-card-header+&]:border-t-0"
+      data-slot="card-footer"
+    >
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Cancel
+        </span>
+      </button>
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Accept
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot for variant="flat" 1`] = `
+<div>
+  <div
+    class="flex w-full flex-col overflow-clip [overflow-clip-margin:border-box]"
+    data-slot="card"
+  >
+    <div
+      class="ws-card-header flex flex-col pb-ws-9 [&:not(:first-child)]:pt-ws-9"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Card Title
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Card Description
+      </p>
+    </div>
+    <div
+      class="overflow-hidden grow"
+      data-slot="card-content"
+      dir="ltr"
+      style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+    >
+      <style>
+        [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+      </style>
+      <div
+        class="h-full w-full max-w-full min-w-0 pr-ws-6"
+        data-radix-scroll-area-viewport=""
+        data-slot="scroll-area-viewport"
+        style="overflow-x: hidden; overflow-y: scroll;"
+      >
+        <div
+          style="min-width: 100%; display: table;"
+        >
+          <div
+            class="min-h-full"
+          >
+            Content here
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex pt-ws-9"
+      data-slot="card-footer"
+    >
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Cancel
+        </span>
+      </button>
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Accept
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot with content and footer only 1`] = `
+<div>
+  <div
+    class="flex w-full flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border"
+    data-slot="card"
+  >
+    <div
+      class="overflow-hidden grow"
+      data-slot="card-content"
+      dir="ltr"
+      style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+    >
+      <style>
+        [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+      </style>
+      <div
+        class="h-full w-full max-w-full min-w-0 pr-ws-6"
+        data-radix-scroll-area-viewport=""
+        data-slot="scroll-area-viewport"
+        style="overflow-x: hidden; overflow-y: scroll;"
+      >
+        <div
+          style="min-width: 100%; display: table;"
+        >
+          <div
+            class="min-h-full p-ws-11"
+          >
+            Card content.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex border-ws-static-base px-ws-11 py-ws-9 [&:not(:first-child)]:border-t [.ws-card-header+&]:border-t-0"
+      data-slot="card-footer"
+    >
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Cancel
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot with content only 1`] = `
+<div>
+  <div
+    class="flex w-full flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border"
+    data-slot="card"
+  >
+    <div
+      class="overflow-hidden grow"
+      data-slot="card-content"
+      dir="ltr"
+      style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+    >
+      <style>
+        [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+      </style>
+      <div
+        class="h-full w-full max-w-full min-w-0 pr-ws-6"
+        data-radix-scroll-area-viewport=""
+        data-slot="scroll-area-viewport"
+        style="overflow-x: hidden; overflow-y: scroll;"
+      >
+        <div
+          style="min-width: 100%; display: table;"
+        >
+          <div
+            class="min-h-full p-ws-11"
+          >
+            Only content, no header or footer.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot with header action containing icon button 1`] = `
+<div>
+  <div
+    class="flex flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border w-[350px]"
+    data-slot="card"
+  >
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <div
+        class="gap-ws-6 flex items-start justify-between"
+      >
+        <div>
+          <h3
+            class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+            data-slot="card-title"
+          >
+            Card Title
+          </h3>
+          <p
+            class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+            data-slot="card-description"
+          >
+            Card Description
+          </p>
+        </div>
+        <div
+          class="flex"
+          data-slot="card-action"
+        >
+          <button
+            class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-3 rounded-ws-control-lg h-ws-forms-md w-ws-forms-md bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+            data-slot="icon-button"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="remixicon shrink-0 h-ws-11 w-ws-11"
+              data-slot="button-icon"
+              fill="currentColor"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 19H21V21H3V19ZM13 13.1716L19.0711 7.1005L20.4853 8.51472L12 17L3.51472 8.51472L4.92893 7.1005L11 13.1716V2H13V13.1716Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot with header action containing tag 1`] = `
+<div>
+  <div
+    class="flex flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border w-[350px]"
+    data-slot="card"
+  >
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <div
+        class="gap-ws-6 flex items-start justify-between"
+      >
+        <div>
+          <h3
+            class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+            data-slot="card-title"
+          >
+            Card Title
+          </h3>
+          <p
+            class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+            data-slot="card-description"
+          >
+            Card Description
+          </p>
+        </div>
+        <div
+          class="flex"
+          data-slot="card-action"
+        >
+          <div
+            class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-red-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-red-subtle"
+            data-slot="tag"
+          >
+            important
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot with header and footer only 1`] = `
+<div>
+  <div
+    class="flex w-full flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border"
+    data-slot="card"
+  >
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Card Title
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Card Description
+      </p>
+    </div>
+    <div
+      class="flex border-ws-static-base px-ws-11 py-ws-9 [&:not(:first-child)]:border-t [.ws-card-header+&]:border-t-0"
+      data-slot="card-footer"
+    >
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Cancel
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card > should match snapshot with header only 1`] = `
+<div>
+  <div
+    class="flex w-full flex-col overflow-clip [overflow-clip-margin:border-box] rounded-ws-container-lg bg-ws-static-container border-ws-static-base border"
+    data-slot="card"
+  >
+    <div
+      class="ws-card-header flex flex-col border-ws-static-base px-ws-11 pt-ws-9 pb-ws-8 [&:not(:last-child)]:border-b"
+      data-slot="card-header"
+    >
+      <h3
+        class="text-ws-static-strong typography-subtitle-sm mt-ws-2"
+        data-slot="card-title"
+      >
+        Card Title
+      </h3>
+      <p
+        class="text-ws-static-subtle typography-body-md mt-ws-5 mb-ws-2"
+        data-slot="card-description"
+      >
+        Card Description
+      </p>
+    </div>
+  </div>
+</div>
+`;

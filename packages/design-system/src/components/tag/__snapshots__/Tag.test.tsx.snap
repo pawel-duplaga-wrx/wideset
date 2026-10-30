@@ -1,0 +1,1300 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color blue with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-blue-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-blue-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-blue-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  blue
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color blue with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-blue-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-blue-default"
+  data-slot="tag"
+>
+  blue
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color blue with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-blue-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-blue-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-blue-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  blue
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color blue with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-blue-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-blue-subtle"
+  data-slot="tag"
+>
+  blue
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color brand with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  brand
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color brand with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  brand
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color brand with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  brand
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color brand with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  brand
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color cyan with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-cyan-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-cyan-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-cyan-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  cyan
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color cyan with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-cyan-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-cyan-default"
+  data-slot="tag"
+>
+  cyan
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color cyan with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-cyan-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-cyan-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-cyan-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  cyan
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color cyan with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-cyan-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-cyan-subtle"
+  data-slot="tag"
+>
+  cyan
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color green with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-green-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-green-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-green-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  green
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color green with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-green-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-green-default"
+  data-slot="tag"
+>
+  green
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color green with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-green-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-green-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-green-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  green
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color green with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-green-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-green-subtle"
+  data-slot="tag"
+>
+  green
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color indigo with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-indigo-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-indigo-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-indigo-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  indigo
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color indigo with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-indigo-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-indigo-default"
+  data-slot="tag"
+>
+  indigo
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color indigo with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-indigo-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-indigo-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-indigo-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  indigo
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color indigo with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-indigo-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-indigo-subtle"
+  data-slot="tag"
+>
+  indigo
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color lime with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-lime-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-lime-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-lime-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  lime
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color lime with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-lime-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-lime-default"
+  data-slot="tag"
+>
+  lime
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color lime with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-lime-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-lime-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-lime-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  lime
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color lime with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-lime-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-lime-subtle"
+  data-slot="tag"
+>
+  lime
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color orange with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-orange-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-orange-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-orange-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  orange
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color orange with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-orange-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-orange-default"
+  data-slot="tag"
+>
+  orange
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color orange with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-orange-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-orange-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-orange-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  orange
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color orange with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-orange-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-orange-subtle"
+  data-slot="tag"
+>
+  orange
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color pink with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-pink-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-pink-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-pink-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  pink
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color pink with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-pink-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-pink-default"
+  data-slot="tag"
+>
+  pink
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color pink with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-pink-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-pink-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-pink-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  pink
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color pink with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-pink-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-pink-subtle"
+  data-slot="tag"
+>
+  pink
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color purple with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-purple-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-purple-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-purple-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  purple
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color purple with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-purple-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-purple-default"
+  data-slot="tag"
+>
+  purple
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color purple with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-purple-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-purple-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-purple-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  purple
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color purple with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-purple-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-purple-subtle"
+  data-slot="tag"
+>
+  purple
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color red with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-red-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-red-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-red-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  red
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color red with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-red-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-red-default"
+  data-slot="tag"
+>
+  red
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color red with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-red-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-red-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-red-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  red
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color red with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-red-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-red-subtle"
+  data-slot="tag"
+>
+  red
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color teal with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-teal-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-teal-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-teal-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  teal
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color teal with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-teal-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-teal-default"
+  data-slot="tag"
+>
+  teal
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color teal with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-teal-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-teal-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-teal-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  teal
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color teal with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-teal-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-teal-subtle"
+  data-slot="tag"
+>
+  teal
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color violet with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-violet-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-violet-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-violet-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  violet
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color violet with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-violet-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-violet-default"
+  data-slot="tag"
+>
+  violet
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color violet with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-violet-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-violet-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-violet-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  violet
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color violet with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-violet-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-violet-subtle"
+  data-slot="tag"
+>
+  violet
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color yellow with border preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-yellow-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-yellow-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-yellow-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  yellow
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color yellow with border preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-yellow-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-yellow-default"
+  data-slot="tag"
+>
+  yellow
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color yellow with filled preset and icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-yellow-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-yellow-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-yellow-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  yellow
+</div>
+`;
+
+exports[`Tag Snapshots > Color variants > matches snapshot for color yellow with filled preset and without icon 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-yellow-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-yellow-subtle"
+  data-slot="tag"
+>
+  yellow
+</div>
+`;
+
+exports[`Tag Snapshots > IconOnly variants > matches snapshot for iconOnly preset border 1`] = `
+<div
+  class="inline-flex items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap justify-center w-ws-12 px-0 rounded-ws-control-md border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Tag Snapshots > IconOnly variants > matches snapshot for iconOnly preset filled 1`] = `
+<div
+  class="inline-flex items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap justify-center w-ws-12 px-0 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Tag Snapshots > IconOnly variants > matches snapshot for iconOnly size lg 1`] = `
+<div
+  class="inline-flex items-center typography-label-strong-sm h-ws-13 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap justify-center w-ws-13 px-0 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-9 w-ws-9 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Tag Snapshots > IconOnly variants > matches snapshot for iconOnly size md 1`] = `
+<div
+  class="inline-flex items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap justify-center w-ws-12 px-0 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Tag Snapshots > IconOnly variants > matches snapshot for iconOnly size sm 1`] = `
+<div
+  class="inline-flex items-center typography-caption-strong-md h-ws-11 gap-ws-2 text-ws-non-semantic-brand-on-subtle whitespace-nowrap justify-center w-ws-11 px-0 rounded-ws-control-sm bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-7 w-ws-7 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size lg, preset border, shape rounded 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-13 gap-ws-3 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border rounded-ws-control-full whitespace-nowrap px-ws-6 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size lg, preset border, shape square 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-13 gap-ws-3 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-6 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size lg, preset filled, shape rounded 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-13 gap-ws-3 text-ws-non-semantic-brand-on-subtle rounded-ws-control-full whitespace-nowrap px-ws-6 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size lg, preset filled, shape square 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-13 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-6 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size md, preset border, shape rounded 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border rounded-ws-control-full whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size md, preset border, shape square 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size md, preset filled, shape rounded 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle rounded-ws-control-full whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size md, preset filled, shape square 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size sm, preset border, shape rounded 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-caption-strong-md h-ws-11 gap-ws-2 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border rounded-ws-control-full whitespace-nowrap px-ws-4 border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size sm, preset border, shape square 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-caption-strong-md h-ws-11 gap-ws-2 text-ws-non-semantic-brand-on-subtle bg-ws-static-highlight-subtle border whitespace-nowrap px-ws-4 rounded-ws-control-sm border-ws-non-semantic-brand-default"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size sm, preset filled, shape rounded 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-caption-strong-md h-ws-11 gap-ws-2 text-ws-non-semantic-brand-on-subtle rounded-ws-control-full whitespace-nowrap px-ws-4 bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Size, Preset, and Shape combinations > matches snapshot for size sm, preset filled, shape square 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-caption-strong-md h-ws-11 gap-ws-2 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-4 rounded-ws-control-sm bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > Truncate > matches snapshot for truncated tag 1`] = `
+<div
+  class="inline-flex items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle max-w-full min-w-0 px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle w-32"
+  data-slot="tag"
+>
+  <span
+    class="min-w-0 flex-1 truncate"
+  >
+    Very long text that should be truncated
+  </span>
+</div>
+`;
+
+exports[`Tag Snapshots > Truncate > matches snapshot for truncated tag with icon 1`] = `
+<div
+  class="inline-flex items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle max-w-full min-w-0 px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle w-32"
+  data-slot="tag"
+>
+  <span
+    class="min-w-0 flex-1 truncate"
+  >
+    <div
+      data-slot="tag-icon"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-brand-on-subtle"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+        />
+      </svg>
+    </div>
+    Very long text that should be truncated
+  </span>
+</div>
+`;
+
+exports[`Tag Snapshots > With Icon > matches snapshot for tag with icon size lg 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-13 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-6 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-9 w-ws-9 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > With Icon > matches snapshot for tag with icon size md 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-label-strong-sm h-ws-12 gap-ws-3 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-5 [&>[data-slot=tag-icon]:first-child]:-ml-ws-2 [&>span>[data-slot=tag-icon]:first-child]:-ml-ws-2 rounded-ws-control-md bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-8 w-ws-8 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  Label
+</div>
+`;
+
+exports[`Tag Snapshots > With Icon > matches snapshot for tag with icon size sm 1`] = `
+<div
+  class="inline-flex w-fit items-center typography-caption-strong-md h-ws-11 gap-ws-2 text-ws-non-semantic-brand-on-subtle whitespace-nowrap px-ws-4 rounded-ws-control-sm bg-ws-non-semantic-brand-subtle"
+  data-slot="tag"
+>
+  <div
+    data-slot="tag-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon h-ws-7 w-ws-7 text-ws-non-semantic-brand-on-subtle"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+      />
+    </svg>
+  </div>
+  Label
+</div>
+`;

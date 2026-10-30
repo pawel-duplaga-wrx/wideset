@@ -1,0 +1,12 @@
+# Cloudflare Workers static assets honour this file. The registry (public/r, written by
+# scripts/gen-registry.mjs) is regenerated on every deploy: a short cache, so a consumer never
+# installs a stale item after a release, and CORS, so browser tools can read it.
+/r/*
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
+
+# The Agent Skills endpoint (public/.well-known, written by scripts/gen-agent-skills.mjs): the same
+# deal, for the same reason.
+/.well-known/agent-skills/*
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *

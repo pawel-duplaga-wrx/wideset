@@ -1,0 +1,69 @@
+# Source files
+src/
+*.ts
+*.tsx
+!dist/**/*.d.ts
+
+# Development files
+.vscode/
+.idea/
+*.log
+*.local
+
+# Testing
+**/__tests__/
+**/__snapshots__/
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+vitest.config.ts
+jest.config.ts
+
+# Storybook
+.storybook/
+**/*.stories.tsx
+**/*.stories.ts
+
+# Build configs (keep dist)
+vite.config.ts
+tsconfig*.json
+postcss.config.cjs
+
+# Development tools
+.husky/
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Dependencies
+node_modules/
+
+# Misc
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Documentation (optional - you might want to include README.md)
+# README.md
+
+# Public assets (not needed in package)
+public/
+index.html
+
+# Pages and app-specific code
+pages/
+layout/
+routes.ts
+store.ts
+api.ts
+listenerMiddleware.ts
+main.tsx
+App.tsx
+

@@ -1,0 +1,14 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+
+# Carried over from the former Yarn `resolutions`. (`vite` was pinned here too; Astro needs
+# Vite 8 while the library builds on Vite 7, so each package resolves its own.)
+overrides:
+  jackspeak: 2.1.1
+
+# pnpm does not run dependency install scripts unless they are approved here.
+# Both ship a native binary that their postinstall step selects.
+allowBuilds:
+  '@swc/core': true
+  esbuild: true

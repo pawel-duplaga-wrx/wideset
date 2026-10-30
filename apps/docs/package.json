@@ -1,0 +1,37 @@
+{
+  "name": "@wideset/docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Wideset documentation site",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/generate.mjs && astro dev --port 4321",
+    "build": "node scripts/generate.mjs && astro build",
+    "preview": "astro preview --port 4322",
+    "typecheck": "node scripts/generate.mjs && astro check",
+    "lint": "eslint . --ext .ts,.tsx,.mjs",
+    "lint:fix": "pnpm lint --fix",
+    "generate": "node scripts/generate.mjs",
+    "test": "node scripts/generate.mjs && node --test scripts/generate.test.mjs"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^8.0.2",
+    "@astrojs/react": "^7.0.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@remixicon/react": "^4.9.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@wideset/react": "workspace:*",
+    "astro": "^7.3.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "shiki": "^3.23.0",
+    "tailwindcss": "^4.3.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "@wideset/skills": "workspace:*",
+    "typescript": "^5.9.3"
+  }
+}

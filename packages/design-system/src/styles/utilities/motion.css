@@ -1,0 +1,156 @@
+/* Wideset motion tokens. */
+
+:root {
+  /* Durations */
+  --ws-motion-duration-stagger: 40ms; /* per-item stagger offset */
+  --ws-motion-duration-micro: 80ms; /* press feedback, hover tint, shake segment */
+  --ws-motion-duration-quick: 150ms; /* close (menu, tooltip, modal), text swap, checkbox fill */
+  --ws-motion-duration-fast: 250ms; /* open (menu, modal), icon swap, tabs pill, indicator pop */
+  --ws-motion-duration-medium: 350ms; /* switch thumb, panel close, toast close */
+  --ws-motion-duration-slow: 400ms; /* sidebar collapse, panel open, skeleton reveal */
+  --ws-motion-duration-very-slow: 500ms; /* emphasis moments: success check, badge appear */
+
+  /* Easings */
+  --ws-motion-ease-smooth-out: cubic-bezier(0.22, 1, 0.36, 1); /* open, close, slide, resize */
+  --ws-motion-ease-in-out: ease-in-out; /* cross-fades: icon swap, text swap */
+  --ws-motion-ease-out: ease-out; /* tooltip, hover tint */
+  --ws-motion-ease-linear: linear; /* shimmer, spinners, shake envelope */
+  --ws-motion-ease-bounce: cubic-bezier(0.34, 1.36, 0.64, 1); /* pop-ins: badge, indicator */
+  --ws-motion-ease-bounce-strong: cubic-bezier(0.34, 1.85, 0.64, 1);
+
+  /* Distances */
+  --ws-motion-distance-micro: 4px; /* text swap */
+  --ws-motion-distance-small: 6px; /* error shake */
+  --ws-motion-distance-base: 8px; /* slide-in, badge reveal */
+  --ws-motion-distance-medium: 12px; /* text reveal */
+  --ws-motion-distance-large: 30px; /* check badge appear */
+
+  /* Scales */
+  --ws-motion-scale-large: 0.96; /* modal */
+  --ws-motion-scale-medium: 0.97; /* dropdown open */
+  --ws-motion-scale-small: 0.98; /* button press, tooltip */
+  --ws-motion-scale-tiny: 0.99; /* dropdown close */
+
+  /* Blur */
+  --ws-motion-blur-small: 2px; /* swaps, panel reveal */
+  --ws-motion-blur-medium: 3px; /* page slide, text reveal */
+  --ws-motion-blur-large: 8px; /* success check */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ws-motion-duration-stagger: 0ms;
+    --ws-motion-duration-micro: 1ms;
+    --ws-motion-duration-quick: 1ms;
+    --ws-motion-duration-fast: 1ms;
+    --ws-motion-duration-medium: 1ms;
+    --ws-motion-duration-slow: 1ms;
+    --ws-motion-duration-very-slow: 1ms;
+
+    --ws-motion-scale-large: 1;
+    --ws-motion-scale-medium: 1;
+    --ws-motion-scale-small: 1;
+    --ws-motion-scale-tiny: 1;
+  }
+}
+
+@keyframes ws-accordion-down {
+  from {
+    height: 0;
+    padding-block: 0;
+    opacity: 0;
+    filter: blur(var(--ws-motion-blur-small));
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes ws-accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+    filter: blur(0);
+  }
+  to {
+    height: 0;
+    padding-block: 0;
+    opacity: 0;
+    filter: blur(var(--ws-motion-blur-small));
+  }
+}
+
+@keyframes ws-field-shake {
+  0% {
+    transform: translateX(0);
+    animation-timing-function: var(--ws-motion-ease-smooth-out);
+  }
+  28.57% {
+    transform: translateX(var(--ws-motion-distance-small));
+    animation-timing-function: var(--ws-motion-ease-smooth-out);
+  }
+  57.14% {
+    transform: translateX(calc(var(--ws-motion-distance-small) * -1));
+    animation-timing-function: var(--ws-motion-ease-smooth-out);
+  }
+  78.57% {
+    transform: translateX(var(--ws-motion-distance-micro));
+    animation-timing-function: var(--ws-motion-ease-smooth-out);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes ws-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(calc(var(--ws-motion-distance-medium) * var(--ws-toast-direction, 1)))
+      scale(var(--ws-motion-scale-medium));
+    filter: blur(var(--ws-motion-blur-small));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes ws-toast-out {
+  to {
+    opacity: 0;
+    transform: translateY(calc(var(--ws-motion-distance-base) * var(--ws-toast-direction, 1)))
+      scale(var(--ws-motion-scale-medium));
+    filter: blur(var(--ws-motion-blur-small));
+  }
+}
+
+/*
+  Why these four utilities exist.
+
+  tailwindcss-animate builds classes like slide-in-from-top-X. Sliding in "from top" or
+  "from left" means moving by a negative value, and the plugin does exactly that:
+  it puts a minus in front of the value. For a plain number that works:
+  slide-in-from-top-4 → -1rem. But, our values are CSS variables, so the plugin produces
+  -var(--ws-size-4). In CSS that is not "minus the variable", it is an unknown function
+  called "-var". The browser drops the whole transform declaration as invalid, together
+  with the zoom in the same declaration, and the menu pops in with no animation.
+
+  The fix: four utilities of our own for the four directions that need a minus, negating
+  the right way, calc(var(...) * -1). "From bottom" and "to right" need no minus, so the
+  plugin's slide-in-from-bottom-ws-N and similar classes keep working and stay in use.
+*/
+@utility ws-slide-in-from-top-* {
+  --tw-enter-translate-y: calc(--value(--spacing-ws-*) * -1);
+}
+@utility ws-slide-in-from-left-* {
+  --tw-enter-translate-x: calc(--value(--spacing-ws-*) * -1);
+}
+@utility ws-slide-out-to-top-* {
+  --tw-exit-translate-y: calc(--value(--spacing-ws-*) * -1);
+}
+@utility ws-slide-out-to-left-* {
+  --tw-exit-translate-x: calc(--value(--spacing-ws-*) * -1);
+}

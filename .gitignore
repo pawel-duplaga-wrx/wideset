@@ -1,0 +1,77 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+storybook-static
+
+# Local env
+.env
+.env.*
+
+# Editor and AI-agent directories: ignore personal state, keep shared config
+.vscode/*
+!.vscode/extensions.json
+!.vscode/mcp.json
+.cursor/*
+!.cursor/mcp.json
+!.cursor/rules
+.claude/*
+!.claude/skills
+!.claude/settings.json
+!.claude/launch.json
+!.claude/rules
+!.claude/agents
+CLAUDE.local.md
+.gemini/*
+!.gemini/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local env — never commit (contains FIGMA_TOKEN)
+.env
+.env.local
+.env.*.local
+
+# Turborepo cache
+.turbo
+
+# Generated shadcn registry (pnpm build:registry); served with Storybook under /r
+packages/design-system/public/r
+
+# Scaffolding playground: a real consumer app. The components the shadcn CLI scaffolded into it
+# (src/components/ui/wideset, src/lib/wideset, src/styles) are committed, as they would be in a
+# consumer's repo.
+packages/design-system/playground/node_modules
+packages/design-system/playground/dist
+
+# Astro
+.astro
+
+# Docs site: generated from the library before dev, build and typecheck
+apps/docs/src/generated
+apps/docs/public/r
+apps/docs/public/.well-known
+
+# Agent scratch files and eval run records
+.ai
+packages/skills/evals/results
+
+# wrangler state (local dev, dry runs)
+.wrangler

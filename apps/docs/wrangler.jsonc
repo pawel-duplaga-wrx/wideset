@@ -1,0 +1,32 @@
+// The documentation site, with the shadcn registry under /r, as a Cloudflare Worker serving
+// static assets. Deployed from GitHub Actions (the deploy job in .github/workflows/build.yaml),
+// not from the Cloudflare dashboard's Git integration:
+//   main    → this Worker (production; custom domain wideset-docs.widelab.workers.dev)
+//   develop → the "develop" environment, a second Worker named wideset-docs-develop
+//   PRs     → `wrangler versions upload --preview-alias <branch>` on this Worker, which gives
+//             https://<branch>-wideset-docs.<account>.workers.dev
+// Astro writes a 404.html, so unknown paths (a missing registry item too) answer with a 404 status.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wideset-docs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash",
+  },
+  "env": {
+    "develop": {
+      "name": "wideset-docs-develop",
+      "workers_dev": true,
+      "preview_urls": true,
+      "assets": {
+        "directory": "./dist",
+        "not_found_handling": "404-page",
+        "html_handling": "auto-trailing-slash",
+      },
+    },
+  },
+}

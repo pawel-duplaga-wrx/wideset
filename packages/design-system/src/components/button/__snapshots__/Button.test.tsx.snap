@@ -1,0 +1,1025 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button Snapshots > Variant: danger > Preset: border > matches snapshot for border lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 border-ws-dynamic-danger-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:border-ws-dynamic-danger-hover hover:text-ws-dynamic-danger-hover active:border-ws-dynamic-danger-pressed active:text-ws-dynamic-danger-pressed disabled:border-ws-dynamic-danger-disabled disabled:text-ws-dynamic-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: border > matches snapshot for border md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-danger-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:border-ws-dynamic-danger-hover hover:text-ws-dynamic-danger-hover active:border-ws-dynamic-danger-pressed active:text-ws-dynamic-danger-pressed disabled:border-ws-dynamic-danger-disabled disabled:text-ws-dynamic-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: border > matches snapshot for border sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-danger-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:border-ws-dynamic-danger-hover hover:text-ws-dynamic-danger-hover active:border-ws-dynamic-danger-pressed active:text-ws-dynamic-danger-pressed disabled:border-ws-dynamic-danger-disabled disabled:text-ws-dynamic-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: border > matches snapshot for border xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 border-ws-dynamic-danger-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:border-ws-dynamic-danger-hover hover:text-ws-dynamic-danger-hover active:border-ws-dynamic-danger-pressed active:text-ws-dynamic-danger-pressed disabled:border-ws-dynamic-danger-disabled disabled:text-ws-dynamic-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: filled > matches snapshot for filled lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-danger-default shadow-ws-controls-control text-ws-dynamic-on-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-pressed disabled:bg-ws-dynamic-danger-disabled disabled:text-ws-dynamic-on-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: filled > matches snapshot for filled md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-danger-default shadow-ws-controls-control text-ws-dynamic-on-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-pressed disabled:bg-ws-dynamic-danger-disabled disabled:text-ws-dynamic-on-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: filled > matches snapshot for filled sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-danger-default shadow-ws-controls-control text-ws-dynamic-on-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-pressed disabled:bg-ws-dynamic-danger-disabled disabled:text-ws-dynamic-on-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: filled > matches snapshot for filled xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-danger-default shadow-ws-controls-control text-ws-dynamic-on-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-pressed disabled:bg-ws-dynamic-danger-disabled disabled:text-ws-dynamic-on-danger-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: ghost > matches snapshot for ghost lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-danger-alpha-default text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-alpha-hover hover:text-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-alpha-pressed active:text-ws-dynamic-danger-pressed disabled:text-ws-dynamic-danger-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: ghost > matches snapshot for ghost md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-danger-alpha-default text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-alpha-hover hover:text-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-alpha-pressed active:text-ws-dynamic-danger-pressed disabled:text-ws-dynamic-danger-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: ghost > matches snapshot for ghost sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-danger-alpha-default text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-alpha-hover hover:text-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-alpha-pressed active:text-ws-dynamic-danger-pressed disabled:text-ws-dynamic-danger-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: danger > Preset: ghost > matches snapshot for ghost xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-danger-alpha-default text-ws-dynamic-danger-default outline-ws-dynamic-danger-strong-default hover:bg-ws-dynamic-danger-alpha-hover hover:text-ws-dynamic-danger-hover active:bg-ws-dynamic-danger-alpha-pressed active:text-ws-dynamic-danger-pressed disabled:text-ws-dynamic-danger-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: border > matches snapshot for border lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 border-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 focus:not-active:bg-ws-static-inverse-alpha-subtle hover:border-ws-dynamic-inverse-hover hover:text-ws-dynamic-inverse-hover active:border-ws-dynamic-inverse-pressed active:text-ws-dynamic-inverse-pressed disabled:border-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: border > matches snapshot for border md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 focus:not-active:bg-ws-static-inverse-alpha-subtle hover:border-ws-dynamic-inverse-hover hover:text-ws-dynamic-inverse-hover active:border-ws-dynamic-inverse-pressed active:text-ws-dynamic-inverse-pressed disabled:border-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: border > matches snapshot for border sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 focus:not-active:bg-ws-static-inverse-alpha-subtle hover:border-ws-dynamic-inverse-hover hover:text-ws-dynamic-inverse-hover active:border-ws-dynamic-inverse-pressed active:text-ws-dynamic-inverse-pressed disabled:border-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: border > matches snapshot for border xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 border-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 focus:not-active:bg-ws-static-inverse-alpha-subtle hover:border-ws-dynamic-inverse-hover hover:text-ws-dynamic-inverse-hover active:border-ws-dynamic-inverse-pressed active:text-ws-dynamic-inverse-pressed disabled:border-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: filled > matches snapshot for filled lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-on-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-pressed disabled:bg-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-on-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: filled > matches snapshot for filled md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-on-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-pressed disabled:bg-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-on-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: filled > matches snapshot for filled sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-on-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-pressed disabled:bg-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-on-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: filled > matches snapshot for filled xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-on-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-pressed disabled:bg-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-on-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: ghost > matches snapshot for ghost lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-inverse-alpha-default text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-alpha-hover hover:text-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-alpha-pressed active:text-ws-dynamic-inverse-pressed disabled:text-ws-dynamic-inverse-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: ghost > matches snapshot for ghost md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-inverse-alpha-default text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-alpha-hover hover:text-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-alpha-pressed active:text-ws-dynamic-inverse-pressed disabled:text-ws-dynamic-inverse-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: ghost > matches snapshot for ghost sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-inverse-alpha-default text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-alpha-hover hover:text-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-alpha-pressed active:text-ws-dynamic-inverse-pressed disabled:text-ws-dynamic-inverse-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: inverse > Preset: ghost > matches snapshot for ghost xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-inverse-alpha-default text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-alpha-hover hover:text-ws-dynamic-inverse-hover active:bg-ws-dynamic-inverse-alpha-pressed active:text-ws-dynamic-inverse-pressed disabled:text-ws-dynamic-inverse-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: border > matches snapshot for border lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 border-ws-dynamic-primary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-primary-hover hover:text-ws-dynamic-primary-hover active:border-ws-dynamic-primary-pressed active:text-ws-dynamic-primary-pressed disabled:border-ws-dynamic-primary-disabled disabled:text-ws-dynamic-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: border > matches snapshot for border md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-primary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-primary-hover hover:text-ws-dynamic-primary-hover active:border-ws-dynamic-primary-pressed active:text-ws-dynamic-primary-pressed disabled:border-ws-dynamic-primary-disabled disabled:text-ws-dynamic-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: border > matches snapshot for border sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-primary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-primary-hover hover:text-ws-dynamic-primary-hover active:border-ws-dynamic-primary-pressed active:text-ws-dynamic-primary-pressed disabled:border-ws-dynamic-primary-disabled disabled:text-ws-dynamic-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: border > matches snapshot for border xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 border-ws-dynamic-primary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-primary-hover hover:text-ws-dynamic-primary-hover active:border-ws-dynamic-primary-pressed active:text-ws-dynamic-primary-pressed disabled:border-ws-dynamic-primary-disabled disabled:text-ws-dynamic-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: filled > matches snapshot for filled lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: filled > matches snapshot for filled md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: filled > matches snapshot for filled sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: filled > matches snapshot for filled xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: ghost > matches snapshot for ghost lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-primary-alpha-default text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-alpha-hover hover:text-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-alpha-pressed active:text-ws-dynamic-primary-pressed disabled:text-ws-dynamic-primary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: ghost > matches snapshot for ghost md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-alpha-default text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-alpha-hover hover:text-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-alpha-pressed active:text-ws-dynamic-primary-pressed disabled:text-ws-dynamic-primary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: ghost > matches snapshot for ghost sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-primary-alpha-default text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-alpha-hover hover:text-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-alpha-pressed active:text-ws-dynamic-primary-pressed disabled:text-ws-dynamic-primary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: primary > Preset: ghost > matches snapshot for ghost xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-primary-alpha-default text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-alpha-hover hover:text-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-alpha-pressed active:text-ws-dynamic-primary-pressed disabled:text-ws-dynamic-primary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: border > matches snapshot for border lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: border > matches snapshot for border md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: border > matches snapshot for border sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: border > matches snapshot for border xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: filled > matches snapshot for filled lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-secondary-default shadow-ws-controls-control text-ws-dynamic-on-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-hover hover:text-ws-dynamic-on-secondary-hover active:bg-ws-dynamic-secondary-pressed active:text-ws-dynamic-on-secondary-pressed disabled:bg-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: filled > matches snapshot for filled md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-secondary-default shadow-ws-controls-control text-ws-dynamic-on-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-hover hover:text-ws-dynamic-on-secondary-hover active:bg-ws-dynamic-secondary-pressed active:text-ws-dynamic-on-secondary-pressed disabled:bg-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: filled > matches snapshot for filled sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-secondary-default shadow-ws-controls-control text-ws-dynamic-on-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-hover hover:text-ws-dynamic-on-secondary-hover active:bg-ws-dynamic-secondary-pressed active:text-ws-dynamic-on-secondary-pressed disabled:bg-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: filled > matches snapshot for filled xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-secondary-default shadow-ws-controls-control text-ws-dynamic-on-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-hover hover:text-ws-dynamic-on-secondary-hover active:bg-ws-dynamic-secondary-pressed active:text-ws-dynamic-on-secondary-pressed disabled:bg-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: ghost > matches snapshot for ghost lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: ghost > matches snapshot for ghost md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: ghost > matches snapshot for ghost sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: secondary > Preset: ghost > matches snapshot for ghost xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: border > matches snapshot for border lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 border-ws-dynamic-success-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:border-ws-dynamic-success-hover hover:text-ws-dynamic-success-hover active:border-ws-dynamic-success-pressed active:text-ws-dynamic-success-pressed disabled:border-ws-dynamic-success-disabled disabled:text-ws-dynamic-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: border > matches snapshot for border md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-success-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:border-ws-dynamic-success-hover hover:text-ws-dynamic-success-hover active:border-ws-dynamic-success-pressed active:text-ws-dynamic-success-pressed disabled:border-ws-dynamic-success-disabled disabled:text-ws-dynamic-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: border > matches snapshot for border sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-success-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:border-ws-dynamic-success-hover hover:text-ws-dynamic-success-hover active:border-ws-dynamic-success-pressed active:text-ws-dynamic-success-pressed disabled:border-ws-dynamic-success-disabled disabled:text-ws-dynamic-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: border > matches snapshot for border xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 border-ws-dynamic-success-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:border-ws-dynamic-success-hover hover:text-ws-dynamic-success-hover active:border-ws-dynamic-success-pressed active:text-ws-dynamic-success-pressed disabled:border-ws-dynamic-success-disabled disabled:text-ws-dynamic-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: filled > matches snapshot for filled lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-success-default shadow-ws-controls-control text-ws-dynamic-on-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed disabled:bg-ws-dynamic-success-disabled disabled:text-ws-dynamic-on-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: filled > matches snapshot for filled md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-success-default shadow-ws-controls-control text-ws-dynamic-on-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed disabled:bg-ws-dynamic-success-disabled disabled:text-ws-dynamic-on-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: filled > matches snapshot for filled sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-success-default shadow-ws-controls-control text-ws-dynamic-on-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed disabled:bg-ws-dynamic-success-disabled disabled:text-ws-dynamic-on-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: filled > matches snapshot for filled xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-success-default shadow-ws-controls-control text-ws-dynamic-on-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-hover active:bg-ws-dynamic-success-pressed disabled:bg-ws-dynamic-success-disabled disabled:text-ws-dynamic-on-success-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: ghost > matches snapshot for ghost lg 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-md h-ws-forms-lg gap-ws-4 rounded-ws-control-xl px-ws-9 bg-ws-dynamic-success-alpha-default text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-alpha-hover hover:text-ws-dynamic-success-hover active:bg-ws-dynamic-success-alpha-pressed active:text-ws-dynamic-success-pressed disabled:text-ws-dynamic-success-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: ghost > matches snapshot for ghost md 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-success-alpha-default text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-alpha-hover hover:text-ws-dynamic-success-hover active:bg-ws-dynamic-success-alpha-pressed active:text-ws-dynamic-success-pressed disabled:text-ws-dynamic-success-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: ghost > matches snapshot for ghost sm 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 bg-ws-dynamic-success-alpha-default text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-alpha-hover hover:text-ws-dynamic-success-hover active:bg-ws-dynamic-success-alpha-pressed active:text-ws-dynamic-success-pressed disabled:text-ws-dynamic-success-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > Variant: success > Preset: ghost > matches snapshot for ghost xs 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-caption-strong-md h-ws-forms-xs gap-ws-2 rounded-ws-control-md px-ws-4 bg-ws-dynamic-success-alpha-default text-ws-dynamic-success-default outline-ws-dynamic-success-strong-default hover:bg-ws-dynamic-success-alpha-hover hover:text-ws-dynamic-success-hover active:bg-ws-dynamic-success-alpha-pressed active:text-ws-dynamic-success-pressed disabled:text-ws-dynamic-success-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With multiple lines > matches snapshot for border preset with multiple lines 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 border-ws-dynamic-primary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-primary-hover hover:text-ws-dynamic-primary-hover active:border-ws-dynamic-primary-pressed active:text-ws-dynamic-primary-pressed disabled:border-ws-dynamic-primary-disabled disabled:text-ws-dynamic-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) max-w-xs"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Save and continue editing
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With multiple lines > matches snapshot for button with icon and multiple lines 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) max-w-xs"
+  data-slot="button"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon shrink-0 h-ws-11 w-ws-11"
+    data-slot="button-icon"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M13 19.9C15.2822 19.4367 17 17.419 17 15V12C17 11.299 16.8564 10.6219 16.5846 10H7.41538C7.14358 10.6219 7 11.299 7 12V15C7 17.419 8.71776 19.4367 11 19.9V14H13V19.9ZM5.5358 17.6907C5.19061 16.8623 5 15.9534 5 15H2V13H5V12C5 11.3573 5.08661 10.7348 5.2488 10.1436L3.0359 8.86602L4.0359 7.13397L6.05636 8.30049C6.11995 8.19854 6.18609 8.09835 6.25469 8H17.7453C17.8139 8.09835 17.88 8.19854 17.9436 8.30049L19.9641 7.13397L20.9641 8.86602L18.7512 10.1436C18.9134 10.7348 19 11.3573 19 12V13H22V15H19C19 15.9534 18.8094 16.8623 18.4642 17.6907L20.9641 19.134L19.9641 20.866L17.4383 19.4077C16.1549 20.9893 14.1955 22 12 22C9.80453 22 7.84512 20.9893 6.56171 19.4077L4.0359 20.866L3.0359 19.134L5.5358 17.6907ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6H8Z"
+    />
+  </svg>
+  <span
+    class="px-ws-2"
+  >
+    Report issue and send feedback
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With multiple lines > matches snapshot for button with three lines of text 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) max-w-xs"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Save all changes and publish
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With multiple lines > matches snapshot for button with two lines of text 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) max-w-xs"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Save and continue editing
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With multiple lines > matches snapshot for ghost preset with multiple lines 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-alpha-default text-ws-dynamic-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-alpha-hover hover:text-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-alpha-pressed active:text-ws-dynamic-primary-pressed disabled:text-ws-dynamic-primary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) max-w-xs"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Save and continue editing this document
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With sub-components > matches snapshot with icon 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon shrink-0 h-ws-11 w-ws-11"
+    data-slot="button-icon"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M13 19.9C15.2822 19.4367 17 17.419 17 15V12C17 11.299 16.8564 10.6219 16.5846 10H7.41538C7.14358 10.6219 7 11.299 7 12V15C7 17.419 8.71776 19.4367 11 19.9V14H13V19.9ZM5.5358 17.6907C5.19061 16.8623 5 15.9534 5 15H2V13H5V12C5 11.3573 5.08661 10.7348 5.2488 10.1436L3.0359 8.86602L4.0359 7.13397L6.05636 8.30049C6.11995 8.19854 6.18609 8.09835 6.25469 8H17.7453C17.8139 8.09835 17.88 8.19854 17.9436 8.30049L19.9641 7.13397L20.9641 8.86602L18.7512 10.1436C18.9134 10.7348 19 11.3573 19 12V13H22V15H19C19 15.9534 18.8094 16.8623 18.4642 17.6907L20.9641 19.134L19.9641 20.866L17.4383 19.4077C16.1549 20.9893 14.1955 22 12 22C9.80453 22 7.84512 20.9893 6.56171 19.4077L4.0359 20.866L3.0359 19.134L5.5358 17.6907ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6H8Z"
+    />
+  </svg>
+  <span
+    class="px-ws-2"
+  >
+    Button with Icon
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With sub-components > matches snapshot with icon and truncated text 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon shrink-0 h-ws-11 w-ws-11"
+    data-slot="button-icon"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M13 19.9C15.2822 19.4367 17 17.419 17 15V12C17 11.299 16.8564 10.6219 16.5846 10H7.41538C7.14358 10.6219 7 11.299 7 12V15C7 17.419 8.71776 19.4367 11 19.9V14H13V19.9ZM5.5358 17.6907C5.19061 16.8623 5 15.9534 5 15H2V13H5V12C5 11.3573 5.08661 10.7348 5.2488 10.1436L3.0359 8.86602L4.0359 7.13397L6.05636 8.30049C6.11995 8.19854 6.18609 8.09835 6.25469 8H17.7453C17.8139 8.09835 17.88 8.19854 17.9436 8.30049L19.9641 7.13397L20.9641 8.86602L18.7512 10.1436C18.9134 10.7348 19 11.3573 19 12V13H22V15H19C19 15.9534 18.8094 16.8623 18.4642 17.6907L20.9641 19.134L19.9641 20.866L17.4383 19.4077C16.1549 20.9893 14.1955 22 12 22C9.80453 22 7.84512 20.9893 6.56171 19.4077L4.0359 20.866L3.0359 19.134L5.5358 17.6907ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6H8Z"
+    />
+  </svg>
+  <span
+    class="px-ws-2 min-w-0 truncate"
+    data-slot="button-truncated-text"
+  >
+    Button with icon and truncated text
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > With sub-components > matches snapshot with truncated text 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  type="button"
+>
+  <span
+    class="px-ws-2 min-w-0 truncate"
+    data-slot="button-truncated-text"
+  >
+    Long text that should be truncated
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > matches snapshot for disabled button 1`] = `
+<button
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  disabled=""
+  type="button"
+>
+  <span
+    class="px-ws-2"
+  >
+    Disabled Button
+  </span>
+</button>
+`;
+
+exports[`Button Snapshots > matches snapshot with asChild as anchor 1`] = `
+<a
+  class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-md gap-ws-3 rounded-ws-control-lg px-ws-7 bg-ws-dynamic-primary-default shadow-ws-controls-control text-ws-dynamic-on-primary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed disabled:bg-ws-dynamic-primary-disabled disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="button"
+  href="/test"
+>
+  Link Button
+</a>
+`;

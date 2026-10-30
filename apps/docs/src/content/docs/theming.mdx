@@ -1,0 +1,255 @@
+---
+title: Theming
+description: Re-brand with tokens, switch to dark, tweak one instance, change structure.
+section: Guide
+---
+
+Everything visual in Wideset resolves from design tokens, so most customization is overriding
+CSS variables: no build step, no theme provider, just the cascade.
+
+## How tokens are layered
+
+| Layer     | Example                                         | What it is                                                                     |
+| --------- | ----------------------------------------------- | ------------------------------------------------------------------------------ |
+| Primitive | `--ws-colors-light-brand-600`                   | Raw values: colour ramps, spacing, radii. Components never read them directly. |
+| Dynamic   | `--ws-dynamic-fill-primary-default`             | Roles that point at primitives and flip in dark mode.                          |
+| Semantic  | `--background-color-ws-dynamic-primary-default` | What a class like `bg-ws-dynamic-primary-default` reads. Components use these. |
+
+Each layer references the one below, so overriding a primitive changes every role and class
+built on it. See [Colors](/docs/colors), [Typography](/docs/typography), [Spacing](/docs/spacing),
+[Radius](/docs/radius) and [Elevation](/docs/elevation) for each family, and [Tokens](/docs/tokens)
+for every token in one list.
+
+## Three ways to customize
+
+| Approach      | Scope        | Use it when                                                       |
+| ------------- | ------------ | ----------------------------------------------------------------- |
+| Design tokens | Whole app    | You match a brand: colours, radius, typography.                   |
+| `className`   | One instance | You need a one-off tweak: layout, spacing, an exceptional colour. |
+| Composition   | One instance | You change a component's structure or the element it renders.     |
+
+### 1. Design tokens
+
+Redefine tokens in your own stylesheet and load it after Wideset's:
+
+```tsx
+import '@wideset/react/styles';
+import './theme.css'; // your overrides, last
+```
+
+Override as high up the chain as covers what you want. Start with primitives for a full
+re-brand, go to dynamic roles to change one role and keep its dark-mode behaviour, and to
+semantic tokens only for a single utility.
+
+#### Re-brand
+
+The brand colour is two ramps of 11 steps, one per theme: light mode reads
+`--ws-colors-light-brand-*`, dark mode reads `--ws-colors-dark-brand-*`. Replace both, or dark
+mode keeps the old brand. The tinted brand backgrounds (`bg-ws-dynamic-primary-alpha-*`, in
+Button, Tabs, Calendar, Table and others) come from a few `*-brand-opacity-*` tokens, which hold
+fixed colours rather than referencing the ramp, so derive them from your new steps with
+`color-mix()`:
+
+```css
+/* theme.css: generate the two ramps with any palette tool, then paste them here */
+:root {
+  /* Light theme: 100 is the lightest step, 1100 the darkest. Primary fills use 600. */
+  --ws-colors-light-brand-100: #fff0f5;
+  --ws-colors-light-brand-200: #ffd6e5;
+  --ws-colors-light-brand-300: #ffadc9;
+  --ws-colors-light-brand-400: #ff7aa5;
+  --ws-colors-light-brand-500: #f6417f;
+  --ws-colors-light-brand-600: #e0115f;
+  --ws-colors-light-brand-700: #c20e53;
+  --ws-colors-light-brand-800: #a30c46;
+  --ws-colors-light-brand-900: #85093a;
+  --ws-colors-light-brand-1000: #66072c;
+  --ws-colors-light-brand-1100: #48051f;
+
+  /* Dark theme: 100 is the lightest step here too. Primary fills use 600, hover 500. */
+  --ws-colors-dark-brand-100: #ffe3ee;
+  --ws-colors-dark-brand-200: #ffc2d8;
+  --ws-colors-dark-brand-300: #ff94ba;
+  --ws-colors-dark-brand-400: #fa6699;
+  --ws-colors-dark-brand-500: #f03d7d;
+  --ws-colors-dark-brand-600: #d61a62;
+  --ws-colors-dark-brand-700: #b31452;
+  --ws-colors-dark-brand-800: #8c1042;
+  --ws-colors-dark-brand-900: #660c31;
+  --ws-colors-dark-brand-1000: #4a0a25;
+  --ws-colors-dark-brand-1100: #33081a;
+
+  /* Tints, derived so they follow the ramps. */
+  --ws-colors-light-brand-opacity-600-0: color-mix(
+    in srgb,
+    var(--ws-colors-light-brand-600) 0%,
+    transparent
+  );
+  --ws-colors-light-brand-opacity-600-4: color-mix(
+    in srgb,
+    var(--ws-colors-light-brand-600) 4%,
+    transparent
+  );
+  --ws-colors-light-brand-opacity-600-8: color-mix(
+    in srgb,
+    var(--ws-colors-light-brand-600) 8%,
+    transparent
+  );
+  --ws-colors-light-brand-opacity-600-12: color-mix(
+    in srgb,
+    var(--ws-colors-light-brand-600) 12%,
+    transparent
+  );
+  --ws-colors-light-brand-opacity-600-16: color-mix(
+    in srgb,
+    var(--ws-colors-light-brand-600) 16%,
+    transparent
+  );
+  --ws-colors-dark-brand-opacity-500-0: color-mix(
+    in srgb,
+    var(--ws-colors-dark-brand-500) 0%,
+    transparent
+  );
+  --ws-colors-dark-brand-opacity-500-8: color-mix(
+    in srgb,
+    var(--ws-colors-dark-brand-500) 8%,
+    transparent
+  );
+  --ws-colors-dark-brand-opacity-500-16: color-mix(
+    in srgb,
+    var(--ws-colors-dark-brand-500) 16%,
+    transparent
+  );
+  --ws-colors-dark-brand-opacity-500-24: color-mix(
+    in srgb,
+    var(--ws-colors-dark-brand-500) 24%,
+    transparent
+  );
+  --ws-colors-dark-brand-opacity-500-32: color-mix(
+    in srgb,
+    var(--ws-colors-dark-brand-500) 32%,
+    transparent
+  );
+}
+```
+
+All of these are defined on `:root`, the dark ones included, so this one block re-brands both
+themes. Keep the step order: text and borders on brand surfaces pick lighter or darker steps
+by number, so a ramp that runs the other way loses contrast.
+
+#### One role
+
+To change only the primary button fill and leave the palette alone, set the dynamic role, once
+per theme:
+
+```css
+:root {
+  --ws-dynamic-fill-primary-default: #e0115f;
+  --ws-dynamic-fill-primary-hover: #c20e53;
+  --ws-dynamic-fill-primary-pressed: #a30c46;
+}
+.dark {
+  --ws-dynamic-fill-primary-default: #d61a62;
+  --ws-dynamic-fill-primary-hover: #f03d7d;
+  --ws-dynamic-fill-primary-pressed: #b31452;
+}
+```
+
+Radius and spacing are tokens too:
+
+```css
+:root {
+  --radius-ws-container-md: 1rem;
+  --radius-ws-control-md: 0.625rem;
+}
+```
+
+### Dark mode
+
+Dark values live under a `.dark` selector. Add the class to `<html>`, or to any wrapper to theme
+only a subtree. The package ships the tokens, not a toggle; switching is yours:
+
+```tsx
+document.documentElement.classList.toggle('dark');
+```
+
+Override dark values under the same selector:
+
+```css
+.dark {
+  --ws-dynamic-fill-primary-default: #ff6392;
+  --ws-dynamic-fill-primary-hover: #ff85ab;
+}
+```
+
+### Font
+
+Components inherit the font on `body`, so setting your brand font there is usually all you
+need. `--font-ws-sans` backs the `font-ws-heading` and `font-ws-body` classes, for text that
+should keep Wideset's own stack:
+
+```css
+:root {
+  --font-ws-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+}
+```
+
+### 2. className
+
+Every component forwards `className` to its root and merges it with
+[tailwind-merge](https://github.com/dcastil/tailwind-merge), so your classes win any conflict
+without `!important`:
+
+```tsx
+<Button preset="filled" className="rounded-full px-ws-8">
+  Fully rounded
+</Button>
+```
+
+Keep it on tokens so the instance still follows the theme and dark mode. When no class exists,
+reference a token with Tailwind's arbitrary syntax rather than a hex value:
+
+```tsx
+<div className="bg-ws-dynamic-secondary-default rounded-ws-container-lg" />
+<div className="bg-(--ws-colors-light-brand-600)" />
+```
+
+For anything app-wide, override the token instead of repeating a class.
+
+### 3. Composition
+
+Components expose their parts, so you choose which appear and in what order:
+
+```tsx
+<Accordion type="single" collapsible>
+  <Accordion.Item value="shipping">
+    <Accordion.Trigger>
+      <Accordion.Icon />
+      <Accordion.Title>Shipping</Accordion.Title>
+      <Accordion.Caption>Delivery times and costs</Accordion.Caption>
+    </Accordion.Trigger>
+    <Accordion.Content>Orders ship within 2–3 business days.</Accordion.Content>
+  </Accordion.Item>
+</Accordion>
+```
+
+Many components take `asChild` (Radix `Slot`): they hand their styling and behaviour to your
+element. A button that is a link:
+
+```tsx
+<Button asChild preset="filled">
+  <a href="/pricing">See pricing</a>
+</Button>
+```
+
+## Which one?
+
+| Goal                                  | Use                                          |
+| ------------------------------------- | -------------------------------------------- |
+| Match the whole app to a brand colour | Override `--ws-colors-*` or `--ws-dynamic-*` |
+| Round every control a little more     | Override `--radius-ws-*`                     |
+| Use your brand font                   | Set `font-family` on `body`                  |
+| Style dark mode differently           | Override tokens under `.dark`                |
+| Nudge one element's spacing or radius | A token-backed `className`                   |
+| Render a component as another element | `asChild`                                    |
+| Add, remove or reorder internal parts | Compose the sub-components                   |

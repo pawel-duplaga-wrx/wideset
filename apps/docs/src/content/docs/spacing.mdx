@@ -1,0 +1,57 @@
+---
+title: Spacing
+description: The ws spacing scale, the control and form sizes, and how they map to classes.
+section: Foundations
+---
+
+import SpacingScale from '../../components/foundations/SpacingScale.astro';
+
+Spacing is one numbered scale, `--spacing-ws-0` to `--spacing-ws-28`. Tailwind builds every
+spacing utility from it, so the same step works for padding, margin, gap, width, height and
+inset: `p-ws-4`, `gap-ws-2`, `mt-ws-6`, `w-ws-12`.
+
+```tsx
+<div className="flex flex-col gap-ws-3 p-ws-5">…</div>
+```
+
+The numbers are steps, not multiples of a base unit. `p-ws-4` is 0.375rem; Tailwind's own
+`p-4` is 1rem. Both scales are available side by side, so a missing `-ws-` still compiles and
+gives a different size. Components use the `ws` scale.
+
+## Scale
+
+Each step points at a `--ws-space-*` primitive. Override the step (`--spacing-ws-4`) to change
+one class, or the primitive to change every token built on it. The bars are drawn with the
+token, so an override shows here.
+
+<SpacingScale of="scale" />
+
+## Control sizes
+
+`--spacing-ws-control-*` is the square size of small parts inside a component: icons,
+checkbox and radio boxes, avatars. Components use them as `size-ws-control-md`,
+`w-ws-control-sm` or `h-ws-control-sm`.
+
+<SpacingScale of="control" />
+
+## Form sizes
+
+`--spacing-ws-forms-*` is the height of a form control or button at each `size`: `xs`, `sm`,
+`md`, `lg`. Use `h-ws-forms-md` to line up your own element with a medium input; components
+also use these for square widths (`w-ws-forms-sm` on an icon button).
+
+<SpacingScale of="forms" />
+
+## Change it
+
+The tokens are CSS variables, so a stylesheet loaded after Wideset's changes every class that
+reads them:
+
+```css
+:root {
+  --spacing-ws-forms-md: var(--ws-space-900); /* taller medium inputs and buttons */
+}
+```
+
+See [Theming](/docs/theming) for where to load overrides, and [Tokens](/docs/tokens) for every
+variable in one list.

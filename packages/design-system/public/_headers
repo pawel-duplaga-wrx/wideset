@@ -1,0 +1,5 @@
+# Cloudflare Pages headers. Registry JSON is regenerated on every deploy; keeps cache short so
+# a consumer never installs a stale item after a release.
+/r/*
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *

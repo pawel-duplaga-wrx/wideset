@@ -1,0 +1,385 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Toast Snapshots > matches snapshot for each status (no action, no dismiss) > Toast error 1`] = `
+<div
+  class="inline-flex w-full items-center rounded-ws-container-md shadow-ws-medium min-h-ws-18 py-ws-5 pr-ws-5 pl-ws-9 bg-ws-semantic-inverse-negative text-ws-semantic-on-inverse-negative"
+  data-slot="toast"
+  role="alert"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon mr-ws-5 size-ws-11"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center justify-between"
+  >
+    <div
+      class="typography-label-strong-sm"
+      data-slot="toast-message"
+    >
+      A 
+      error
+       message
+    </div>
+  </div>
+  <div
+    class="ml-auto flex items-center leading-0"
+  />
+</div>
+`;
+
+exports[`Toast Snapshots > matches snapshot for each status (no action, no dismiss) > Toast info 1`] = `
+<div
+  class="inline-flex w-full items-center rounded-ws-container-md shadow-ws-medium min-h-ws-18 py-ws-5 pr-ws-5 pl-ws-9 bg-ws-semantic-inverse-info text-ws-semantic-on-inverse-info"
+  data-slot="toast"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon mr-ws-5 size-ws-11"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11V17H13V11H11ZM11 7V9H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center justify-between"
+  >
+    <div
+      class="typography-label-strong-sm"
+      data-slot="toast-message"
+    >
+      A 
+      info
+       message
+    </div>
+  </div>
+  <div
+    class="ml-auto flex items-center leading-0"
+  />
+</div>
+`;
+
+exports[`Toast Snapshots > matches snapshot for each status (no action, no dismiss) > Toast neutral 1`] = `
+<div
+  class="inline-flex w-full items-center rounded-ws-container-md shadow-ws-medium min-h-ws-18 py-ws-5 pr-ws-5 pl-ws-9 bg-ws-semantic-inverse-neutral text-ws-semantic-on-inverse-neutral"
+  data-slot="toast"
+  role="status"
+>
+  <div
+    class="gap-ws-7 flex flex-1 items-center justify-between"
+  >
+    <div
+      class="typography-label-strong-sm"
+      data-slot="toast-message"
+    >
+      A 
+      neutral
+       message
+    </div>
+  </div>
+  <div
+    class="ml-auto flex items-center leading-0"
+  />
+</div>
+`;
+
+exports[`Toast Snapshots > matches snapshot for each status (no action, no dismiss) > Toast success 1`] = `
+<div
+  class="inline-flex w-full items-center rounded-ws-container-md shadow-ws-medium min-h-ws-18 py-ws-5 pr-ws-5 pl-ws-9 bg-ws-semantic-inverse-positive text-ws-semantic-on-inverse-positive"
+  data-slot="toast"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon mr-ws-5 size-ws-11"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center justify-between"
+  >
+    <div
+      class="typography-label-strong-sm"
+      data-slot="toast-message"
+    >
+      A 
+      success
+       message
+    </div>
+  </div>
+  <div
+    class="ml-auto flex items-center leading-0"
+  />
+</div>
+`;
+
+exports[`Toast Snapshots > matches snapshot for expanded variant > Toast expanded 1`] = `
+<div
+  class="inline-flex w-full items-center bg-ws-static-overlay rounded-ws-container-lg shadow-ws-high pt-ws-9 overflow-hidden"
+  data-slot="toast"
+  role="status"
+>
+  <div
+    class="flex flex-1 flex-col"
+  >
+    <div
+      class="gap-ws-7 px-ws-9 pb-ws-9 flex items-start"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon size-ws-11 text-ws-semantic-info"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11V17H13V11H11ZM11 7V9H13V7H11Z"
+        />
+      </svg>
+      <div
+        class="flex-1"
+      >
+        <div
+          class="gap-ws-7 flex items-start justify-between"
+        >
+          <div
+            class="typography-body-md"
+          >
+            <div
+              class="typography-label-sm text-ws-static-base mb-ws-5"
+              data-slot="toast-message"
+            >
+              Expanded toast
+            </div>
+            <span
+              class="text-ws-static-subtle"
+              data-slot="toast-description"
+            >
+              Extra context
+            </span>
+          </div>
+        </div>
+        <div
+          class="mt-ws-9 gap-ws-7 flex flex-wrap items-center"
+        >
+          <button
+            class="w-fit whitespace-nowrap relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-inverse-default shadow-ws-controls-control text-ws-dynamic-inverse-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 focus:not-active:bg-ws-static-inverse-alpha-subtle hover:border-ws-dynamic-inverse-hover hover:text-ws-dynamic-inverse-hover active:border-ws-dynamic-inverse-pressed active:text-ws-dynamic-inverse-pressed disabled:border-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) box-border py-0"
+            data-slot="toast-action"
+            type="button"
+          >
+            <span
+              class="px-ws-2"
+            >
+              View
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Toast Snapshots > matches snapshot with action + dismiss + custom class > Toast full 1`] = `
+<div
+  class="inline-flex w-full items-center rounded-ws-container-md shadow-ws-medium min-h-ws-18 py-ws-5 pr-ws-5 pl-ws-9 bg-ws-semantic-inverse-negative text-ws-semantic-on-inverse-negative extra"
+  data-slot="toast"
+  role="alert"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon mr-ws-5 size-ws-11"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center justify-between"
+  >
+    <div
+      class="typography-label-strong-sm"
+      data-slot="toast-message"
+    >
+      Something went wrong
+    </div>
+    <button
+      class="w-fit whitespace-nowrap relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-inverse-default shadow-ws-controls-control outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 focus:not-active:bg-ws-static-inverse-alpha-subtle hover:border-ws-dynamic-inverse-hover active:border-ws-dynamic-inverse-pressed disabled:border-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) box-border py-0 text-ws-semantic-on-inverse-negative hover:text-ws-semantic-on-inverse-negative active:text-ws-semantic-on-inverse-negative"
+      data-slot="toast-action"
+      type="button"
+    >
+      <span
+        class="px-ws-2"
+      >
+        Retry
+      </span>
+    </button>
+  </div>
+  <div
+    class="ml-auto flex items-center leading-0"
+  >
+    <button
+      aria-label="Dismiss"
+      class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-inverse-alpha-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-alpha-hover active:bg-ws-dynamic-inverse-alpha-pressed disabled:text-ws-dynamic-inverse-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) ml-ws-3 size-ws-14 p-0 text-ws-semantic-on-inverse-negative hover:text-ws-semantic-on-inverse-negative active:text-ws-semantic-on-inverse-negative"
+      data-slot="icon-button"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon shrink-0 h-ws-9 w-ws-9"
+        data-slot="button-icon"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Toast Snapshots > matches snapshot with action > Toast with action 1`] = `
+<div
+  class="inline-flex w-full items-center rounded-ws-container-md shadow-ws-medium min-h-ws-18 py-ws-5 pr-ws-5 pl-ws-9 bg-ws-semantic-inverse-positive text-ws-semantic-on-inverse-positive"
+  data-slot="toast"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon mr-ws-5 size-ws-11"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center justify-between"
+  >
+    <div
+      class="typography-label-strong-sm"
+      data-slot="toast-message"
+    >
+      Saved successfully
+    </div>
+    <button
+      class="w-fit whitespace-nowrap relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-inverse-default shadow-ws-controls-control outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 focus:not-active:bg-ws-static-inverse-alpha-subtle hover:border-ws-dynamic-inverse-hover active:border-ws-dynamic-inverse-pressed disabled:border-ws-dynamic-inverse-disabled disabled:text-ws-dynamic-inverse-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) box-border py-0 text-ws-semantic-on-inverse-negative hover:text-ws-semantic-on-inverse-negative active:text-ws-semantic-on-inverse-negative"
+      data-slot="toast-action"
+      type="button"
+    >
+      <span
+        class="px-ws-2"
+      >
+        Undo
+      </span>
+    </button>
+  </div>
+  <div
+    class="ml-auto flex items-center leading-0"
+  />
+</div>
+`;
+
+exports[`Toast Snapshots > matches snapshot with dismiss button > Toast with dismiss 1`] = `
+<div
+  class="inline-flex w-full items-center rounded-ws-container-md shadow-ws-medium min-h-ws-18 py-ws-5 pr-ws-5 pl-ws-9 bg-ws-semantic-inverse-info text-ws-semantic-on-inverse-info"
+  data-slot="toast"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon mr-ws-5 size-ws-11"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11V17H13V11H11ZM11 7V9H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center justify-between"
+  >
+    <div
+      class="typography-label-strong-sm"
+      data-slot="toast-message"
+    >
+      Info with dismiss
+    </div>
+  </div>
+  <div
+    class="ml-auto flex items-center leading-0"
+  >
+    <button
+      aria-label="Dismiss"
+      class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-inverse-alpha-default outline-ws-dynamic-primary-strong-default focus-visible:outline-offset-0 hover:bg-ws-dynamic-inverse-alpha-hover active:bg-ws-dynamic-inverse-alpha-pressed disabled:text-ws-dynamic-inverse-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) ml-ws-3 size-ws-14 p-0 text-ws-semantic-on-inverse-negative hover:text-ws-semantic-on-inverse-negative active:text-ws-semantic-on-inverse-negative"
+      data-slot="icon-button"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon shrink-0 h-ws-9 w-ws-9"
+        data-slot="button-icon"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

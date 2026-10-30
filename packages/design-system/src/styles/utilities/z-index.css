@@ -1,0 +1,47 @@
+/* Z-index tokens: --ws-z-index-{name} → z-ws-{name} utility class.
+ *
+ * Values are ranges, not exact steps: a one-off element can sit inside a band with an arbitrary
+ * value (`z-[calc(var(--ws-z-index-sticky)+1)]`) as long as it stays below the next band.
+ * Components own the upper bands by default (drawer, modal, popout, notification); the lower ones
+ * are for page layout. `z-10`, `z-50` and friends are Tailwind's own scale and are not part of it.
+ */
+@theme {
+  --ws-z-index-deep: -100; /* Behind all other elements (decorative backgrounds) */
+  --ws-z-index-base: 1; /* Lift above siblings inside a local stacking context; not a default */
+  --ws-z-index-masked: 100; /* Content that other page elements are allowed to cover */
+  --ws-z-index-mask: 200; /* Page elements that cover masked content (frozen table column, page header) */
+  --ws-z-index-sticky: 300; /* Sticky elements that stay on top of page content (sticky header, ActionBar) */
+  --ws-z-index-drawer: 700; /* Sidepanel and other drawers */
+  --ws-z-index-modal: 800; /* Modal, StatusModal and their overlays */
+  --ws-z-index-popout: 900; /* Popup, Dropdown, Select list, Tooltip: floating content that must clear a modal */
+  --ws-z-index-notification: 1000; /* Toast: above everything */
+}
+
+/* @theme alone is not enough: `z-*` takes bare numbers in Tailwind, so the tokens need explicit utilities. */
+@utility z-ws-deep {
+  z-index: var(--ws-z-index-deep);
+}
+@utility z-ws-base {
+  z-index: var(--ws-z-index-base);
+}
+@utility z-ws-masked {
+  z-index: var(--ws-z-index-masked);
+}
+@utility z-ws-mask {
+  z-index: var(--ws-z-index-mask);
+}
+@utility z-ws-sticky {
+  z-index: var(--ws-z-index-sticky);
+}
+@utility z-ws-drawer {
+  z-index: var(--ws-z-index-drawer);
+}
+@utility z-ws-modal {
+  z-index: var(--ws-z-index-modal);
+}
+@utility z-ws-popout {
+  z-index: var(--ws-z-index-popout);
+}
+@utility z-ws-notification {
+  z-index: var(--ws-z-index-notification);
+}

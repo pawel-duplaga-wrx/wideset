@@ -1,0 +1,49 @@
+# Table
+
+## When to use
+
+- Each item has two or more attributes the user compares (customer, due date, amount, status).
+- Users sort, select rows, or open a row to see its detail.
+- Summary rows (totals) under the data.
+
+## When not to use
+
+- One line per item with an icon and a short description, inside a menu or a panel → `ListItem`.
+- A handful of entry points to other pages or actions → `ActionTile`.
+- Picking one or several options from cards → `Tile` (`TileRadioGroup`, `TileCheckbox`).
+- Key/value detail of a single record → plain layout (`dl` with `typography-*` classes) inside
+  `Card` or `Sidepanel`.
+
+## Do / Don't
+
+```tsx
+// Do: column widths on headers + table-fixed, then truncate clips
+<Table truncate className="table-fixed">
+  <Table.Head>
+    <Table.Row>
+      <Table.Header className="w-[40%]">Project</Table.Header>
+      …
+
+// Don't: truncate on an auto-layout table — the column widens instead of clipping
+<Table truncate>…</Table>
+
+// Do: sticky header inside a height-limited scroll container
+<div className="max-h-[24rem] overflow-y-auto">
+  <Table stickyHeader>…</Table>
+</div>
+```
+
+- Don't add `striped` and `separated` to a short table; row lines are enough.
+- Don't build a status pill from a styled `span` in a cell; use `StatusBadge`.
+
+## Gotchas
+
+- `size` sets minimum row height; rows grow when content wraps. Use `truncate`, not a fixed height.
+- `truncate` only clips with constrained widths: `table-fixed` on `Table` plus `w-*` on
+  `Table.Header`, or `max-w-*` on the cell. The full text is in the `title` attribute.
+- Sticky header / column need the scroll container (`overflow-y-auto` with a max height,
+  `overflow-x-auto` with a width limit); they set `hasBackground` for you.
+- Sorting, selection and pagination are your state; Table renders, it does not sort or slice data.
+  Large data sets: paginate with `Pagination` or virtualize at the data layer.
+- `sortable` without `onSort` renders a sort button that does nothing.
+- `Table.Head`, `Table.Row`, `Table.Header` and `Table.Cell` throw outside `<Table>`.

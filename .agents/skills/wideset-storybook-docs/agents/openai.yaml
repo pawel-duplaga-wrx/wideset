@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Wideset Storybook Docs Style'
+  short_description: 'Keep Storybook MDX pages visually consistent'
+  default_prompt: 'Use $wideset-storybook-docs to audit the Storybook MDX pages for formatting consistency and fix the deviations without changing the content.'

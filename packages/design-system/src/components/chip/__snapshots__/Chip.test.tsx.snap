@@ -1,0 +1,413 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Chip Snapshots > Disabled state > matches snapshot for disabled chip 1`] = `
+<div
+  aria-disabled="true"
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-disabled="true"
+  data-slot="chip"
+  role="button"
+  tabindex="-1"
+>
+  Disabled Chip
+</div>
+`;
+
+exports[`Chip Snapshots > Disabled state > matches snapshot for disabled primary variant 1`] = `
+<div
+  aria-disabled="true"
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-disabled="true"
+  data-slot="chip"
+  role="button"
+  tabindex="-1"
+>
+  Disabled 
+  primary
+</div>
+`;
+
+exports[`Chip Snapshots > Disabled state > matches snapshot for disabled secondary variant 1`] = `
+<div
+  aria-disabled="true"
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-disabled="true"
+  data-slot="chip"
+  role="button"
+  tabindex="-1"
+>
+  Disabled 
+  secondary
+</div>
+`;
+
+exports[`Chip Snapshots > Sizes > matches snapshot for lg size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-16 gap-ws-4 px-ws-7 py-ws-4 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  lg
+   Chip
+</div>
+`;
+
+exports[`Chip Snapshots > Sizes > matches snapshot for md size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  md
+   Chip
+</div>
+`;
+
+exports[`Chip Snapshots > Sizes > matches snapshot for sm size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-md typography-caption-strong-md h-ws-11 gap-ws-2 px-ws-3 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  sm
+   Chip
+</div>
+`;
+
+exports[`Chip Snapshots > Variant and size combinations > matches snapshot for primary variant with lg size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-16 gap-ws-4 px-ws-7 py-ws-4 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  primary
+   
+  lg
+</div>
+`;
+
+exports[`Chip Snapshots > Variant and size combinations > matches snapshot for primary variant with md size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  primary
+   
+  md
+</div>
+`;
+
+exports[`Chip Snapshots > Variant and size combinations > matches snapshot for primary variant with sm size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-md typography-caption-strong-md h-ws-11 gap-ws-2 px-ws-3 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  primary
+   
+  sm
+</div>
+`;
+
+exports[`Chip Snapshots > Variant and size combinations > matches snapshot for secondary variant with lg size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-16 gap-ws-4 px-ws-7 py-ws-4 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  secondary
+   
+  lg
+</div>
+`;
+
+exports[`Chip Snapshots > Variant and size combinations > matches snapshot for secondary variant with md size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  secondary
+   
+  md
+</div>
+`;
+
+exports[`Chip Snapshots > Variant and size combinations > matches snapshot for secondary variant with sm size 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-md typography-caption-strong-md h-ws-11 gap-ws-2 px-ws-3 py-ws-2 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  secondary
+   
+  sm
+</div>
+`;
+
+exports[`Chip Snapshots > Variants > matches snapshot for primary variant 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  primary
+   Chip
+</div>
+`;
+
+exports[`Chip Snapshots > Variants > matches snapshot for secondary variant 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  secondary
+   Chip
+</div>
+`;
+
+exports[`Chip Snapshots > With icon > matches snapshot for chip with icon 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  <span
+    class="inline-flex shrink-0 items-center justify-center size-ws-9"
+    data-slot="chip-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 text-ws-dynamic-on-primary-default group-data-disabled:text-ws-dynamic-on-primary-disabled"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </span>
+  Chip with Icon
+</div>
+`;
+
+exports[`Chip Snapshots > With icon > matches snapshot for primary lg with icon 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-16 gap-ws-4 px-ws-7 py-ws-4 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  <span
+    class="inline-flex shrink-0 items-center justify-center size-ws-11"
+    data-slot="chip-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 text-ws-dynamic-on-primary-default group-data-disabled:text-ws-dynamic-on-primary-disabled"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </span>
+  primary
+   
+  lg
+</div>
+`;
+
+exports[`Chip Snapshots > With icon > matches snapshot for primary md with icon 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  <span
+    class="inline-flex shrink-0 items-center justify-center size-ws-9"
+    data-slot="chip-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 text-ws-dynamic-on-primary-default group-data-disabled:text-ws-dynamic-on-primary-disabled"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </span>
+  primary
+   
+  md
+</div>
+`;
+
+exports[`Chip Snapshots > With icon > matches snapshot for primary sm with icon 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-md typography-caption-strong-md h-ws-11 gap-ws-2 px-ws-3 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  <span
+    class="inline-flex shrink-0 items-center justify-center size-ws-9"
+    data-slot="chip-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 text-ws-dynamic-on-primary-default group-data-disabled:text-ws-dynamic-on-primary-disabled"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </span>
+  primary
+   
+  sm
+</div>
+`;
+
+exports[`Chip Snapshots > With icon > matches snapshot for secondary lg with icon 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-16 gap-ws-4 px-ws-7 py-ws-4 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  <span
+    class="inline-flex shrink-0 items-center justify-center size-ws-11"
+    data-slot="chip-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 text-ws-dynamic-on-secondary-default group-data-disabled:text-ws-dynamic-on-secondary-disabled"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </span>
+  secondary
+   
+  lg
+</div>
+`;
+
+exports[`Chip Snapshots > With icon > matches snapshot for secondary md with icon 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  <span
+    class="inline-flex shrink-0 items-center justify-center size-ws-9"
+    data-slot="chip-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 text-ws-dynamic-on-secondary-default group-data-disabled:text-ws-dynamic-on-secondary-disabled"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </span>
+  secondary
+   
+  md
+</div>
+`;
+
+exports[`Chip Snapshots > With icon > matches snapshot for secondary sm with icon 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-md typography-caption-strong-md h-ws-11 gap-ws-2 px-ws-3 py-ws-2 bg-ws-dynamic-secondary-alpha-strong-default hover:bg-ws-dynamic-secondary-alpha-strong-hover active:bg-ws-dynamic-secondary-alpha-strong-pressed text-ws-dynamic-secondary-default data-disabled:text-ws-dynamic-on-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  <span
+    class="inline-flex shrink-0 items-center justify-center size-ws-9"
+    data-slot="chip-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-9 text-ws-dynamic-on-secondary-default group-data-disabled:text-ws-dynamic-on-secondary-disabled"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </span>
+  secondary
+   
+  sm
+</div>
+`;
+
+exports[`Chip Snapshots > matches snapshot for default chip 1`] = `
+<div
+  class="group inline-flex cursor-pointer items-center data-disabled:pointer-events-none data-disabled:cursor-default focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default rounded-ws-control-lg typography-label-strong-sm h-ws-14 gap-ws-3 px-ws-6 py-ws-2 bg-ws-dynamic-primary-default hover:bg-ws-dynamic-primary-hover active:bg-ws-dynamic-primary-pressed data-disabled:bg-ws-dynamic-primary-disabled text-ws-dynamic-on-primary-default hover:text-ws-dynamic-on-primary-hover active:text-ws-dynamic-on-primary-pressed data-disabled:text-ws-dynamic-on-primary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+  data-slot="chip"
+  role="button"
+  tabindex="0"
+>
+  Default Chip
+</div>
+`;

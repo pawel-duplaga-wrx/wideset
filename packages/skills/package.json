@@ -1,0 +1,45 @@
+{
+  "name": "@wideset/skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Agent Skills for building apps with Wideset: component choice, props, ws- tokens, craft, compositions and review, generated from the library",
+  "keywords": [
+    "wideset",
+    "agent-skills",
+    "design-system"
+  ],
+  "author": "Widelab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/widelab-co/wideset",
+    "directory": "packages/skills"
+  },
+  "files": [
+    "skills",
+    "agents",
+    "cursor",
+    "AGENTS.wideset.md",
+    ".claude-plugin",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "skills": [],
+  "scripts": {
+    "build": "node scripts/build-skills.mjs",
+    "lint": "eslint . --ext .ts,.mjs",
+    "lint:fix": "pnpm lint --fix",
+    "test": "vitest run",
+    "test:skills": "node scripts/skills-smoke.mjs",
+    "validate": "node scripts/validate-skills.mjs",
+    "evals": "node scripts/run-evals.mjs"
+  },
+  "devDependencies": {
+    "@wideset/react": "workspace:*",
+    "prettier": "^3.6.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.10"
+  }
+}

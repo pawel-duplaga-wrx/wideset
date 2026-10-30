@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Wideset Code Review'
+  short_description: 'Review a Wideset PR or branch for safety, standards and intent'
+  default_prompt: 'Use $wideset-code-review to review the current branch against develop: map the changed files to risk zones, review Safety, Standards and Intent separately, verify with typecheck and tests, and give a merge verdict.'

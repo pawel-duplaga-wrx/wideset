@@ -1,0 +1,46 @@
+/*
+  Wideset theme for consumers who run Tailwind CSS v4 themselves (`@wideset/react/theme`):
+  tokens (`@theme`), utilities (`@utility`) and the component keyframes they reference. No
+  preflight, no utilities/overrides.css, no compiled component classes — those ship in styles.css. It also
+  carries no `@plugin`, so `radix-*` / `animate-*` variants need tailwindcss-radix and
+  tailwindcss-animate in the consumer's own setup. Import it after `tailwindcss`:
+
+    @import 'tailwindcss';
+    @import '@wideset/react/theme';
+*/
+@import './tokens/theme-base-tokens.css';
+@import './tokens/theme-light-tokens.css';
+@import './tokens/theme-light-semantic.css';
+@import './tokens/theme-dark-tokens.css';
+@import './tokens/theme-dark-semantic.css';
+@import './tokens/theme-desktop-tokens.css';
+@import './tokens/theme-desktop-semantic.css';
+
+@import './utilities/motion.css';
+@import './utilities/shadow.css';
+@import './utilities/typography.css';
+@import './utilities/wds.css';
+@import './utilities/z-index.css';
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+  }
+}
+
+/*
+  Wideset never redefines Tailwind's default theme (sans font, spacing scale, font weights, …):
+  a consumer's own Tailwind config or shadcn would silently change. Every Wideset token is
+  `ws`-prefixed instead — see prefix-tokens.cjs. Wideset does not load or apply a font: components
+  inherit it from the page, and the consumer points `body` at `var(--font-ws-sans)` or their own.
+  `static`: the variables must reach :root even when no component uses them, because the
+  `font-ws-heading` / `font-ws-body` classes are an opt-in a consumer applies in their own markup.
+*/
+@theme static {
+  --font-ws-sans:
+    'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-ws-heading: var(--font-ws-sans);
+  --font-ws-body: var(--font-ws-sans);
+}

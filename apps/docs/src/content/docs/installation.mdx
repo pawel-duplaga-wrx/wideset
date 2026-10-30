@@ -1,0 +1,218 @@
+---
+title: Installation
+description: Install the package, import the stylesheet, load the font.
+order: 2
+---
+
+Install Wideset as a package when you want fixes and updates through semver. If you would
+rather copy the source into your repo and edit it, use the [CLI](/docs/cli) instead.
+
+|          | Package                         | CLI                                  |
+| -------- | ------------------------------- | ------------------------------------ |
+| Code     | In `node_modules`, not editable | Copied into your repo, yours to edit |
+| Updates  | Through semver                  | None; the code is yours from then on |
+| Best for | Long-lived products             | Prototypes, heavily branded projects |
+
+## Requirements
+
+- React 18 or 19 (a peer dependency: your app provides it).
+- A bundler that resolves package `exports`: Vite, Next.js, Remix, Astro all do.
+
+## 1. Install
+
+```bash
+npm install @wideset/react @remixicon/react
+```
+
+Components that take an icon expect a [Remix Icon](https://remixicon.com) component, so you
+import icons from `@remixicon/react` yourself. Radix, clsx, tailwind-merge and
+class-variance-authority are bundled; there is nothing else to install.
+
+## 2. Import the stylesheet
+
+Once, at your app's entry point (`main.tsx`, `app/layout.tsx`), before your own styles so your
+overrides win:
+
+```tsx
+import '@wideset/react/styles';
+```
+
+| Export                     | What it is                                        | When                                                                            |
+| -------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `@wideset/react/styles`    | Tokens, component CSS and the classes they use    | Always                                                                          |
+| `@wideset/react/preflight` | Tailwind's browser reset                          | Only if your app does not use Tailwind                                          |
+| `@wideset/react/theme`     | `@theme` tokens and `@utility` classes, as source | Tailwind v4 apps that want `*-ws-*` classes in their own code, next to `styles` |
+
+Without Tailwind, add the reset too:
+
+```tsx
+import '@wideset/react/styles';
+import '@wideset/react/preflight';
+```
+
+With Tailwind v4, to use `bg-ws-*`, `p-ws-*` or `typography-*` in your own code, add the theme to
+your Tailwind entry CSS. It adds to `styles`, it does not replace it: the components are already
+compiled in `styles`, and `theme` only lets your build generate the same classes for your markup.
+
+```css
+@import 'tailwindcss';
+@import '@wideset/react/theme';
+```
+
+Every Wideset class carries `ws` (`p-ws-4`, `rounded-ws-control-md`), so the theme sits next to
+your own Tailwind config or shadcn without changing them. It has no `@plugin`: the `radix-*` and
+`animate-*` variants Wideset builds with need
+[tailwindcss-radix](https://github.com/ecklf/tailwindcss-radix) and
+[tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate) in your setup if you
+use them in your own code.
+
+## 3. Load the font
+
+Wideset loads no font and components set none: they inherit the font on `body`, so your brand
+font applies to them too. The package defines `--font-ws-sans` (Inter, then the system stack).
+Load Inter and apply it:
+
+```css
+body {
+  font-family: var(--font-ws-sans);
+}
+```
+
+**Vite and other bundlers:** `npm install @fontsource-variable/inter`, then
+
+```tsx
+import '@fontsource-variable/inter';
+```
+
+```css
+:root {
+  --font-ws-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+}
+```
+
+**Next.js:** `next/font` sets the variable for you.
+
+```tsx
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-ws-sans' });
+
+// <html className={inter.variable}> in the root layout
+```
+
+Use a variable font. Wideset's weights come from Figma and are not round numbers
+(`font-ws-medium` is 520); a static font rounds them to its nearest cut, so 520 looks
+semibold. Both options above give you variable Inter.
+
+## 4. Use a component
+
+```tsx
+import { RiArrowRightLine } from '@remixicon/react';
+import { Button } from '@wideset/react';
+
+export function Example() {
+  return (
+    <Button>
+      Continue
+      <Button.Icon icon={RiArrowRightLine} />
+    </Button>
+  );
+}
+```
+
+Types come from the same entry: `import type { ButtonProps } from '@wideset/react'`.
+
+## By framework
+
+The steps above, put together for each setup.
+
+### Vite
+
+```bash
+npm install @wideset/react @remixicon/react @fontsource-variable/inter
+```
+
+```tsx
+// src/main.tsx
+import '@fontsource-variable/inter';
+import '@wideset/react/styles';
+import '@wideset/react/preflight'; // only without Tailwind
+import './index.css';
+```
+
+```css
+/* src/index.css */
+:root {
+  --font-ws-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+}
+body {
+  font-family: var(--font-ws-sans);
+}
+```
+
+### Next.js (App Router)
+
+```bash
+npm install @wideset/react @remixicon/react
+```
+
+```tsx
+// app/layout.tsx
+import '@wideset/react/styles';
+import './globals.css';
+
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-ws-sans' });
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={inter.variable}>
+      <body>{children}</body>
+    </html>
+  );
+}
+```
+
+```css
+/* app/globals.css */
+body {
+  font-family: var(--font-ws-sans);
+}
+```
+
+A new Next.js app comes with Tailwind, which brings its own reset, so skip `preflight`.
+
+Wideset components are Client Components, and each module starts with `'use client'`, so you can
+import them straight into a Server Component; only what you import reaches the client bundle. Two
+rules apply in a Server Component (a file without `'use client'`):
+
+- Use the named export of a part, not the dotted one. A Server Component only sees a client
+  module's named exports, so `Card.Header` is `undefined` there and `CardHeader` works.
+- Anything that passes a function needs a Client Component. An icon prop
+  (`<Button.Icon icon={RiArrowRightLine} />`) is a function, like `onClick`; put that piece in a
+  file that starts with `'use client'`.
+
+```tsx
+// app/page.tsx: a Server Component
+import { Card, CardContent, CardHeader, CardTitle } from '@wideset/react';
+
+export default function Page() {
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Invoices</CardTitle>
+      </CardHeader>
+      <CardContent>…</CardContent>
+    </Card>
+  );
+}
+```
+
+`cn` works in Server Components too; `@wideset/react/utils` exports it on its own.
+
+### Other bundlers
+
+React Router, Astro, Parcel and webpack resolve the package's `exports` like Vite, so the Vite
+steps apply. A bundler that does not know `'use client'` may log "Module level directives cause
+errors when bundled"; it ignores the directive, and the warning is harmless.

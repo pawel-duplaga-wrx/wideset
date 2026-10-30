@@ -1,0 +1,2 @@
+/** The Date range picker page's examples, in reading order. `default.tsx` is the playground's stage. */
+export default ['variants', 'presets', 'sizes', 'date-presets', 'states'];

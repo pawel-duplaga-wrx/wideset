@@ -1,0 +1,410 @@
+/*
+  The documentation site's own stylesheet. It dresses the page around the components; the
+  components themselves are styled by `@wideset/react/styles`, imported once in the
+  layout.
+
+  Tailwind runs here for the site's markup (it scans this app, not the library). The site
+  consumes the design system the way a Tailwind v4 project does: `@wideset/react/theme`
+  adds the `ws` tokens and utilities, so the chrome is written in the system's own classes
+  (`bg-ws-static-container`, `text-ws-static-subtle`, …) and follows light and dark with it.
+*/
+@import 'tailwindcss';
+@import '@wideset/react/theme';
+/* Component pages render the library's stories; their layout classes are the page's too. The
+   components are scanned as well: this sheet loads after the library's, so a utility both use
+   (`px-ws-9`) would otherwise land here after a library override of it (`pl-0`) and undo it. */
+@source '../../../../packages/design-system/src/components';
+
+/* The package ships only the font variable; the site loads Inter itself
+   (@fontsource-variable/inter, imported in the layout), which registers as `Inter Variable`. */
+:root {
+  --font-ws-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* The dark page: a #121212 ground with panels six
+   values lighter, hairlines you can barely see, and every highlight a white wash. It is a
+   quieter dark than the design system's own, which is the point: the chrome recedes and the
+   components carry the colour. It stops at the chrome; nothing here touches a component's
+   own tokens. */
+.dark {
+  --docs-ground: #121212;
+  --docs-panel: #181818;
+  --docs-hairline: rgba(255, 255, 255, 0.06);
+  --docs-hairline-faint: rgba(255, 255, 255, 0.03);
+  --docs-wash: rgba(255, 255, 255, 0.06);
+  --docs-text-muted: #8f8f8f;
+}
+
+/* The tint around a part the Anatomy picture spotlights. On the light page it is the table row's
+   own highlight, so picture and table hover alike; on the dark page that highlight is a white
+   wash, which would light the rest up, so the system's scrim dims it instead. */
+:root {
+  --docs-anatomy-veil: var(--background-color-ws-static-alpha-base);
+}
+.dark {
+  --docs-anatomy-veil: color-mix(
+    in srgb,
+    var(--background-color-ws-static-scrim-base) 70%,
+    transparent
+  );
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  /* The page ground: white in light, the deepest neutral in dark. Panels and frames separate
+     from it by one step of tone or a hairline, never both. */
+  body {
+    background: var(--background-color-ws-static-container);
+    color: var(--text-color-ws-static-base);
+    font-family: var(--font-ws-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  .dark body {
+    background: var(--docs-ground);
+  }
+}
+
+/* The second layer of text in dark: a fainter grey, so the page has two
+   temperatures (white says heading, grey says prose). Documentation prose only; inside a
+   frame or a code block the text belongs to a component and keeps its own colour. */
+.dark :is(.text-ws-static-base, .text-ws-static-subtle):not(.docs-frame *, .docs-code *) {
+  color: var(--docs-text-muted);
+}
+
+/* The top bar is the page's own ground, no rule under it. Fixed elements do not inherit, so
+   the ground is named again. */
+.docs-topbar {
+  background: var(--background-color-ws-static-container);
+}
+.dark .docs-topbar {
+  background: var(--docs-ground);
+}
+
+/* Rail panels sit one step off the page ground: off-white on the white page, the panel tone
+   on the dark one, so the inspector reads as a surface, not as more page. */
+.docs-rail {
+  background: var(--background-color-ws-static-background);
+}
+.dark .docs-rail {
+  background: var(--docs-panel);
+}
+
+/* The rail runs on one 14px line: a 32px row, the label regular and subtle on the left, the
+   value regular and strong on the right with a 14px chevron 4px from the panel's inner edge.
+   The design system's ghost Select is a form control with a fixed width; here it becomes
+   that value. Docs chrome, not the system's. */
+.docs-rail [role='combobox'] {
+  width: auto;
+  min-width: 0;
+  height: 32px;
+  max-height: 32px;
+  padding: 0 4px 0 12px;
+  margin-right: 0;
+  gap: 6px;
+  color: var(--text-color-ws-static-strong);
+}
+.docs-rail [role='combobox'],
+.docs-rail [role='combobox'] span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.docs-rail [role='combobox'] svg {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+}
+/* The Select's list is as wide as its trigger, which in the rail is as wide as one word. The
+   list sizes to its own options instead, with a floor so short lists still read as a menu. */
+[role='listbox'] {
+  width: auto;
+  min-width: 10rem;
+}
+
+/* A pane one step off the page ground: code blocks, do/don't panes. */
+.docs-pane {
+  background: var(--background-color-ws-static-background);
+}
+.dark .docs-pane {
+  background: var(--docs-panel);
+}
+/* A frame around a demo: white on the white page, the panel tone in dark; it separates by
+   its radius and hairline, not by tone. */
+.docs-frame {
+  background: var(--background-color-ws-static-foreground);
+}
+.dark .docs-frame,
+.dark .docs-code {
+  background: var(--docs-panel);
+  border-color: var(--docs-hairline-faint);
+}
+
+/* A preview switched to the other theme than the page's: the frame takes that theme's tone.
+   (`.dark` on the frame itself; `.docs-light` is the generated light scope.) */
+.docs-frame.dark {
+  background: var(--docs-panel);
+  border-color: var(--docs-hairline-faint);
+}
+.dark .docs-frame.docs-light {
+  background: var(--background-color-ws-static-foreground);
+  border-color: var(--border-color-ws-static-base);
+}
+
+/* Example and props cards: the same border as the frames and code panes, in both themes. */
+.dark .docs-card,
+.dark .docs-card-rule {
+  border-color: var(--docs-hairline-faint);
+}
+
+/* A gallery card: the thumbnail sits in a frame set into the card — in
+   dark, the card a step above the panel tone and the frame sunk to the ground. */
+.dark .docs-card {
+  background: #1e1e1e;
+}
+.dark .docs-card .docs-frame {
+  background: var(--docs-ground);
+}
+
+/* The fade over a folded code block, into the code pane's own tone. */
+.docs-fade {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--background-color-ws-static-background) 70%
+  );
+}
+.dark .docs-fade {
+  background: linear-gradient(to bottom, transparent, var(--docs-panel) 70%);
+}
+
+/* Navigation hover: one highlight that glides between rows instead of each row lighting up.
+   Positioned by SideNav's inline script; hidden until the pointer enters the list. */
+.nav-pill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  z-index: 0;
+  border-radius: var(--radius-ws-control-md);
+  background: var(--background-color-ws-static-alpha-subtle);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform var(--ws-motion-duration-quick) var(--ws-motion-ease-smooth-out),
+    height var(--ws-motion-duration-quick) var(--ws-motion-ease-smooth-out),
+    opacity var(--ws-motion-duration-quick) ease;
+}
+.dark .nav-pill {
+  background: var(--docs-wash);
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-pill {
+    transition: opacity 120ms ease;
+  }
+}
+
+/* The relationship map's large view: a dialog over a dimmed page. The backdrop fades on the
+   quick clock, the panel arrives from the modal scale on the fast clock. */
+.docs-modal-backdrop {
+  background: rgba(0, 0, 0, 0.32);
+  animation: docs-fade var(--ws-motion-duration-quick) var(--ws-motion-ease-out);
+}
+.dark .docs-modal-backdrop {
+  background: rgba(0, 0, 0, 0.56);
+}
+.docs-modal {
+  animation: docs-pop var(--ws-motion-duration-fast) var(--ws-motion-ease-smooth-out);
+}
+@keyframes docs-fade {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes docs-pop {
+  from {
+    opacity: 0;
+    scale: var(--ws-motion-scale-large);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .docs-modal {
+    animation: docs-fade var(--ws-motion-duration-quick) var(--ws-motion-ease-out);
+  }
+}
+
+/* Long-form text on documentation pages (MDX output). Minimal on purpose: the reading
+   typography is a content-layer decision and gets its own pass. */
+.docs-prose {
+  max-width: 43rem;
+}
+.docs-prose :is(h1, h2, h3) {
+  color: var(--text-color-ws-static-strong);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.docs-prose h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.docs-prose h2 {
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.docs-prose h3 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.docs-prose :is(p, ul, ol, pre) {
+  margin-top: 0.875rem;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+}
+.docs-prose ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.docs-prose ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+.docs-prose a {
+  color: var(--text-color-ws-static-strong);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.docs-prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: var(--background-color-ws-static-alpha-subtle);
+  color: var(--text-color-ws-static-strong);
+}
+.docs-prose pre {
+  overflow-x: auto;
+  padding: 0.875rem 1rem;
+  border-radius: 12px;
+  background: var(--background-color-ws-static-background) !important;
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+.dark .docs-prose pre {
+  background: var(--docs-panel) !important;
+}
+.docs-prose pre code {
+  padding: 0;
+  background: none;
+  font-size: inherit;
+}
+.docs-prose pre.astro-code,
+.docs-prose pre.astro-code span {
+  color: var(--shiki-light);
+}
+.dark .docs-prose pre.astro-code,
+.dark .docs-prose pre.astro-code span {
+  color: var(--shiki-dark);
+}
+
+.docs-prose table {
+  display: block;
+  overflow-x: auto;
+  margin-top: 1.25rem;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+.docs-prose :is(th, td) {
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-bottom: 1px solid var(--border-color-ws-static-subtle);
+  text-align: left;
+  vertical-align: top;
+}
+.docs-prose td code {
+  white-space: nowrap;
+}
+.docs-prose th {
+  color: var(--text-color-ws-static-subtle);
+  font-weight: 400;
+}
+
+/* The changelog is the package's CHANGELOG.md: its own title is the page's, so it hides;
+   each version is an h2, each change type (Minor Changes, Breaking changes) an h3. */
+.docs-changelog > h1:first-child {
+  display: none;
+}
+.docs-changelog h2 {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color-ws-static-subtle);
+}
+.docs-changelog h3 {
+  color: var(--text-color-ws-static-subtle);
+  font-size: 0.8125rem;
+}
+.docs-changelog li {
+  margin-top: 0.5rem;
+}
+
+/* "On this page" opened from its ticks: a panel over the page's edge. */
+.docs-toc-panel {
+  background: var(--background-color-ws-static-background);
+  box-shadow: var(--shadow-ws-medium);
+}
+.dark .docs-toc-panel {
+  background: var(--docs-panel);
+}
+
+/* Scroll containers that scroll without showing a bar (the navigation columns). */
+.docs-scroll {
+  scrollbar-width: none;
+  overscroll-behavior: contain;
+}
+.docs-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Code blocks (CodeBlock island). shiki renders both themes as variables
+   (defaultColor: false); the page picks one by `.dark`. */
+.docs-code pre,
+.docs-code-fallback {
+  margin: 0;
+  padding: 14px 48px 14px 16px;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.7;
+  background: transparent !important;
+  color: var(--text-color-ws-static-strong);
+}
+.docs-code code {
+  font-family: inherit;
+}
+.docs-code .shiki,
+.docs-code .shiki span {
+  color: var(--shiki-light);
+}
+.dark .docs-code .shiki,
+.dark .docs-code .shiki span {
+  color: var(--shiki-dark);
+}
+.docs-code--prompt pre,
+.docs-code--prompt .docs-code-fallback {
+  font-size: 13px;
+  line-height: 20px;
+}
+.docs-code--prompt .line::before {
+  content: '$ ';
+  color: color-mix(in srgb, currentColor 45%, transparent);
+}
+.docs-code-fallback {
+  white-space: pre;
+}

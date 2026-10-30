@@ -1,0 +1,549 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Checkbox Snapshots > matches snapshot for checkbox with Checkbox.Label 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="unchecked"
+    id="snapshot-11"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <div
+    class="gap-ws-3 flex flex-col"
+  >
+    <label
+      class="typography-label-sm text-ws-static-base cursor-pointer"
+      data-slot="checkbox-label"
+      for="snapshot-11"
+    >
+      Test checkbox
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for checkbox with Checkbox.Label and Checkbox.Description 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="unchecked"
+    id="snapshot-12"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <div
+    class="gap-ws-3 flex flex-col"
+  >
+    <label
+      class="typography-label-sm text-ws-static-base cursor-pointer"
+      data-slot="checkbox-label"
+      for="snapshot-12"
+    >
+      Test checkbox
+    </label>
+    <div
+      class="text-ws-static-subtle typography-body-sm"
+      data-slot="checkbox-description"
+    >
+      This is a description
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for checkbox with custom className 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out) custom-class"
+    data-slot="checkbox"
+    data-state="unchecked"
+    id="snapshot-10"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <label
+    class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+    data-slot="checkbox-label"
+    for="snapshot-10"
+  >
+    Custom
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for checkbox with label 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="unchecked"
+    id="snapshot-2"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <label
+    class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+    data-slot="checkbox-label"
+    for="snapshot-2"
+  >
+    Test checkbox
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for checkbox with label and description 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="unchecked"
+    id="snapshot-3"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <label
+    class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+    data-slot="checkbox-label"
+    for="snapshot-3"
+  >
+    Test checkbox
+    <div
+      class="text-ws-static-subtle typography-body-sm"
+      data-slot="checkbox-description"
+    >
+      This is a description
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for checked checkbox 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="true"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="checked"
+    id="snapshot-6"
+    role="checkbox"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-in fade-in-0 zoom-in-[0.4] fill-mode-both duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-bounce)"
+      data-state="checked"
+      style="pointer-events: none;"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon group-radix-state-indeterminate:hidden group-radix-state-unchecked:hidden size-ws-9 text-ws-dynamic-on-primary-default group-disabled:text-ws-dynamic-on-primary-disabled"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+        />
+      </svg>
+      <div
+        class="group-radix-state-checked:hidden group-radix-state-unchecked:hidden h-[2px] bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) w-[10px]"
+      />
+    </span>
+  </button>
+  <label
+    class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+    data-slot="checkbox-label"
+    for="snapshot-6"
+  >
+    Checked checkbox
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for danger variant 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-danger-strong-default disabled:text-ws-dynamic-on-danger-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-dynamic-danger-strong-default radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-danger-strong-hover radix-state-unchecked:active:border-ws-dynamic-danger-strong-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-danger-default radix-state-checked:text-ws-dynamic-on-danger-default radix-state-checked:hover:bg-ws-dynamic-danger-hover radix-state-checked:hover:text-ws-dynamic-on-danger-hover radix-state-checked:active:bg-ws-dynamic-danger-pressed radix-state-checked:active:text-ws-dynamic-on-danger-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-danger-default radix-state-indeterminate:text-ws-dynamic-on-danger-default radix-state-indeterminate:hover:bg-ws-dynamic-danger-hover radix-state-indeterminate:hover:text-ws-dynamic-on-danger-hover radix-state-indeterminate:active:bg-ws-dynamic-danger-pressed radix-state-indeterminate:active:text-ws-dynamic-on-danger-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="unchecked"
+    id="snapshot-5"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <label
+    class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+    data-slot="checkbox-label"
+    for="snapshot-5"
+  >
+    Danger checkbox
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for default checkbox 1`] = `
+<button
+  aria-checked="false"
+  class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+  data-slot="checkbox"
+  data-state="unchecked"
+  id="snapshot-1"
+  role="checkbox"
+  type="button"
+  value="on"
+/>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for disabled checkbox 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-disabled=""
+    data-slot="checkbox"
+    data-state="unchecked"
+    disabled=""
+    id="snapshot-8"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <label
+    class="typography-label-sm gap-ws-3 flex flex-col text-ws-static-subtle pointer-events-none"
+    data-slot="checkbox-label"
+    for="snapshot-8"
+  >
+    Disabled checkbox
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for disabled checkbox with Checkbox.Label 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-disabled=""
+    data-slot="checkbox"
+    data-state="unchecked"
+    disabled=""
+    id="snapshot-13"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <div
+    class="gap-ws-3 flex flex-col"
+  >
+    <label
+      class="typography-label-sm cursor-pointer text-ws-static-subtle pointer-events-none"
+      data-slot="checkbox-label"
+      for="snapshot-13"
+    >
+      Disabled checkbox
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for disabled checked checkbox 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="true"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-disabled=""
+    data-slot="checkbox"
+    data-state="checked"
+    disabled=""
+    id="snapshot-9"
+    role="checkbox"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-in fade-in-0 zoom-in-[0.4] fill-mode-both duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-bounce)"
+      data-disabled=""
+      data-state="checked"
+      style="pointer-events: none;"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon group-radix-state-indeterminate:hidden group-radix-state-unchecked:hidden size-ws-9 text-ws-dynamic-on-primary-default group-disabled:text-ws-dynamic-on-primary-disabled"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+        />
+      </svg>
+      <div
+        class="group-radix-state-checked:hidden group-radix-state-unchecked:hidden h-[2px] bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) w-[10px]"
+      />
+    </span>
+  </button>
+  <label
+    class="typography-label-sm gap-ws-3 flex flex-col text-ws-static-subtle pointer-events-none"
+    data-slot="checkbox-label"
+    for="snapshot-9"
+  >
+    Disabled checked
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for indeterminate checkbox 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="mixed"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="indeterminate"
+    id="snapshot-7"
+    role="checkbox"
+    type="button"
+    value="on"
+  >
+    <span
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-in fade-in-0 zoom-in-[0.4] fill-mode-both duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-bounce)"
+      data-state="indeterminate"
+      style="pointer-events: none;"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon group-radix-state-indeterminate:hidden group-radix-state-unchecked:hidden size-ws-9 text-ws-dynamic-on-primary-default group-disabled:text-ws-dynamic-on-primary-disabled"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+        />
+      </svg>
+      <div
+        class="group-radix-state-checked:hidden group-radix-state-unchecked:hidden h-[2px] bg-(--ws-dynamic-text-on-primary-default) group-disabled:bg-(--ws-dynamic-text-on-primary-disabled) w-[10px]"
+      />
+    </span>
+  </button>
+  <label
+    class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+    data-slot="checkbox-label"
+    for="snapshot-7"
+  >
+    Indeterminate checkbox
+  </label>
+</div>
+`;
+
+exports[`Checkbox Snapshots > matches snapshot for small checkbox 1`] = `
+<div
+  class="gap-ws-5 flex w-fit"
+>
+  <button
+    aria-checked="false"
+    class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-sm h-ws-control-sm rounded-ws-control-sm my-ws-2 outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+    data-slot="checkbox"
+    data-state="unchecked"
+    id="snapshot-4"
+    role="checkbox"
+    type="button"
+    value="on"
+  />
+  <label
+    class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+    data-slot="checkbox-label"
+    for="snapshot-4"
+  >
+    Small checkbox
+  </label>
+</div>
+`;
+
+exports[`CheckboxGroup Snapshots > matches snapshot for horizontal group 1`] = `
+<div
+  class="flex gap-ws-11"
+  data-slot="checkbox-group"
+  role="group"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-slot="checkbox"
+      data-state="unchecked"
+      id="group-2-1"
+      role="checkbox"
+      type="button"
+      value="on"
+    />
+    <label
+      class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+      data-slot="checkbox-label"
+      for="group-2-1"
+    >
+      Option 1
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-slot="checkbox"
+      data-state="unchecked"
+      id="group-2-2"
+      role="checkbox"
+      type="button"
+      value="on"
+    />
+    <label
+      class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+      data-slot="checkbox-label"
+      for="group-2-2"
+    >
+      Option 2
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-slot="checkbox"
+      data-state="unchecked"
+      id="group-2-3"
+      role="checkbox"
+      type="button"
+      value="on"
+    />
+    <label
+      class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+      data-slot="checkbox-label"
+      for="group-2-3"
+    >
+      Option 3
+    </label>
+  </div>
+</div>
+`;
+
+exports[`CheckboxGroup Snapshots > matches snapshot for vertical group 1`] = `
+<div
+  class="flex gap-ws-7 flex-col"
+  data-slot="checkbox-group"
+  role="group"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-slot="checkbox"
+      data-state="unchecked"
+      id="group-1-1"
+      role="checkbox"
+      type="button"
+      value="on"
+    />
+    <label
+      class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+      data-slot="checkbox-label"
+      for="group-1-1"
+    >
+      Option 1
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-slot="checkbox"
+      data-state="unchecked"
+      id="group-1-2"
+      role="checkbox"
+      type="button"
+      value="on"
+    />
+    <label
+      class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+      data-slot="checkbox-label"
+      for="group-1-2"
+    >
+      Option 2
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-unchecked:disabled:bg-ws-static-alpha-subtle radix-state-checked:disabled:border-none radix-state-checked:disabled:bg-ws-dynamic-primary-disabled radix-state-indeterminate:disabled:border-none radix-state-indeterminate:disabled:bg-ws-dynamic-primary-disabled w-ws-control-md h-ws-control-md rounded-ws-control-md outline-ws-dynamic-primary-strong-default disabled:text-ws-dynamic-on-primary-disabled focus-visible:bg-ws-static-highlight-base radix-state-unchecked:border-ws-static-strong radix-state-unchecked:bg-ws-static-highlight-base radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-checked:border-none radix-state-checked:bg-ws-dynamic-primary-default radix-state-checked:hover:bg-ws-dynamic-primary-hover radix-state-checked:hover:text-ws-dynamic-on-primary-hover radix-state-checked:active:bg-ws-dynamic-primary-pressed radix-state-checked:active:text-ws-dynamic-on-primary-pressed radix-state-indeterminate:border-none radix-state-indeterminate:bg-ws-dynamic-primary-default radix-state-indeterminate:hover:bg-ws-dynamic-primary-hover radix-state-indeterminate:hover:text-ws-dynamic-on-primary-hover radix-state-indeterminate:active:bg-ws-dynamic-primary-pressed radix-state-indeterminate:active:text-ws-dynamic-on-primary-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-slot="checkbox"
+      data-state="unchecked"
+      id="group-1-3"
+      role="checkbox"
+      type="button"
+      value="on"
+    />
+    <label
+      class="typography-label-sm text-ws-static-base gap-ws-3 flex flex-col cursor-pointer"
+      data-slot="checkbox-label"
+      for="group-1-3"
+    >
+      Option 3
+    </label>
+  </div>
+</div>
+`;

@@ -1,0 +1,685 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RadioButton Snapshots > matches snapshot for checked radio button 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="true"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="checked"
+      id="snapshot-7"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    >
+      <span
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-in fade-in-0 zoom-in-[0.4] fill-mode-both duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-bounce)"
+        data-state="checked"
+      >
+        <div
+          class="rounded-full group-radix-state-unchecked:hidden group-disabled:bg-ws-dynamic-primary-disabled bg-ws-dynamic-primary-default group-hover:bg-ws-dynamic-primary-hover group-active:bg-ws-dynamic-primary-pressed h-[10px] w-[10px]"
+        />
+      </span>
+    </button>
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="snapshot-7"
+    >
+      Checked radio button
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for danger variant 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-danger-strong-default bg-ws-static-highlight-base border-ws-dynamic-danger-strong-default radix-state-unchecked:border-ws-dynamic-danger-strong-default radix-state-unchecked:hover:border-ws-dynamic-danger-strong-hover radix-state-unchecked:active:border-ws-dynamic-danger-strong-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:bg-ws-dynamic-danger-alpha-default radix-state-checked:hover:bg-ws-dynamic-danger-alpha-hover radix-state-checked:hover:border-ws-dynamic-danger-strong-hover radix-state-checked:active:bg-ws-dynamic-danger-alpha-pressed radix-state-checked:active:border-ws-dynamic-danger-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-6"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="snapshot-6"
+    >
+      Danger radio button
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for default radio button 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-1"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for disabled checked radio button 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="-1"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="true"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-disabled=""
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="checked"
+      disabled=""
+      id="snapshot-9"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    >
+      <span
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-in fade-in-0 zoom-in-[0.4] fill-mode-both duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-bounce)"
+        data-disabled=""
+        data-state="checked"
+      >
+        <div
+          class="rounded-full group-radix-state-unchecked:hidden group-disabled:bg-ws-dynamic-primary-disabled bg-ws-dynamic-primary-default group-hover:bg-ws-dynamic-primary-hover group-active:bg-ws-dynamic-primary-pressed h-[10px] w-[10px]"
+        />
+      </span>
+    </button>
+    <label
+      class="typography-label-sm gap-ws-3 flex cursor-pointer flex-col text-ws-static-subtle pointer-events-none"
+      data-slot="radio-button-label"
+      for="snapshot-9"
+    >
+      Disabled checked
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for disabled radio button 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="-1"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-disabled=""
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      disabled=""
+      id="snapshot-8"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm gap-ws-3 flex cursor-pointer flex-col text-ws-static-subtle pointer-events-none"
+      data-slot="radio-button-label"
+      for="snapshot-8"
+    >
+      Disabled radio button
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for disabled radio button with RadioButton.Label 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="-1"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-disabled=""
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      disabled=""
+      id="snapshot-12"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <div
+      class="gap-ws-3 flex flex-col"
+    >
+      <label
+        class="typography-label-sm cursor-pointer text-ws-static-subtle pointer-events-none"
+        data-slot="radio-button-label"
+        for="snapshot-12"
+      >
+        Disabled radio button
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for large radio button 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-5"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="snapshot-5"
+    >
+      Large radio button
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for radio button with RadioButton.Label 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-10"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <div
+      class="gap-ws-3 flex flex-col"
+    >
+      <label
+        class="typography-label-sm text-ws-static-base cursor-pointer"
+        data-slot="radio-button-label"
+        for="snapshot-10"
+      >
+        Test radio button
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for radio button with RadioButton.Label and RadioButton.Description 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-11"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <div
+      class="gap-ws-3 flex flex-col"
+    >
+      <label
+        class="typography-label-sm text-ws-static-base cursor-pointer"
+        data-slot="radio-button-label"
+        for="snapshot-11"
+      >
+        Test radio button
+      </label>
+      <span
+        class="text-ws-static-subtle typography-body-sm cursor-pointer"
+        data-slot="radio-button-description"
+      >
+        This is a description
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for radio button with label 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-2"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="snapshot-2"
+    >
+      Test radio button
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for radio button with label and description 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-3"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="snapshot-3"
+    >
+      Test radio button
+      <div
+        class="text-ws-static-subtle typography-body-sm"
+        data-slot="radio-button-description"
+      >
+        This is a description
+      </div>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButton Snapshots > matches snapshot for small radio button 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-sm my-ws-2 rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="snapshot-4"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="snapshot-4"
+    >
+      Small radio button
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButtonGroup Snapshots > matches snapshot for horizontal group 1`] = `
+<div
+  aria-orientation="horizontal"
+  aria-required="false"
+  class="flex gap-ws-11"
+  data-orientation="horizontal"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="group-2-1"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="group-2-1"
+    >
+      Option 1
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="group-2-2"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option2"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="group-2-2"
+    >
+      Option 2
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="group-2-3"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option3"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="group-2-3"
+    >
+      Option 3
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioButtonGroup Snapshots > matches snapshot for vertical group 1`] = `
+<div
+  aria-orientation="vertical"
+  aria-required="false"
+  class="flex gap-ws-7 flex-col"
+  data-orientation="vertical"
+  data-slot="radio-button-group"
+  dir="ltr"
+  role="radiogroup"
+  style="outline: none;"
+  tabindex="0"
+>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="group-1-1"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option1"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="group-1-1"
+    >
+      Option 1
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="group-1-2"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option2"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="group-1-2"
+    >
+      Option 2
+    </label>
+  </div>
+  <div
+    class="gap-ws-5 flex w-fit"
+  >
+    <button
+      aria-checked="false"
+      class="group relative box-border flex cursor-pointer border disabled:wds-disabled focus-visible:wds-focus-visible focus-visible:bg-ws-static-highlight-base radix-state-checked:border-2 radix-state-checked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-checked:disabled:border-ws-dynamic-secondary-disabled size-ws-control-md rounded-full outline-ws-dynamic-primary-strong-default bg-ws-static-highlight-base border-ws-static-strong radix-state-unchecked:border-ws-static-strong radix-state-unchecked:hover:border-ws-dynamic-secondary-hover radix-state-unchecked:active:border-ws-dynamic-secondary-pressed radix-state-unchecked:disabled:bg-ws-dynamic-secondary-alpha-default radix-state-unchecked:disabled:border-ws-dynamic-secondary-disabled radix-state-checked:border-ws-dynamic-primary-strong-default radix-state-checked:bg-ws-dynamic-secondary-alpha-default radix-state-checked:hover:bg-ws-dynamic-primary-alpha-hover radix-state-checked:hover:border-ws-dynamic-primary-strong-hover radix-state-checked:active:bg-ws-dynamic-primary-alpha-pressed radix-state-checked:active:border-ws-dynamic-primary-strong-pressed transition-[background-color,border-color] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-smooth-out)"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="radio-button"
+      data-state="unchecked"
+      id="group-1-3"
+      role="radio"
+      tabindex="-1"
+      type="button"
+      value="option3"
+    />
+    <label
+      class="typography-label-sm text-ws-dynamic-secondary-default gap-ws-3 flex cursor-pointer flex-col"
+      data-slot="radio-button-label"
+      for="group-1-3"
+    >
+      Option 3
+    </label>
+  </div>
+</div>
+`;

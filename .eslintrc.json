@@ -1,0 +1,128 @@
+{
+  "root": true,
+  "extends": [
+    // By extending from a plugin config, we can get recommended rules without having to add them manually.
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/typescript",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recommended",
+    // This disables the formatting rules in ESLint that Prettier is going to be responsible for handling.
+    // Make sure it"s always the last config, so it gets the chance to override other configs.
+    "eslint-config-prettier"
+  ],
+  "plugins": ["react-hooks", "unused-imports", "simple-import-sort", "import"],
+  "globals": {
+    "module": false
+  },
+  "settings": {
+    "react": {
+      // Tells eslint-plugin-react to automatically detect the version of React to use.
+      "version": "detect"
+    },
+    // Tells eslint how to resolve imports
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "rules": {
+    // Types are imported as types. tsconfig sets verbatimModuleSyntax (Vite's react-ts template
+    // does by default), under which a type imported as a value is a compile error, in this repo
+    // and in every project that scaffolds these files.
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "inline-type-imports",
+        // `typeof import('./X').X` in *.types.ts breaks import cycles on purpose.
+        "disallowTypeAnnotations": false
+      }
+    ],
+    // An import whose specifiers are all inline types (`import { type A } from './x'`) is kept
+    // as a runtime `import './x'` under verbatimModuleSyntax. `import type` is erased entirely.
+    "@typescript-eslint/no-import-type-side-effects": "error",
+    "import/no-duplicates": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "react/prop-types": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": "warn",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.cjs"],
+      "env": {
+        "node": true,
+        "commonjs": true
+      },
+      "parserOptions": {
+        "sourceType": "script"
+      },
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    },
+    {
+      // Node scripts (registry, playground, the wideset CLI, the docs generators): plain ESM run with node.
+      "files": ["**/scripts/**/*.mjs", "**/cli/**/*.mjs"],
+      "env": {
+        "node": true,
+        "es2022": true
+      },
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2022
+      }
+    },
+    {
+      // The library never imports itself by its package name: that name resolves to src/index.ts
+      // only for the examples, and from a component it would be a cycle that ships.
+      "files": ["packages/design-system/src/**/*.{ts,tsx}"],
+      "excludedFiles": ["**/examples/**"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "@wideset/react",
+                "message": "Only examples (src/components/*/examples/) import the package by name; use a relative import."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      // Examples are what a consumer copies: the package by name, never a relative library file.
+      "files": ["packages/design-system/src/components/*/examples/**/*.{ts,tsx}"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": ["../*", "./*"],
+                "message": "Import from '@wideset/react', as a consumer does."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

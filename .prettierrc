@@ -1,0 +1,21 @@
+{
+  "jsxSingleQuote": false,
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "bracketSameLine": false,
+  "useTabs": false,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+  "tailwindFunctions": ["cn", "cva"],
+  "overrides": [
+    { "files": "*.astro", "options": { "parser": "astro" } },
+    {
+      "files": "apps/docs/**",
+      "options": { "tailwindStylesheet": "./packages/design-system/src/styles/index.css" }
+    }
+  ]
+}

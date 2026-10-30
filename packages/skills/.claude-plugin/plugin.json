@@ -1,0 +1,14 @@
+{
+  "name": "wideset",
+  "version": "0.1.0",
+  "description": "Build apps with the Wideset design system: component choice, props, ws- tokens, craft, compositions and review, generated from the library.",
+  "author": {
+    "name": "Widelab"
+  },
+  "homepage": "https://wideset-docs.widelab.workers.dev",
+  "repository": "https://github.com/widelab-co/wideset",
+  "license": "Apache-2.0",
+  "keywords": ["wideset", "design-system", "react", "tailwindcss"],
+  "skills": "./skills",
+  "agents": ["./agents/wideset-ui-reviewer.md", "./agents/wideset-theme-reviewer.md"]
+}

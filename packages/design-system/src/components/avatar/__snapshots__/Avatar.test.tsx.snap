@@ -1,0 +1,339 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Avatar > Snapshots > should match snapshot for a group with an overflow badge 1`] = `
+<div>
+  <div
+    class="w-full is-group group -space-x-ws-4 isolate flex flex-nowrap items-center whitespace-nowrap"
+    data-slot="avatar-group"
+  >
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 3;"
+    >
+      <span
+        class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-yellow-subtle text-ws-non-semantic-yellow-on-subtle"
+        data-slot="avatar-initials"
+      >
+        WD
+      </span>
+    </span>
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 2;"
+    >
+      <span
+        class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-indigo-subtle text-ws-non-semantic-indigo-on-subtle"
+        data-slot="avatar-initials"
+      >
+        WD1
+      </span>
+    </span>
+    <span
+      class="cursor-default relative box-border inline-flex shrink-0 items-center justify-center text-ws-static-base transition-colors bg-ws-dynamic-secondary-alpha-strong-default typography-caption-strong-md h-ws-14 w-ws-14 [&_svg]:size-ws-9 rounded-full"
+      data-slot="avatar-more"
+      style="z-index: 1;"
+    >
+      +1
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Avatar > Snapshots > should match snapshot for avatar in grid layout 1`] = `
+<div>
+  <div
+    class="max-w-ws-24"
+  >
+    <div
+      class="w-full is-group group gap-ws-3 flex flex-wrap space-x-0"
+      data-slot="avatar-group"
+    >
+      <span
+        class="relative inline-flex"
+        data-slot="avatar"
+      >
+        <span
+          class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-orange-subtle text-ws-non-semantic-orange-on-subtle"
+          data-slot="avatar-initials"
+        >
+          DS
+        </span>
+      </span>
+      <span
+        class="relative inline-flex"
+        data-slot="avatar"
+      >
+        <span
+          class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-lime-subtle text-ws-non-semantic-lime-on-subtle"
+          data-slot="avatar-initials"
+        >
+          DS
+        </span>
+      </span>
+      <span
+        class="relative inline-flex"
+        data-slot="avatar"
+      >
+        <span
+          class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-teal-subtle text-ws-non-semantic-teal-on-subtle"
+          data-slot="avatar-initials"
+        >
+          DS
+        </span>
+      </span>
+      <span
+        class="relative inline-flex"
+        data-slot="avatar"
+      >
+        <span
+          class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-brand-subtle text-ws-non-semantic-brand-on-subtle"
+          data-slot="avatar-initials"
+        >
+          DS
+        </span>
+      </span>
+      <span
+        class="relative inline-flex"
+        data-slot="avatar"
+      >
+        <span
+          class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-violet-subtle text-ws-non-semantic-violet-on-subtle"
+          data-slot="avatar-initials"
+        >
+          DS
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar > Snapshots > should match snapshot for avatar in group 1`] = `
+<div>
+  <div
+    class="w-full is-group group -space-x-ws-4 isolate flex flex-nowrap items-center whitespace-nowrap"
+    data-slot="avatar-group"
+  >
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 3;"
+    >
+      <span
+        class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-yellow-subtle text-ws-non-semantic-yellow-on-subtle"
+        data-slot="avatar-initials"
+      >
+        WD
+      </span>
+    </span>
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 2;"
+    >
+      <span
+        class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-indigo-subtle text-ws-non-semantic-indigo-on-subtle"
+        data-slot="avatar-initials"
+      >
+        WD1
+      </span>
+    </span>
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 1;"
+    >
+      <span
+        class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-purple-subtle text-ws-non-semantic-purple-on-subtle"
+        data-slot="avatar-initials"
+      >
+        WD2
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Avatar > Snapshots > should match snapshot for avatar with Icon 1`] = `
+<div>
+  <span
+    class="relative inline-flex"
+    data-slot="avatar"
+  >
+    <div
+      aria-label="Default User Icon"
+      class="bg-ws-static-alpha-base text-ws-static-base relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full"
+      data-slot="avatar-icon"
+      role="img"
+    >
+      <svg
+        class="remixicon "
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13 19.9C15.2822 19.4367 17 17.419 17 15V12C17 11.299 16.8564 10.6219 16.5846 10H7.41538C7.14358 10.6219 7 11.299 7 12V15C7 17.419 8.71776 19.4367 11 19.9V14H13V19.9ZM5.5358 17.6907C5.19061 16.8623 5 15.9534 5 15H2V13H5V12C5 11.3573 5.08661 10.7348 5.2488 10.1436L3.0359 8.86602L4.0359 7.13397L6.05636 8.30049C6.11995 8.19854 6.18609 8.09835 6.25469 8H17.7453C17.8139 8.09835 17.88 8.19854 17.9436 8.30049L19.9641 7.13397L20.9641 8.86602L18.7512 10.1436C18.9134 10.7348 19 11.3573 19 12V13H22V15H19C19 15.9534 18.8094 16.8623 18.4642 17.6907L20.9641 19.134L19.9641 20.866L17.4383 19.4077C16.1549 20.9893 14.1955 22 12 22C9.80453 22 7.84512 20.9893 6.56171 19.4077L4.0359 20.866L3.0359 19.134L5.5358 17.6907ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6H8Z"
+        />
+      </svg>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Avatar > Snapshots > should match snapshot for avatar with status 1`] = `
+<div>
+  <div
+    class="w-full is-group group -space-x-ws-4 isolate flex flex-nowrap items-center whitespace-nowrap"
+    data-slot="avatar-group"
+  >
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 3;"
+    >
+      <div
+        aria-label="Default User Icon"
+        class="bg-ws-static-alpha-base text-ws-static-base relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-caption-strong-sm h-ws-11 w-ws-11 [&_svg]:size-ws-7 [--mask-edge:0.5px] [--mask-position:5px] [--mask-radius:4px] rounded-full mask-[radial-gradient(circle_at_calc(100%-var(--mask-position))_calc(100%-var(--mask-position)),transparent_var(--mask-radius),black_calc(var(--mask-radius)_+_var(--mask-edge)))] [-webkit-mask-image:radial-gradient(circle_at_calc(100%-var(--mask-position))_calc(100%-var(--mask-position)),transparent_var(--mask-radius),black_calc(var(--mask-radius)_+_var(--mask-edge)))]"
+        data-slot="avatar-icon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class="remixicon fill-ws-static-base"
+          fill="currentColor"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 22H18V20C18 18.3431 16.6569 17 15 17H9C7.34315 17 6 18.3431 6 20V22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13ZM12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+          />
+        </svg>
+      </div>
+      <div
+        class="right-ws-2 bottom-ws-2 z-ws-base absolute rounded-full size-ws-4 bg-ws-semantic-inverse-positive"
+        data-slot="avatar-status"
+      >
+        <span
+          class="sr-only"
+        >
+          online
+        </span>
+      </div>
+    </span>
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 2;"
+    >
+      <div
+        aria-label="Default User Icon"
+        class="bg-ws-static-alpha-base text-ws-static-base relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-caption-strong-sm h-ws-11 w-ws-11 [&_svg]:size-ws-7 [--mask-edge:0.5px] [--mask-position:5px] [--mask-radius:4px] rounded-full mask-[radial-gradient(circle_at_calc(100%-var(--mask-position))_calc(100%-var(--mask-position)),transparent_var(--mask-radius),black_calc(var(--mask-radius)_+_var(--mask-edge)))] [-webkit-mask-image:radial-gradient(circle_at_calc(100%-var(--mask-position))_calc(100%-var(--mask-position)),transparent_var(--mask-radius),black_calc(var(--mask-radius)_+_var(--mask-edge)))]"
+        data-slot="avatar-icon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class="remixicon fill-ws-static-base"
+          fill="currentColor"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 22H18V20C18 18.3431 16.6569 17 15 17H9C7.34315 17 6 18.3431 6 20V22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13ZM12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+          />
+        </svg>
+      </div>
+      <div
+        class="right-ws-2 bottom-ws-2 z-ws-base absolute rounded-full size-ws-4 bg-ws-semantic-inverse-negative"
+        data-slot="avatar-status"
+      >
+        <span
+          class="sr-only"
+        >
+          offline
+        </span>
+      </div>
+    </span>
+    <span
+      class="relative inline-flex"
+      data-slot="avatar"
+      style="z-index: 1;"
+    >
+      <div
+        aria-label="Default User Icon"
+        class="bg-ws-static-alpha-base text-ws-static-base relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-caption-strong-sm h-ws-11 w-ws-11 [&_svg]:size-ws-7 [--mask-edge:0.5px] [--mask-position:5px] [--mask-radius:4px] rounded-full mask-[radial-gradient(circle_at_calc(100%-var(--mask-position))_calc(100%-var(--mask-position)),transparent_var(--mask-radius),black_calc(var(--mask-radius)_+_var(--mask-edge)))] [-webkit-mask-image:radial-gradient(circle_at_calc(100%-var(--mask-position))_calc(100%-var(--mask-position)),transparent_var(--mask-radius),black_calc(var(--mask-radius)_+_var(--mask-edge)))]"
+        data-slot="avatar-icon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class="remixicon fill-ws-static-base"
+          fill="currentColor"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 22H18V20C18 18.3431 16.6569 17 15 17H9C7.34315 17 6 18.3431 6 20V22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13ZM12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+          />
+        </svg>
+      </div>
+      <div
+        class="right-ws-2 bottom-ws-2 z-ws-base absolute rounded-full size-ws-4 bg-ws-dynamic-primary-disabled"
+        data-slot="avatar-status"
+      >
+        <span
+          class="sr-only"
+        >
+          unavailable
+        </span>
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Avatar > Snapshots > should match snapshot for default avatar 1`] = `
+<div>
+  <span
+    class="relative inline-flex"
+    data-slot="avatar"
+  >
+    <span
+      class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-full bg-ws-non-semantic-yellow-subtle text-ws-non-semantic-yellow-on-subtle"
+      data-slot="avatar-initials"
+    >
+      WD
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Avatar > Snapshots > should match snapshot for square avatar 1`] = `
+<div>
+  <span
+    class="relative inline-flex"
+    data-slot="avatar"
+  >
+    <span
+      class="relative box-border inline-flex shrink-0 items-center justify-center object-cover typography-label-strong-sm h-ws-14 w-ws-14 [&_svg]:size-ws-9 [--mask-edge:0.5px] [--mask-position:6px] [--mask-radius:6px] rounded-ws-control-lg bg-ws-non-semantic-yellow-subtle text-ws-non-semantic-yellow-on-subtle"
+      data-slot="avatar-initials"
+    >
+      WD
+    </span>
+  </span>
+</div>
+`;

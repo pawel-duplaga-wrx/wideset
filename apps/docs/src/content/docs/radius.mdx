@@ -1,0 +1,55 @@
+---
+title: Radius
+description: Corner radius for containers and controls, and how to change the shape.
+section: Foundations
+---
+
+import RadiusScale from '../../components/foundations/RadiusScale.astro';
+
+Corners come in two ladders. **Container** radii are for surfaces that hold other content:
+cards, tiles, modals, popups, toasts, menus. **Control** radii are for the things you click or
+type into: buttons, inputs, checkboxes, select triggers. A container is usually larger than
+the controls inside it, so its ladder is larger at the same step, and the two can be changed
+separately.
+
+```tsx
+<div className="rounded-ws-container-md border border-ws-static-base p-ws-6">
+  <button className="rounded-ws-control-lg">…</button>
+</div>
+```
+
+`rounded-lg` and the rest are Tailwind's own scale and do not follow these tokens.
+
+## Container
+
+`rounded-ws-container-*`. Each sample is drawn with its token.
+
+<RadiusScale of="container" />
+
+## Control
+
+`rounded-ws-control-*`. `full` makes a pill: tags, status badges, tab pills, slider tracks.
+
+<RadiusScale of="control" />
+
+## Change the shape
+
+Wideset ships one set of radii; there is no sharp or round mode to switch on. The shape is the
+tokens, so a stylesheet loaded after Wideset's changes every component that reads them. Point a
+token at another `--ws-radius-*` primitive:
+
+```css
+:root {
+  --radius-ws-control-md: var(--ws-radius-50); /* tighter controls */
+  --radius-ws-container-md: var(--ws-radius-100);
+}
+```
+
+The same card drawn with the default tokens and with two such overrides, scoped to each box:
+
+<RadiusScale of="override" />
+
+The chain is `--radius-ws-control-md` → `--ws-corner-radius-control-medium` →
+`--ws-radius-150`. Overriding a lower link at `:root` works too, but a primitive can be
+shared: `--ws-radius-200` is both `control-lg` and `container-sm`. See
+[Theming](/docs/theming) for where to load overrides.

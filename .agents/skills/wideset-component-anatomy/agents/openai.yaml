@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Wideset Component Anatomy'
+  short_description: 'Give a component its Anatomy section'
+  default_prompt: 'Use $wideset-component-anatomy to write or fix the anatomy composition of a Wideset component and audit the Anatomy section across the docs.'

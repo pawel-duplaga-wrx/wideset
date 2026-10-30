@@ -1,0 +1,39 @@
+---
+title: Contributing
+description: Report a bug, propose a change, or open a pull request.
+section: Community
+---
+
+Wideset is open source under the Apache License 2.0, and contributions are welcome: bug reports,
+fixes, docs, and new components.
+
+## Report a bug
+
+Open an [issue](https://github.com/widelab-co/wideset/issues/new/choose) with the
+package version (`npm ls @wideset/react`), what you expected, what happened, and a minimal
+reproduction (a StackBlitz or CodeSandbox link is best). Check the
+[open issues](https://github.com/widelab-co/wideset/issues) first.
+
+## Propose a change
+
+For a new component or a change to an existing API, start a
+[discussion](https://github.com/widelab-co/wideset/discussions) before writing code. Wideset
+is designed in Figma first, so a new component needs a design before it needs a PR, and it may
+already be planned.
+
+Small fixes (a bug, a typo, a missing `aria-*`) can go straight to a pull request.
+
+## Open a pull request
+
+1. Fork the repository and branch from `develop`.
+2. Set up: Node 22 and pnpm, then `pnpm install` and `pnpm storybook`.
+3. Make the change with stories and tests. The conventions (file layout, tokens, composition,
+   accessibility) are in [AGENTS.md](https://github.com/widelab-co/wideset/blob/develop/AGENTS.md);
+   they apply to people and AI agents alike.
+4. If users of the package will notice the change, add a changeset: `pnpm changeset`.
+5. Run `pnpm typecheck && pnpm test`, then open the PR against `develop`.
+
+The full process is in
+[CONTRIBUTING.md](https://github.com/widelab-co/wideset/blob/develop/CONTRIBUTING.md).
+By contributing you agree to the
+[Code of Conduct](https://github.com/widelab-co/wideset/blob/develop/CODE_OF_CONDUCT.md).

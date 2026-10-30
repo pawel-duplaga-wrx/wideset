@@ -1,0 +1,81 @@
+---
+import tokens from '../../generated/tokens.json';
+
+/**
+ * `of="container" | "control"`: one radius ladder, each step drawn with its own token.
+ * `of="override"`: the same control and container drawn three times, with the `--radius-ws-*`
+ * tokens re-pointed on the wrapper at other `--ws-radius-*` primitives, the way a stylesheet
+ * override would do it for the whole page.
+ */
+interface Props {
+  of: 'container' | 'control' | 'override';
+}
+const { of } = Astro.props;
+
+const ladder = tokens.radius.filter((token) => token.group === of);
+
+const overrides = [
+  { label: 'Default', style: '' },
+  {
+    label: 'Tighter',
+    style: [
+      '--radius-ws-control-md: var(--ws-radius-50)',
+      '--radius-ws-container-md: var(--ws-radius-100)',
+    ].join('; '),
+  },
+  {
+    label: 'Pill controls',
+    style: [
+      '--radius-ws-control-md: var(--ws-radius-full)',
+      '--radius-ws-container-md: var(--ws-radius-600)',
+    ].join('; '),
+  },
+];
+---
+
+{of === 'override' ? (
+  <div class="not-prose mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
+    {overrides.map((override) => (
+      <div
+        class="border-ws-static-subtle bg-ws-static-background flex flex-col gap-3 rounded-[12px] border p-4"
+        style={override.style}
+      >
+        <div
+          class="border-ws-static-base bg-ws-static-container flex flex-col gap-3 border p-4"
+          style="border-radius: var(--radius-ws-container-md)"
+        >
+          <div class="text-ws-static-strong text-[13px] leading-5 font-medium">Container md</div>
+          <div
+            class="bg-ws-dynamic-primary-default text-ws-dynamic-on-primary-default grid place-items-center text-[13px] leading-5"
+            style="height: var(--spacing-ws-forms-sm); border-radius: var(--radius-ws-control-md)"
+          >
+            Control md
+          </div>
+        </div>
+        <div class="text-ws-static-subtle text-[12px] leading-4">{override.label}</div>
+      </div>
+    ))}
+  </div>
+) : (
+  <div class="not-prose mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
+    {ladder.map((token) => (
+      <div class="border-ws-static-subtle flex flex-col gap-3 rounded-[12px] border p-4">
+        <div
+          class:list={[
+            'border-ws-dynamic-primary-strong-default bg-ws-static-alpha-subtle border-2',
+            of === 'container' ? 'h-20' : 'h-10',
+          ]}
+          style={`border-radius: var(${token.name})`}
+        />
+        <div class="min-w-0">
+          <code class="text-ws-static-strong block truncate font-mono text-[12px]">
+            {token.className}
+          </code>
+          <div class="text-ws-static-subtle font-mono text-[11px] leading-4">
+            {token.value} · {token.primitive}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+)}

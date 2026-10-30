@@ -1,0 +1,300 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Accordion > Snapshots > should match snapshot for contained variant 1`] = `
+<div
+  class="w-full space-y-ws-5"
+  data-orientation="vertical"
+  data-slot="accordion"
+>
+  <div
+    class="group/item border-ws-static-strong bg-ws-dynamic-secondary-alpha-default overflow-hidden radix-disabled:border-ws-dynamic-secondary-disabled border hover:bg-ws-dynamic-secondary-alpha-hover has-active:bg-ws-dynamic-secondary-alpha-pressed rounded-ws-container-md has-focus-visible:rounded-ws-container-md has-focus-visible:outline-ws-dynamic-primary-strong-default has-focus-visible:wds-focus-visible"
+    data-orientation="vertical"
+    data-slot="accordion-item"
+    data-state="open"
+  >
+    <button
+      aria-controls="radix-_r_17_"
+      aria-expanded="true"
+      class="bg-ws-dynamic-secondary-alpha-default gap-ws-7 py-ws-8 box-border flex w-full cursor-pointer text-left outline-hidden group/trigger text-ws-static-strong typography-label-strong-sm radix-disabled:text-ws-static-subtle radix-disabled:cursor-default radix-disabled:pointer-events-none px-ws-9"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="accordion-trigger"
+      data-state="open"
+      id="radix-_r_16_"
+      type="button"
+    >
+      Item 1
+      <svg
+        aria-hidden="true"
+        class="remixicon text-ws-dynamic-on-secondary-default size-ws-11 ml-auto group-data-[state=open]/trigger:rotate-180 transition-transform duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-smooth-out)"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+        />
+      </svg>
+    </button>
+    <div
+      aria-labelledby="radix-_r_16_"
+      class="text-ws-static-subtle typography-body-md px-ws-9 pb-ws-9 overflow-hidden data-[state=open]:animate-[ws-accordion-down_var(--ws-motion-duration-fast)_var(--ws-motion-ease-smooth-out)] data-[state=closed]:animate-[ws-accordion-up_var(--ws-motion-duration-quick)_var(--ws-motion-ease-smooth-out)]"
+      data-orientation="vertical"
+      data-slot="accordion-content"
+      data-state="open"
+      id="radix-_r_17_"
+      role="region"
+      style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
+    >
+      Content 1
+    </div>
+  </div>
+  <div
+    class="group/item border-ws-static-strong bg-ws-dynamic-secondary-alpha-default overflow-hidden radix-disabled:border-ws-dynamic-secondary-disabled border hover:bg-ws-dynamic-secondary-alpha-hover has-active:bg-ws-dynamic-secondary-alpha-pressed rounded-ws-container-md has-focus-visible:rounded-ws-container-md has-focus-visible:outline-ws-dynamic-primary-strong-default has-focus-visible:wds-focus-visible"
+    data-orientation="vertical"
+    data-slot="accordion-item"
+    data-state="closed"
+  >
+    <button
+      aria-expanded="false"
+      class="bg-ws-dynamic-secondary-alpha-default gap-ws-7 py-ws-8 box-border flex w-full cursor-pointer text-left outline-hidden group/trigger text-ws-static-strong typography-label-strong-sm radix-disabled:text-ws-static-subtle radix-disabled:cursor-default radix-disabled:pointer-events-none px-ws-9"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="accordion-trigger"
+      data-state="closed"
+      id="radix-_r_18_"
+      type="button"
+    >
+      Item 2
+      <svg
+        aria-hidden="true"
+        class="remixicon text-ws-dynamic-on-secondary-default size-ws-11 ml-auto group-data-[state=open]/trigger:rotate-180 transition-transform duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-smooth-out)"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+        />
+      </svg>
+    </button>
+    <div
+      aria-labelledby="radix-_r_18_"
+      class="text-ws-static-subtle typography-body-md px-ws-9 pb-ws-9 overflow-hidden data-[state=open]:animate-[ws-accordion-down_var(--ws-motion-duration-fast)_var(--ws-motion-ease-smooth-out)] data-[state=closed]:animate-[ws-accordion-up_var(--ws-motion-duration-quick)_var(--ws-motion-ease-smooth-out)]"
+      data-orientation="vertical"
+      data-slot="accordion-content"
+      data-state="closed"
+      hidden=""
+      id="radix-_r_19_"
+      role="region"
+      style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshots > should match snapshot for default accordion 1`] = `
+<div
+  class="w-full"
+  data-orientation="vertical"
+  data-slot="accordion"
+>
+  <div
+    class="group/item border-ws-static-strong bg-ws-dynamic-secondary-alpha-default overflow-hidden border-b has-focus-visible:border-transparent has-focus-visible:rounded-ws-container-sm has-focus-visible:outline-ws-dynamic-primary-strong-default has-focus-visible:wds-focus-visible"
+    data-orientation="vertical"
+    data-slot="accordion-item"
+    data-state="open"
+  >
+    <button
+      aria-controls="radix-_r_v_"
+      aria-expanded="true"
+      class="bg-ws-dynamic-secondary-alpha-default gap-ws-7 py-ws-8 box-border flex w-full cursor-pointer text-left outline-hidden group/trigger text-ws-static-strong typography-label-strong-sm radix-disabled:text-ws-static-subtle radix-disabled:cursor-default radix-disabled:hover:no-underline hover:underline"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="accordion-trigger"
+      data-state="open"
+      id="radix-_r_u_"
+      type="button"
+    >
+      Item 1
+      <svg
+        aria-hidden="true"
+        class="remixicon text-ws-dynamic-on-secondary-default size-ws-11 ml-auto group-data-[state=open]/trigger:rotate-180 transition-transform duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-smooth-out)"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+        />
+      </svg>
+    </button>
+    <div
+      aria-labelledby="radix-_r_u_"
+      class="text-ws-static-subtle typography-body-md pb-ws-7 overflow-hidden data-[state=open]:animate-[ws-accordion-down_var(--ws-motion-duration-fast)_var(--ws-motion-ease-smooth-out)] data-[state=closed]:animate-[ws-accordion-up_var(--ws-motion-duration-quick)_var(--ws-motion-ease-smooth-out)]"
+      data-orientation="vertical"
+      data-slot="accordion-content"
+      data-state="open"
+      id="radix-_r_v_"
+      role="region"
+      style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
+    >
+      Content 1
+    </div>
+  </div>
+  <div
+    class="group/item border-ws-static-strong bg-ws-dynamic-secondary-alpha-default overflow-hidden border-b has-focus-visible:border-transparent has-focus-visible:rounded-ws-container-sm has-focus-visible:outline-ws-dynamic-primary-strong-default has-focus-visible:wds-focus-visible"
+    data-orientation="vertical"
+    data-slot="accordion-item"
+    data-state="closed"
+  >
+    <button
+      aria-expanded="false"
+      class="bg-ws-dynamic-secondary-alpha-default gap-ws-7 py-ws-8 box-border flex w-full cursor-pointer text-left outline-hidden group/trigger text-ws-static-strong typography-label-strong-sm radix-disabled:text-ws-static-subtle radix-disabled:cursor-default radix-disabled:hover:no-underline hover:underline"
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="accordion-trigger"
+      data-state="closed"
+      id="radix-_r_10_"
+      type="button"
+    >
+      Item 2
+      <svg
+        aria-hidden="true"
+        class="remixicon text-ws-dynamic-on-secondary-default size-ws-11 ml-auto group-data-[state=open]/trigger:rotate-180 transition-transform duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-smooth-out)"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+        />
+      </svg>
+    </button>
+    <div
+      aria-labelledby="radix-_r_10_"
+      class="text-ws-static-subtle typography-body-md pb-ws-7 overflow-hidden data-[state=open]:animate-[ws-accordion-down_var(--ws-motion-duration-fast)_var(--ws-motion-ease-smooth-out)] data-[state=closed]:animate-[ws-accordion-up_var(--ws-motion-duration-quick)_var(--ws-motion-ease-smooth-out)]"
+      data-orientation="vertical"
+      data-slot="accordion-content"
+      data-state="closed"
+      hidden=""
+      id="radix-_r_11_"
+      role="region"
+      style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Accordion > Snapshots > should match snapshot for disabled accordion 1`] = `
+<div
+  class="w-full"
+  data-orientation="vertical"
+  data-slot="accordion"
+>
+  <div
+    class="group/item border-ws-static-strong bg-ws-dynamic-secondary-alpha-default overflow-hidden border-b has-focus-visible:border-transparent has-focus-visible:rounded-ws-container-sm has-focus-visible:outline-ws-dynamic-primary-strong-default has-focus-visible:wds-focus-visible"
+    data-disabled=""
+    data-orientation="vertical"
+    data-slot="accordion-item"
+    data-state="open"
+  >
+    <button
+      aria-controls="radix-_r_13_"
+      aria-expanded="true"
+      class="bg-ws-dynamic-secondary-alpha-default gap-ws-7 py-ws-8 box-border flex w-full cursor-pointer text-left outline-hidden group/trigger text-ws-static-strong typography-label-strong-sm radix-disabled:text-ws-static-subtle radix-disabled:cursor-default radix-disabled:hover:no-underline hover:underline"
+      data-disabled=""
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="accordion-trigger"
+      data-state="open"
+      disabled=""
+      id="radix-_r_12_"
+      type="button"
+    >
+      Item 1
+      <svg
+        aria-hidden="true"
+        class="remixicon text-ws-dynamic-on-secondary-default size-ws-11 ml-auto group-data-[state=open]/trigger:rotate-180 transition-transform duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-smooth-out)"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+        />
+      </svg>
+    </button>
+    <div
+      aria-labelledby="radix-_r_12_"
+      class="text-ws-static-subtle typography-body-md pb-ws-7 overflow-hidden data-[state=open]:animate-[ws-accordion-down_var(--ws-motion-duration-fast)_var(--ws-motion-ease-smooth-out)] data-[state=closed]:animate-[ws-accordion-up_var(--ws-motion-duration-quick)_var(--ws-motion-ease-smooth-out)]"
+      data-disabled=""
+      data-orientation="vertical"
+      data-slot="accordion-content"
+      data-state="open"
+      id="radix-_r_13_"
+      role="region"
+      style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
+    >
+      Content 1
+    </div>
+  </div>
+  <div
+    class="group/item border-ws-static-strong bg-ws-dynamic-secondary-alpha-default overflow-hidden border-b has-focus-visible:border-transparent has-focus-visible:rounded-ws-container-sm has-focus-visible:outline-ws-dynamic-primary-strong-default has-focus-visible:wds-focus-visible"
+    data-disabled=""
+    data-orientation="vertical"
+    data-slot="accordion-item"
+    data-state="closed"
+  >
+    <button
+      aria-expanded="false"
+      class="bg-ws-dynamic-secondary-alpha-default gap-ws-7 py-ws-8 box-border flex w-full cursor-pointer text-left outline-hidden group/trigger text-ws-static-strong typography-label-strong-sm radix-disabled:text-ws-static-subtle radix-disabled:cursor-default radix-disabled:hover:no-underline hover:underline"
+      data-disabled=""
+      data-orientation="vertical"
+      data-radix-collection-item=""
+      data-slot="accordion-trigger"
+      data-state="closed"
+      disabled=""
+      id="radix-_r_14_"
+      type="button"
+    >
+      Item 2
+      <svg
+        aria-hidden="true"
+        class="remixicon text-ws-dynamic-on-secondary-default size-ws-11 ml-auto group-data-[state=open]/trigger:rotate-180 transition-transform duration-(--ws-motion-duration-fast) ease-(--ws-motion-ease-smooth-out)"
+        fill="currentColor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+        />
+      </svg>
+    </button>
+    <div
+      aria-labelledby="radix-_r_14_"
+      class="text-ws-static-subtle typography-body-md pb-ws-7 overflow-hidden data-[state=open]:animate-[ws-accordion-down_var(--ws-motion-duration-fast)_var(--ws-motion-ease-smooth-out)] data-[state=closed]:animate-[ws-accordion-up_var(--ws-motion-duration-quick)_var(--ws-motion-ease-smooth-out)]"
+      data-disabled=""
+      data-orientation="vertical"
+      data-slot="accordion-content"
+      data-state="closed"
+      hidden=""
+      id="radix-_r_15_"
+      role="region"
+      style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+    />
+  </div>
+</div>
+`;

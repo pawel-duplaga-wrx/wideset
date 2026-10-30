@@ -1,0 +1,8 @@
+/*
+  Tailwind's preflight (browser reset), shipped as `@wideset/react/preflight` for apps without
+  Tailwind. Apps with Tailwind v4 already have it. Components are designed against this reset.
+  The theme import only resolves preflight's `--theme()` fallbacks inline; it emits no variables.
+*/
+@layer properties, theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme) theme(inline);
+@import 'tailwindcss/preflight.css' layer(base);

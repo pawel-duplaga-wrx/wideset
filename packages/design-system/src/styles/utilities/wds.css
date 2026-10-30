@@ -1,0 +1,15 @@
+/*
+  Shared behaviour utilities.
+
+  Focus rings live here, not in utilities/shadow.css: Figma's Focus/* effect styles
+  draw an opaque band to fake a transparent gap (a drop shadow cannot have a hole),
+  which in CSS is an outline with an offset.
+*/
+
+@utility wds-focus-visible {
+  @apply outline-2 outline-offset-2 select-none;
+}
+
+@utility wds-disabled {
+  @apply pointer-events-none cursor-default;
+}

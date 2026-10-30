@@ -1,0 +1,34 @@
+// Storybook as a Cloudflare Worker serving static assets. It also ships a copy of the shadcn
+// registry (public/r); the canonical one is the docs site's (apps/docs/wrangler.jsonc).
+// Deployed by the deploy job in .github/workflows/build.yaml:
+//   main    → this Worker (production; custom domain wideset-storybook.widelab.workers.dev)
+//   develop → the "develop" environment, a second Worker named wideset-storybook-develop
+//   PRs     → `wrangler versions upload --preview-alias <branch>` on this Worker, which gives
+//             https://<branch>-wideset-storybook.<account>.workers.dev
+// public/_headers (cache + CORS for /r/*) and public/404.html apply unchanged: Workers static
+// assets honour _headers, and 404-page handling answers unknown paths with a 404 status, which
+// the shadcn CLI needs for a missing registry item.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wideset-storybook",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./storybook-static",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash",
+  },
+  "env": {
+    "develop": {
+      "name": "wideset-storybook-develop",
+      "workers_dev": true,
+      "preview_urls": true,
+      "assets": {
+        "directory": "./storybook-static",
+        "not_found_handling": "404-page",
+        "html_handling": "auto-trailing-slash",
+      },
+    },
+  },
+}

@@ -1,0 +1,271 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FileUpload Snapshots > matches snapshot for button variant 1`] = `
+<div
+  class="flex flex-col"
+  data-slot="file-upload"
+>
+  <button
+    class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+    data-slot="file-upload-trigger"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon shrink-0 h-ws-9 w-ws-9"
+      data-slot="button-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"
+      />
+    </svg>
+    <span
+      class="px-ws-2"
+    >
+      Upload
+    </span>
+  </button>
+</div>
+`;
+
+exports[`FileUpload Snapshots > matches snapshot for disabled dropzone 1`] = `
+<div
+  class="flex flex-col"
+  data-slot="file-upload"
+>
+  <div
+    class="rounded-ws-container-md gap-ws-5 p-ws-16 relative flex flex-col items-center justify-center focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default pointer-events-none cursor-default bg-ws-dynamic-secondary-alpha-default text-ws-static-subtle [--dropzone-stroke:var(--border-color-ws-dynamic-secondary-disabled)] transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-slot="file-upload-dropzone"
+  >
+    <svg
+      aria-hidden="true"
+      class="pointer-events-none absolute inset-0 size-full overflow-visible"
+      focusable="false"
+    >
+      <rect
+        class="h-[calc(100%-1px)] w-[calc(100%-1px)] fill-none stroke-(--dropzone-stroke) [rx:var(--radius-ws-container-md)] transition-[stroke] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+        stroke-dasharray="4 4"
+        stroke-dashoffset="0.5"
+        stroke-width="1"
+        x="0.5"
+        y="0.5"
+      />
+    </svg>
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-12 shrink-0"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM13 9V16H11V9H6L12 3L18 9H13Z"
+      />
+    </svg>
+    <div
+      class="gap-ws-9 flex w-full flex-col items-center"
+    >
+      <span
+        class="typography-label-sm text-center"
+      >
+        Drop files here to upload or...
+      </span>
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        disabled=""
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Browse files
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FileUpload Snapshots > matches snapshot for dropzone variant 1`] = `
+<div
+  class="flex flex-col"
+  data-slot="file-upload"
+>
+  <div
+    class="rounded-ws-container-md gap-ws-5 p-ws-16 relative flex flex-col items-center justify-center bg-ws-dynamic-secondary-alpha-default text-ws-static-base [--dropzone-stroke:var(--border-color-ws-dynamic-secondary-default)] focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default cursor-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-slot="file-upload-dropzone"
+  >
+    <svg
+      aria-hidden="true"
+      class="pointer-events-none absolute inset-0 size-full overflow-visible"
+      focusable="false"
+    >
+      <rect
+        class="h-[calc(100%-1px)] w-[calc(100%-1px)] fill-none stroke-(--dropzone-stroke) [rx:var(--radius-ws-container-md)] transition-[stroke] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+        stroke-dasharray="4 4"
+        stroke-dashoffset="0.5"
+        stroke-width="1"
+        x="0.5"
+        y="0.5"
+      />
+    </svg>
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-12 shrink-0"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM13 9V16H11V9H6L12 3L18 9H13Z"
+      />
+    </svg>
+    <div
+      class="gap-ws-9 flex w-full flex-col items-center"
+    >
+      <span
+        class="typography-label-sm text-center"
+      >
+        Drop files here to upload or...
+      </span>
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Browse files
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FileUpload Snapshots > matches snapshot for dropzone with drag active 1`] = `
+<div
+  class="flex flex-col"
+  data-slot="file-upload"
+>
+  <div
+    class="rounded-ws-container-md gap-ws-5 p-ws-16 relative flex flex-col items-center justify-center text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default cursor-default bg-ws-dynamic-secondary-alpha-hover [--dropzone-stroke:var(--border-color-ws-dynamic-secondary-hover)] transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+    data-slot="file-upload-dropzone"
+  >
+    <svg
+      aria-hidden="true"
+      class="pointer-events-none absolute inset-0 size-full overflow-visible"
+      focusable="false"
+    >
+      <rect
+        class="h-[calc(100%-1px)] w-[calc(100%-1px)] fill-none stroke-(--dropzone-stroke) [rx:var(--radius-ws-container-md)] transition-[stroke] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+        stroke-dasharray="4 4"
+        stroke-dashoffset="0.5"
+        stroke-width="1"
+        x="0.5"
+        y="0.5"
+      />
+    </svg>
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-12 shrink-0"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM13 9V16H11V9H6L12 3L18 9H13Z"
+      />
+    </svg>
+    <div
+      class="gap-ws-9 flex w-full flex-col items-center"
+    >
+      <span
+        class="typography-label-sm text-center"
+      >
+        Drop files here
+      </span>
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) pointer-events-none opacity-0"
+        data-slot="button"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Browse files
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FileUpload Snapshots > matches snapshot for the Area dropzone 1`] = `
+<div
+  class="flex flex-col"
+  data-slot="file-upload"
+>
+  <div
+    class="rounded-ws-container-md gap-ws-5 p-ws-16 relative flex flex-col items-center justify-center bg-ws-dynamic-secondary-alpha-default text-ws-static-base [--dropzone-stroke:var(--border-color-ws-dynamic-secondary-default)] focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default cursor-pointer hover:bg-ws-dynamic-secondary-alpha-hover hover:[--dropzone-stroke:var(--border-color-ws-dynamic-secondary-hover)] active:bg-ws-dynamic-secondary-alpha-pressed active:[--dropzone-stroke:var(--border-color-ws-dynamic-secondary-pressed)] transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+    data-slot="file-upload-dropzone"
+    role="button"
+    tabindex="0"
+  >
+    <svg
+      aria-hidden="true"
+      class="pointer-events-none absolute inset-0 size-full overflow-visible"
+      focusable="false"
+    >
+      <rect
+        class="h-[calc(100%-1px)] w-[calc(100%-1px)] fill-none stroke-(--dropzone-stroke) [rx:var(--radius-ws-container-md)] transition-[stroke] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out)"
+        stroke-dasharray="4 4"
+        stroke-dashoffset="0.5"
+        stroke-width="1"
+        x="0.5"
+        y="0.5"
+      />
+    </svg>
+    <svg
+      aria-hidden="true"
+      class="remixicon size-ws-12 shrink-0"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19ZM13 9V16H11V9H6L12 3L18 9H13Z"
+      />
+    </svg>
+    <div
+      class="gap-ws-9 flex w-full flex-col items-center"
+    >
+      <span
+        class="typography-label-sm text-center"
+      >
+        Click or drop files to upload
+      </span>
+    </div>
+  </div>
+</div>
+`;

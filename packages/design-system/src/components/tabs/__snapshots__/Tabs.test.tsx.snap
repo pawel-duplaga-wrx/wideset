@@ -1,0 +1,868 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tabs Snapshots > matches snapshot for disabled tab item 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_39_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_39_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_39_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-disabled=""
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      disabled=""
+      id="radix-_r_39_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for disabled tabs 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="-1"
+  >
+    <button
+      aria-controls="radix-_r_3c_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-disabled=""
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      disabled=""
+      id="radix-_r_3c_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_3c_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-disabled=""
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      disabled=""
+      id="radix-_r_3c_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default) opacity-0"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for fullWidth type > Tabs with regular type and lg size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col w-full flex-1 justify-stretch"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex w-full justify-stretch border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_2i_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed px-ws-9 mb-[-1px] flex-1 border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-md gap-ws-5 pt-ws-8 pb-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_2i_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_2i_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed px-ws-9 mb-[-1px] flex-1 border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-md gap-ws-5 pt-ws-8 pb-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_2i_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for fullWidth type > Tabs with regular type and sm size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col w-full flex-1 justify-stretch"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex w-full justify-stretch border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_2f_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed px-ws-9 mb-[-1px] flex-1 border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_2f_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_2f_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed px-ws-9 mb-[-1px] flex-1 border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_2f_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for ghost type > Tabs with regular type and lg size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-3 isolate w-fit"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_2u_-content-tab1"
+      aria-selected="true"
+      class="focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-lg text-ws-static-subtle hover:text-ws-static-strong [&_svg]:text-current aria-selected:text-ws-static-strong data-active:text-ws-static-strong typography-label-strong-md gap-ws-6 px-ws-9 py-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_2u_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_2u_-content-tab2"
+      aria-selected="false"
+      class="focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-lg text-ws-static-subtle hover:text-ws-static-strong [&_svg]:text-current aria-selected:text-ws-static-strong data-active:text-ws-static-strong typography-label-strong-md gap-ws-6 px-ws-9 py-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_2u_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 rounded-ws-control-lg bg-ws-dynamic-tertiary-alpha-strong-default inset-y-0 -z-[var(--ws-z-index-base)]"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for ghost type > Tabs with regular type and sm size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-3 isolate w-fit"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_2r_-content-tab1"
+      aria-selected="true"
+      class="focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-lg text-ws-static-subtle hover:text-ws-static-strong [&_svg]:text-current aria-selected:text-ws-static-strong data-active:text-ws-static-strong typography-label-strong-sm gap-ws-4 px-ws-7 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_2r_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_2r_-content-tab2"
+      aria-selected="false"
+      class="focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-lg text-ws-static-subtle hover:text-ws-static-strong [&_svg]:text-current aria-selected:text-ws-static-strong data-active:text-ws-static-strong typography-label-strong-sm gap-ws-4 px-ws-7 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_2r_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 rounded-ws-control-lg bg-ws-dynamic-tertiary-alpha-strong-default inset-y-0 -z-[var(--ws-z-index-base)]"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for pill type > Tabs with regular type and lg size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-5 w-fit"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_2o_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-full border-ws-dynamic-secondary-default border-1 hover:border-ws-dynamic-secondary-hover aria-selected:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default aria-selected:text-ws-dynamic-primary-default! aria-selected:border-transparent! data-active:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default data-active:text-ws-dynamic-primary-default! data-active:border-transparent! typography-label-strong-md gap-ws-3 px-ws-9 py-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_2o_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_2o_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-full border-ws-dynamic-secondary-default border-1 hover:border-ws-dynamic-secondary-hover aria-selected:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default aria-selected:text-ws-dynamic-primary-default! aria-selected:border-transparent! data-active:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default data-active:text-ws-dynamic-primary-default! data-active:border-transparent! typography-label-strong-md gap-ws-3 px-ws-9 py-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_2o_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for pill type > Tabs with regular type and sm size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-5 w-fit"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_2l_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-full border-ws-dynamic-secondary-default border-1 hover:border-ws-dynamic-secondary-hover aria-selected:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default aria-selected:text-ws-dynamic-primary-default! aria-selected:border-transparent! data-active:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default data-active:text-ws-dynamic-primary-default! data-active:border-transparent! typography-label-strong-sm gap-ws-2 px-ws-5 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_2l_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_2l_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed rounded-ws-control-full border-ws-dynamic-secondary-default border-1 hover:border-ws-dynamic-secondary-hover aria-selected:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default aria-selected:text-ws-dynamic-primary-default! aria-selected:border-transparent! data-active:not-focus-visible:bg-ws-dynamic-primary-alpha-strong-default data-active:text-ws-dynamic-primary-default! data-active:border-transparent! typography-label-strong-sm gap-ws-2 px-ws-5 py-ws-4 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_2l_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for regular type > Tabs with regular type and lg size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_2c_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-md gap-ws-5 pt-ws-8 pb-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_2c_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_2c_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-md gap-ws-5 pt-ws-8 pb-ws-7 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_2c_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for regular type > Tabs with regular type and sm size 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_29_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_29_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_29_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_29_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for tabs with custom children 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_3f_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_3f_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <div
+        class="custom-tab-content"
+      >
+        <span>
+          Custom
+        </span>
+        <span>
+          Tab
+        </span>
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for tabs with divider 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_31_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_31_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_31_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_31_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for tabs with icon and count 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit border-ws-static-subtle border-b"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_37_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_37_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="remixicon size-ws-9 text-ws-static-base"
+        data-slot="tabs-icon"
+        data-testid="mock-icon"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z"
+        />
+      </svg>
+      <span
+        data-slot="tabs-label"
+      >
+        Tab with Icon and Count
+      </span>
+      <div
+        class="inline-flex shrink-0 items-center justify-center focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default typography-caption-strong-md h-ws-11 min-w-ws-11 gap-ws-2 px-ws-4 has-[>svg:only-child]:w-ws-11 has-[>svg:only-child]:px-0 rounded-ws-control-full bg-ws-semantic-neutral text-ws-semantic-on-subtle-neutral ml-ws-3"
+        data-slot="tabs-count"
+      >
+        42
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs Snapshots > matches snapshot for tabs without divider 1`] = `
+<div
+  class="text-ws-static-base flex flex-col"
+  data-orientation="horizontal"
+  data-slot="tabs"
+  dir="ltr"
+>
+  <div
+    aria-orientation="horizontal"
+    class="relative flex gap-ws-12 w-fit"
+    data-orientation="horizontal"
+    data-slot="tabs-list"
+    role="tablist"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-controls="radix-_r_34_-content-tab1"
+      aria-selected="true"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="active"
+      id="radix-_r_34_-trigger-tab1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 1
+      </span>
+    </button>
+    <button
+      aria-controls="radix-_r_34_-content-tab2"
+      aria-selected="false"
+      class="text-ws-static-base focus-visible:wds-focus-visible outline-ws-dynamic-primary-strong-default box-border flex cursor-pointer items-center justify-center disabled:text-ws-static-subtle disabled:pointer-events-none disabled:cursor-not-allowed mb-[-1px] border-b-2 border-b-transparent hover:border-ws-dynamic-secondary-hover typography-label-strong-sm gap-ws-3 pt-ws-6 pb-ws-5 transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+      data-orientation="horizontal"
+      data-radix-collection-item=""
+      data-slot="tabs-item"
+      data-state="inactive"
+      id="radix-_r_34_-trigger-tab2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        data-slot="tabs-label"
+      >
+        Tab 2
+      </span>
+    </button>
+    <span
+      aria-hidden="true"
+      class="pointer-events-none absolute left-0 bottom-[-1px] h-[2px] bg-(--border-color-ws-dynamic-secondary-strong-default)"
+      style="width: 0px; transform: translateX(0px);"
+    />
+  </div>
+</div>
+`;

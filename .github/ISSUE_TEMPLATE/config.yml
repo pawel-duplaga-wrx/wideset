@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/widelab-co/wideset/discussions
+    about: Ask a question or propose a component or API change before opening a pull request.
+  - name: Security vulnerability
+    url: https://github.com/widelab-co/wideset/security/advisories/new
+    about: Report it privately, never in a public issue.

@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sidepanel Snapshots > matches snapshot for default sidepanel 1`] = `<DocumentFragment />`;
+
+exports[`Sidepanel Snapshots > matches snapshot for left sidepanel 1`] = `<DocumentFragment />`;

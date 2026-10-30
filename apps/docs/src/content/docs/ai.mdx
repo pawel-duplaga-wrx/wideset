@@ -1,0 +1,171 @@
+---
+title: Working with AI
+description: Give an assistant the docs as Markdown, connect it to the registry, tell it the rules.
+section: Guide
+---
+
+An assistant can read a component's source for its props. It cannot read there which component
+fits, how components combine or what breaks without an error, so Wideset writes that down once: the
+**Usage** section of each component page, which the skills ship too. This page lists what the site
+serves for models, how to let an assistant browse and install components through the registry, which
+skills to install, and the rules worth putting in its instructions.
+
+## Docs as Markdown
+
+| URL                     | What it is                                                                         |
+| ----------------------- | ---------------------------------------------------------------------------------- |
+| `/llms.txt`             | An index in the [llms.txt](https://llmstxt.org) format: every page, one line each. |
+| `/llms-full.txt`        | Every docs page and every component page in one file.                              |
+| `/components/<name>.md` | One component: usage guidance, install, parts, examples and every prop.            |
+| `/docs/<page>.md`       | One guide or foundations page.                                                     |
+
+Point the assistant at `/llms.txt` and let it fetch what it needs, or paste `/llms-full.txt` into
+a project's context when the tool has room for it. Live widgets (token tables, playgrounds) are
+replaced by a link to the page.
+
+On a component page, the **Copy** menu in the page header has **View as Markdown**, **Copy as
+Markdown**, and **Open in** v0, Lovable, ChatGPT or Claude with a prompt that points the model at
+the page's `.md` version.
+
+## MCP server
+
+Wideset is a [shadcn registry](https://ui.shadcn.com/docs/registry), so the
+[shadcn MCP server](https://ui.shadcn.com/docs/mcp) works with it: the assistant can list
+Wideset components, read their source and add them to your project. It installs through the
+copy-the-source route described in [CLI](/docs/cli), not through the npm package.
+
+### 1. Register the namespace
+
+The server reads registries from `components.json` in your project. Set it up as in
+[CLI, step 1](/docs/cli#1-create-componentsjson), or, in a project that already uses shadcn,
+add only the namespace:
+
+```bash
+npx shadcn@latest registry add @wideset=https://wideset-docs.widelab.workers.dev/r/{name}.json
+```
+
+Either way `components.json` ends up with:
+
+```json
+{
+  "registries": { "@wideset": "https://wideset-docs.widelab.workers.dev/r/{name}.json" }
+}
+```
+
+The registry is public: no token, no headers.
+
+### 2. Configure your client
+
+**Claude Code.** Run `npx shadcn@latest mcp init --client claude`, or add `.mcp.json` to the
+project root:
+
+```json
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
+    }
+  }
+}
+```
+
+Restart Claude Code and check that `/mcp` shows the server as connected.
+
+**Cursor.** Add `.cursor/mcp.json` to the project and enable the server in Cursor Settings:
+
+```json
+{
+  "mcpServers": {
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
+    }
+  }
+}
+```
+
+**VS Code (GitHub Copilot).** Add `.vscode/mcp.json` (the key is `servers`) and click **Start**
+next to the server:
+
+```json
+{
+  "servers": {
+    "shadcn": {
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"]
+    }
+  }
+}
+```
+
+### 3. Ask for components
+
+Name the namespace so the assistant searches Wideset rather than shadcn/ui:
+
+- "Show me the components in the @wideset registry."
+- "Add @wideset/select and @wideset/button to my project."
+- "Build a settings form with components from @wideset."
+
+## Skills
+
+Wideset ships [Agent Skills](https://agentskills.io): instructions an agent loads when it builds UI. They say what component source cannot: which component fits, how components combine, what compiles and still breaks, and what a finished screen looks like. It is the guidance shown under Usage on each component page, so it matches the version it ships with.
+
+```bash
+npx skills add widelab-co/wideset/packages/skills
+```
+
+The [skills CLI](https://github.com/vercel-labs/skills) asks which agents you use and installs for each of them. `npx skills update` brings them up to date.
+
+If you prefer one install path for everything, the same skills are a registry item. It also writes `AGENTS.wideset.md` and a Cursor rule; add `skills-claude.json` for the copy Claude Code reads, with two reviewer agents:
+
+```bash
+npx shadcn@latest add https://wideset-docs.widelab.workers.dev/r/skills.json
+npx shadcn@latest add https://wideset-docs.widelab.workers.dev/r/skills-claude.json
+```
+
+Then point your agent's instructions at the rules, with `See AGENTS.wideset.md for Wideset rules.` in `AGENTS.md` or `@AGENTS.wideset.md` in `CLAUDE.md`. The file is overwritten on update, so keep your own rules elsewhere.
+
+| Skill            | Use                                                                             |
+| ---------------- | ------------------------------------------------------------------------------- |
+| `wideset-setup`  | Package or registry, stylesheets, Tailwind v4, Server Components                |
+| `wideset-build`  | Choosing components, combining them, patterns, what breaks silently             |
+| `wideset-craft`  | Rules for a designed screen: sizes, spacing, surfaces, defaults, anti-slop list |
+| `wideset-review` | A verdict with fixes, using the two reviewer agents when they are installed     |
+
+With the package installed, `npx --no-install wideset info --json` prints how the project consumes Wideset, the installed version and which skills are present.
+
+## Rules for the model
+
+Agents read an instructions file on every task, even when they skip a skill. If you did not install `AGENTS.wideset.md` above, paste this into your project's `AGENTS.md`, `CLAUDE.md` or editor rules file:
+
+```md
+## Wideset (@wideset/react)
+
+- Import components from `@wideset/react` (or from the copied files when installed through
+  the registry). Import the stylesheet once at the app entry: `import '@wideset/react/styles'`.
+- Before using a component, read its Usage section, starting with "When not to use" and "Gotchas":
+  https://wideset-docs.widelab.workers.dev/components/<name>.md
+- Choose by what the thing does, not how it looks: `RadioButton.Group` for a few options compared at
+  a glance, `Select` for a long list, `DropdownMenu` for commands; `StatusBadge` for a state, `Tag`
+  for a category; `Switch` applies at once, `Checkbox` on submit; `Modal` for a short decision,
+  `Sidepanel` for detail or a long form.
+- The screen holds the state. Components own only open, hover and focus, and controlling `open` does
+  not reset what is inside an overlay. A trigger wrapping your `Button` needs `asChild`, and overlays
+  stack themselves, so add no `z-*`.
+- Style with Wideset token classes, which all carry `ws`: `p-ws-4`, `gap-ws-2`,
+  `bg-ws-dynamic-primary-default`, `text-ws-static-strong`, `rounded-ws-control-lg`. Plain
+  Tailwind scale classes (`p-4`, `text-sm`, `rounded-lg`) are different values; never use palette
+  classes (`text-gray-900`) or raw hex.
+- Compose with subcomponents instead of config props:
+  `<Button>Continue<Button.Icon icon={RiArrowRightLine} /></Button>`.
+- Icons are components from `@remixicon/react`, passed as the component (`icon={RiCheckLine}`),
+  not an element and not an inline `<svg>`. They size with `text-*` and colour with `currentColor`.
+  Icon-only controls need an `aria-label`.
+- In React Server Components use the named subcomponent exports (`CardHeader`, not `Card.Header`),
+  and put anything that passes a function (an icon prop, `onClick`) in a `'use client'` file.
+- Override `className` for one-off tweaks. Re-brand by overriding both brand ramps,
+  `--ws-colors-light-brand-*` and `--ws-colors-dark-brand-*`: https://wideset-docs.widelab.workers.dev/docs/theming.md
+- Before finishing, re-read what you wrote: replace raw `<button>`, `<input>`, `<select>` or
+  `<table>` with the Wideset component, and any spacing, colour, radius or type class without `ws`.
+```

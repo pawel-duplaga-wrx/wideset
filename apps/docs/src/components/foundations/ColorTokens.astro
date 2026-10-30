@@ -1,0 +1,52 @@
+---
+import tokens from '../../generated/tokens.json';
+
+/**
+ * The semantic colour classes of one kind (Background, Text or Border), grouped by layer.
+ * Each swatch reads the token, so the table follows the site's light and dark mode.
+ */
+interface Props {
+  kind: 'Background' | 'Text' | 'Border';
+}
+const { kind } = Astro.props;
+const groups = tokens.colors.filter((group) => group.kind === kind);
+const label: Record<string, string> = {
+  static: 'Static — surfaces, text and borders that do not react to interaction',
+  dynamic: 'Dynamic — interactive roles, with states',
+  semantic: 'Semantic — status: positive, negative, notice, info',
+  'non-semantic': 'Non-semantic — accent colours with no meaning attached',
+};
+const swatch = (name: string) =>
+  kind === 'Background'
+    ? `background: var(${name})`
+    : kind === 'Text'
+      ? `color: var(${name})`
+      : `border: 2px solid var(${name})`;
+---
+
+{groups.map((group) => (
+  <details
+    class="border-ws-static-subtle mt-4 rounded-[12px] border"
+    open={group.group === 'static'}
+  >
+    <summary class="text-ws-static-strong cursor-pointer px-4 py-3 text-[14px] leading-5 font-medium">
+      {label[group.group]}{' '}
+      <span class="text-ws-static-subtle font-normal">· {group.tokens.length}</span>
+    </summary>
+    <div class="border-ws-static-subtle grid grid-cols-1 gap-x-4 gap-y-2 border-t p-4 sm:grid-cols-2">
+      {group.tokens.map((token) => (
+        <div class="flex min-w-0 items-center gap-3" title={token.name}>
+          <div
+            class="border-ws-static-subtle grid size-8 shrink-0 place-items-center rounded-[6px] border text-[14px] font-medium"
+            style={swatch(token.name)}
+          >
+            {kind === 'Text' ? 'Aa' : ''}
+          </div>
+          <code class="text-ws-static-strong truncate font-mono text-[12px]">
+            {token.className}
+          </code>
+        </div>
+      ))}
+    </div>
+  </details>
+))}

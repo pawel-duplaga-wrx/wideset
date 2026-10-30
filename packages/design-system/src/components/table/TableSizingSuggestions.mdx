@@ -1,0 +1,71 @@
+import { Meta, Canvas } from '@storybook/addon-docs/blocks';
+import * as TableStories from './Table.stories';
+
+<Meta title="Components/Table/Sizing Suggestions" />
+
+## Element sizing suggestions
+
+When composing table cells with other components, use the sizes below to maintain visual consistency across different table sizes.
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th style={{ textAlign: 'center' }}>Table `'sm'`</th>
+      <th style={{ textAlign: 'center' }}>Table `'md'`</th>
+      <th style={{ textAlign: 'center' }}>Table `'lg'`</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Checkbox](/docs/components-checkbox-checkbox--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+    </tr>
+    <tr>
+      <td>[Input](/docs/components-textinput--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'sm'`</td>
+      <td style={{ textAlign: 'center' }}>`'sm'`</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+    </tr>
+    <tr>
+      <td>[Avatar](/docs/components-avatar--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'sm'`</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+    </tr>
+    <tr>
+      <td>[Thumbnail](/docs/helper-components-thumbnail--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'xs'`</td>
+      <td style={{ textAlign: 'center' }}>`'sm'`</td>
+      <td style={{ textAlign: 'center' }}>`'sm'`</td>
+    </tr>
+    <tr>
+      <td>[Status Badge](/docs/components-badge--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+    </tr>
+    <tr>
+      <td>[Tag](/docs/components-tag--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+    </tr>
+    <tr>
+      <td>[Buttons](/docs/components-button-button--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'sm'`</td>
+      <td style={{ textAlign: 'center' }}>`'sm'`</td>
+      <td style={{ textAlign: 'center' }}>`'md'`</td>
+    </tr>
+    <tr>
+      <td>[Switch](/docs/components-switch--docs)</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+      <td style={{ textAlign: 'center' }}>`'lg'`</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={TableStories.ElementsSizing} />

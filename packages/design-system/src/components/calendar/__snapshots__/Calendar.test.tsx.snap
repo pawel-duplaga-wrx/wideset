@@ -1,0 +1,2152 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Calendar > Snapshots > should match snapshot for days view 1`] = `
+<div>
+  <div
+    class="rdp-root p-ws-5 w-fit"
+    data-mode="single"
+    data-slot="calendar"
+    lang="en-US"
+  >
+    <div
+      class="flex flex-row gap-ws-12"
+    >
+      <div
+        class="rdp-month"
+      >
+        <div
+          class="h-ws-18 relative flex w-full items-center justify-center"
+          data-slot="calendar-month-caption"
+        >
+          <div
+            class="left-ws-3 gap-ws-5 absolute flex items-center"
+          >
+            <button
+              aria-label="Previous year"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.83582 12L11.0429 18.2071L12.4571 16.7929L7.66424 12L12.4571 7.20712L11.0429 5.79291L4.83582 12ZM10.4857 12L16.6928 18.2071L18.107 16.7929L13.3141 12L18.107 7.20712L16.6928 5.79291L10.4857 12Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Previous month"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="gap-ws-3 flex items-center justify-center"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="Select month"
+              class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) px-ws-2"
+              data-slot="popup-trigger"
+              data-state="closed"
+              type="button"
+            >
+              <span
+                class="px-ws-2"
+              >
+                January
+              </span>
+            </button>
+            <button
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="Select year"
+              class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) px-ws-2"
+              data-slot="popup-trigger"
+              data-state="closed"
+              type="button"
+            >
+              <span
+                class="px-ws-2"
+              >
+                2025
+              </span>
+            </button>
+          </div>
+          <div
+            class="right-ws-3 gap-ws-5 absolute flex items-center"
+          >
+            <button
+              aria-label="Next month"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Next year"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.1642 12L12.9571 5.79291L11.5429 7.20712L16.3358 12L11.5429 16.7929L12.9571 18.2071L19.1642 12ZM13.5143 12L7.30722 5.79291L5.89301 7.20712L10.6859 12L5.89301 16.7929L7.30722 18.2071L13.5143 12Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <table
+          aria-label="January 2025"
+          aria-multiselectable="false"
+          class="w-full border-collapse"
+          role="grid"
+        >
+          <thead
+            aria-hidden="true"
+          >
+            <tr
+              class="h-ws-14"
+            >
+              <th
+                aria-label="Sunday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Su
+              </th>
+              <th
+                aria-label="Monday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Mo
+              </th>
+              <th
+                aria-label="Tuesday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Tu
+              </th>
+              <th
+                aria-label="Wednesday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                We
+              </th>
+              <th
+                aria-label="Thursday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Th
+              </th>
+              <th
+                aria-label="Friday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Fr
+              </th>
+              <th
+                aria-label="Saturday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Sa
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="rdp-weeks"
+          >
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-29"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-30"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-31"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-01"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 1st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="0"
+                  type="button"
+                >
+                  1
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-02"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 2nd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  2
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-03"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 3rd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  3
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-04"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 4th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  4
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-05"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 5th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  5
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-06"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 6th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  6
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-07"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 7th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  7
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-08"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 8th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  8
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-09"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 9th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  9
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-10"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 10th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  10
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-11"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 11th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  11
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-12"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 12th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  12
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-13"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 13th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  13
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-14"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 14th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  14
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-15"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 15th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  15
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-16"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 16th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  16
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-17"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 17th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  17
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-18"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 18th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  18
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-19"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 19th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  19
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-20"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 20th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  20
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-21"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 21st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  21
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-22"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 22nd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  22
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-23"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 23rd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  23
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-24"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 24th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  24
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-25"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 25th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  25
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-26"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 26th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  26
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-27"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 27th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  27
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-28"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 28th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  28
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-29"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 29th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  29
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-30"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 30th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  30
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-31"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 31st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  31
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2025-02-01"
+                data-hidden="true"
+                data-month="2025-02"
+                data-outside="true"
+                role="gridcell"
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calendar > Snapshots > should match snapshot for range mode 1`] = `
+<div>
+  <div
+    class="rdp-root p-ws-5 w-fit"
+    data-mode="range"
+    data-slot="calendar"
+    lang="en-US"
+  >
+    <div
+      class="flex flex-row gap-ws-12"
+    >
+      <div
+        class="rdp-month"
+      >
+        <div
+          class="h-ws-18 relative flex w-full items-center justify-center"
+          data-slot="calendar-month-caption"
+        >
+          <div
+            class="left-ws-3 gap-ws-5 absolute flex items-center"
+          >
+            <button
+              aria-label="Previous year"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.83582 12L11.0429 18.2071L12.4571 16.7929L7.66424 12L12.4571 7.20712L11.0429 5.79291L4.83582 12ZM10.4857 12L16.6928 18.2071L18.107 16.7929L13.3141 12L18.107 7.20712L16.6928 5.79291L10.4857 12Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Previous month"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="gap-ws-3 flex items-center justify-center"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="Select month"
+              class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) px-ws-2"
+              data-slot="popup-trigger"
+              data-state="closed"
+              type="button"
+            >
+              <span
+                class="px-ws-2"
+              >
+                January
+              </span>
+            </button>
+            <button
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="Select year"
+              class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) px-ws-2"
+              data-slot="popup-trigger"
+              data-state="closed"
+              type="button"
+            >
+              <span
+                class="px-ws-2"
+              >
+                2025
+              </span>
+            </button>
+          </div>
+          <div
+            class="right-ws-3 gap-ws-5 absolute flex items-center"
+          >
+            <button
+              aria-label="Next month"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Next year"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.1642 12L12.9571 5.79291L11.5429 7.20712L16.3358 12L11.5429 16.7929L12.9571 18.2071L19.1642 12ZM13.5143 12L7.30722 5.79291L5.89301 7.20712L10.6859 12L5.89301 16.7929L7.30722 18.2071L13.5143 12Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <table
+          aria-label="January 2025"
+          aria-multiselectable="true"
+          class="w-full border-collapse"
+          role="grid"
+        >
+          <thead
+            aria-hidden="true"
+          >
+            <tr
+              class="h-ws-14"
+            >
+              <th
+                aria-label="Sunday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Su
+              </th>
+              <th
+                aria-label="Monday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Mo
+              </th>
+              <th
+                aria-label="Tuesday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Tu
+              </th>
+              <th
+                aria-label="Wednesday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                We
+              </th>
+              <th
+                aria-label="Thursday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Th
+              </th>
+              <th
+                aria-label="Friday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Fr
+              </th>
+              <th
+                aria-label="Saturday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Sa
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="rdp-weeks"
+          >
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-29"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-30"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-31"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-01"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 1st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  1
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-02"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 2nd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  2
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-03"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 3rd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  3
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-04"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 4th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  4
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-05"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 5th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  5
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-06"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 6th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  6
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-07"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 7th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  7
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-08"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 8th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  8
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-09"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 9th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  9
+                </button>
+              </td>
+              <td
+                aria-selected="true"
+                class="size-ws-16 p-0 text-center [&:not(.range-middle)>button]:typography-number-strong-md [&:not(.range-middle)>button]:bg-ws-dynamic-primary-default [&:not(.range-middle)>button]:text-ws-dynamic-on-primary-default [&:not(.range-middle)>button]:hover:bg-ws-dynamic-primary-hover [&:not(.range-middle)>button]:hover:text-ws-dynamic-on-primary-hover [&:not(.range-middle)>button]:active:bg-ws-dynamic-primary-pressed [&:not(.range-middle)>button]:active:text-ws-dynamic-on-primary-pressed relative before:bg-ws-dynamic-primary-alpha-strong-default before:absolute before:inset-y-0 before:right-0 before:left-1/2 [&>button]:z-ws-base [&>button]:relative"
+                data-day="2025-01-10"
+                data-selected="true"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 10th, 2025, selected"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="0"
+                  type="button"
+                >
+                  10
+                </button>
+              </td>
+              <td
+                aria-selected="true"
+                class="size-ws-16 p-0 text-center [&:not(.range-middle)>button]:typography-number-strong-md [&:not(.range-middle)>button]:bg-ws-dynamic-primary-default [&:not(.range-middle)>button]:text-ws-dynamic-on-primary-default [&:not(.range-middle)>button]:hover:bg-ws-dynamic-primary-hover [&:not(.range-middle)>button]:hover:text-ws-dynamic-on-primary-hover [&:not(.range-middle)>button]:active:bg-ws-dynamic-primary-pressed [&:not(.range-middle)>button]:active:text-ws-dynamic-on-primary-pressed range-middle bg-ws-dynamic-primary-alpha-strong-default rounded-none [&>button]:text-ws-dynamic-primary-default"
+                data-day="2025-01-11"
+                data-selected="true"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 11th, 2025, selected"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  11
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                aria-selected="true"
+                class="size-ws-16 p-0 text-center [&:not(.range-middle)>button]:typography-number-strong-md [&:not(.range-middle)>button]:bg-ws-dynamic-primary-default [&:not(.range-middle)>button]:text-ws-dynamic-on-primary-default [&:not(.range-middle)>button]:hover:bg-ws-dynamic-primary-hover [&:not(.range-middle)>button]:hover:text-ws-dynamic-on-primary-hover [&:not(.range-middle)>button]:active:bg-ws-dynamic-primary-pressed [&:not(.range-middle)>button]:active:text-ws-dynamic-on-primary-pressed range-middle bg-ws-dynamic-primary-alpha-strong-default rounded-none [&>button]:text-ws-dynamic-primary-default"
+                data-day="2025-01-12"
+                data-selected="true"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 12th, 2025, selected"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  12
+                </button>
+              </td>
+              <td
+                aria-selected="true"
+                class="size-ws-16 p-0 text-center [&:not(.range-middle)>button]:typography-number-strong-md [&:not(.range-middle)>button]:bg-ws-dynamic-primary-default [&:not(.range-middle)>button]:text-ws-dynamic-on-primary-default [&:not(.range-middle)>button]:hover:bg-ws-dynamic-primary-hover [&:not(.range-middle)>button]:hover:text-ws-dynamic-on-primary-hover [&:not(.range-middle)>button]:active:bg-ws-dynamic-primary-pressed [&:not(.range-middle)>button]:active:text-ws-dynamic-on-primary-pressed range-middle bg-ws-dynamic-primary-alpha-strong-default rounded-none [&>button]:text-ws-dynamic-primary-default"
+                data-day="2025-01-13"
+                data-selected="true"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 13th, 2025, selected"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  13
+                </button>
+              </td>
+              <td
+                aria-selected="true"
+                class="size-ws-16 p-0 text-center [&:not(.range-middle)>button]:typography-number-strong-md [&:not(.range-middle)>button]:bg-ws-dynamic-primary-default [&:not(.range-middle)>button]:text-ws-dynamic-on-primary-default [&:not(.range-middle)>button]:hover:bg-ws-dynamic-primary-hover [&:not(.range-middle)>button]:hover:text-ws-dynamic-on-primary-hover [&:not(.range-middle)>button]:active:bg-ws-dynamic-primary-pressed [&:not(.range-middle)>button]:active:text-ws-dynamic-on-primary-pressed range-middle bg-ws-dynamic-primary-alpha-strong-default rounded-none [&>button]:text-ws-dynamic-primary-default"
+                data-day="2025-01-14"
+                data-selected="true"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 14th, 2025, selected"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  14
+                </button>
+              </td>
+              <td
+                aria-selected="true"
+                class="size-ws-16 p-0 text-center [&:not(.range-middle)>button]:typography-number-strong-md [&:not(.range-middle)>button]:bg-ws-dynamic-primary-default [&:not(.range-middle)>button]:text-ws-dynamic-on-primary-default [&:not(.range-middle)>button]:hover:bg-ws-dynamic-primary-hover [&:not(.range-middle)>button]:hover:text-ws-dynamic-on-primary-hover [&:not(.range-middle)>button]:active:bg-ws-dynamic-primary-pressed [&:not(.range-middle)>button]:active:text-ws-dynamic-on-primary-pressed relative before:bg-ws-dynamic-primary-alpha-strong-default before:absolute before:inset-y-0 before:right-1/2 before:left-0 [&>button]:z-ws-base [&>button]:relative"
+                data-day="2025-01-15"
+                data-selected="true"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 15th, 2025, selected"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  15
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-16"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 16th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  16
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-17"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 17th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  17
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-18"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 18th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  18
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-19"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 19th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  19
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-20"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 20th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  20
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-21"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 21st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  21
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-22"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 22nd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  22
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-23"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 23rd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  23
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-24"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 24th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  24
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-25"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 25th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  25
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-26"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 26th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  26
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-27"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 27th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  27
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-28"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 28th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  28
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-29"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 29th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  29
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-30"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 30th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  30
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-31"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 31st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  31
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2025-02-01"
+                data-hidden="true"
+                data-month="2025-02"
+                data-outside="true"
+                role="gridcell"
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calendar > Snapshots > should match snapshot with footer 1`] = `
+<div>
+  <div
+    class="rdp-root p-ws-5 w-fit"
+    data-mode="single"
+    data-slot="calendar"
+    lang="en-US"
+  >
+    <div
+      class="flex flex-row gap-ws-12"
+    >
+      <div
+        class="rdp-month"
+      >
+        <div
+          class="h-ws-18 relative flex w-full items-center justify-center"
+          data-slot="calendar-month-caption"
+        >
+          <div
+            class="left-ws-3 gap-ws-5 absolute flex items-center"
+          >
+            <button
+              aria-label="Previous year"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.83582 12L11.0429 18.2071L12.4571 16.7929L7.66424 12L12.4571 7.20712L11.0429 5.79291L4.83582 12ZM10.4857 12L16.6928 18.2071L18.107 16.7929L13.3141 12L18.107 7.20712L16.6928 5.79291L10.4857 12Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Previous month"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="gap-ws-3 flex items-center justify-center"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="Select month"
+              class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) px-ws-2"
+              data-slot="popup-trigger"
+              data-state="closed"
+              type="button"
+            >
+              <span
+                class="px-ws-2"
+              >
+                January
+              </span>
+            </button>
+            <button
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="Select year"
+              class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) px-ws-2"
+              data-slot="popup-trigger"
+              data-state="closed"
+              type="button"
+            >
+              <span
+                class="px-ws-2"
+              >
+                2025
+              </span>
+            </button>
+          </div>
+          <div
+            class="right-ws-3 gap-ws-5 absolute flex items-center"
+          >
+            <button
+              aria-label="Next month"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Next year"
+              class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default text-ws-dynamic-secondary-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+              data-slot="icon-button"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="remixicon shrink-0 h-ws-9 w-ws-9"
+                data-slot="button-icon"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.1642 12L12.9571 5.79291L11.5429 7.20712L16.3358 12L11.5429 16.7929L12.9571 18.2071L19.1642 12ZM13.5143 12L7.30722 5.79291L5.89301 7.20712L10.6859 12L5.89301 16.7929L7.30722 18.2071L13.5143 12Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <table
+          aria-label="January 2025"
+          aria-multiselectable="false"
+          class="w-full border-collapse"
+          role="grid"
+        >
+          <thead
+            aria-hidden="true"
+          >
+            <tr
+              class="h-ws-14"
+            >
+              <th
+                aria-label="Sunday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Su
+              </th>
+              <th
+                aria-label="Monday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Mo
+              </th>
+              <th
+                aria-label="Tuesday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Tu
+              </th>
+              <th
+                aria-label="Wednesday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                We
+              </th>
+              <th
+                aria-label="Thursday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Th
+              </th>
+              <th
+                aria-label="Friday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Fr
+              </th>
+              <th
+                aria-label="Saturday"
+                class="typography-caption-md text-ws-static-subtle text-center w-ws-16 h-ws-14 p-0"
+                scope="col"
+              >
+                Sa
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="rdp-weeks"
+          >
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-29"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-30"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2024-12-31"
+                data-hidden="true"
+                data-month="2024-12"
+                data-outside="true"
+                role="gridcell"
+              />
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-01"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 1st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="0"
+                  type="button"
+                >
+                  1
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-02"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 2nd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  2
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-03"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 3rd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  3
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-04"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 4th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  4
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-05"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 5th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  5
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-06"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 6th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  6
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-07"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 7th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  7
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-08"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 8th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  8
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-09"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 9th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  9
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-10"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 10th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  10
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-11"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 11th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  11
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-12"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 12th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  12
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-13"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 13th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  13
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-14"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 14th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  14
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-15"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 15th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  15
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-16"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 16th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  16
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-17"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 17th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  17
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-18"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 18th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  18
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-19"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 19th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  19
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-20"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 20th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  20
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-21"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 21st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  21
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-22"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 22nd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  22
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-23"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 23rd, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  23
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-24"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 24th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  24
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-25"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Saturday, January 25th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  25
+                </button>
+              </td>
+            </tr>
+            <tr
+              class="rdp-week"
+            >
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-26"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Sunday, January 26th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  26
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-27"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Monday, January 27th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  27
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-28"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Tuesday, January 28th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  28
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-29"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Wednesday, January 29th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  29
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-30"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Thursday, January 30th, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  30
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center"
+                data-day="2025-01-31"
+                role="gridcell"
+              >
+                <button
+                  aria-label="Friday, January 31st, 2025"
+                  class="flex h-full w-full cursor-pointer items-center justify-center rounded-full text-ws-static-subtle typography-number-md hover:bg-ws-dynamic-secondary-alpha-hover active:bg-ws-dynamic-secondary-alpha-pressed disabled:cursor-default disabled:opacity-50 disabled:hover:bg-transparent disabled:active:bg-transparent focus-visible:wds-focus-visible focus-visible:outline-ws-dynamic-primary-strong-default transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small)"
+                  tabindex="-1"
+                  type="button"
+                >
+                  31
+                </button>
+              </td>
+              <td
+                class="size-ws-16 p-0 text-center !invisible !bg-transparent before:!bg-transparent rdp-outside"
+                data-day="2025-02-01"
+                data-hidden="true"
+                data-month="2025-02"
+                data-outside="true"
+                role="gridcell"
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div
+      aria-live="polite"
+      class="rdp-footer"
+      role="status"
+    >
+      <div
+        class="text-ws-static-subtle typography-caption-md mt-ws-7 px-ws-7 pb-ws-5 w-0 min-w-full text-center break-words"
+        data-slot="calendar-footer"
+      >
+        Select a date
+      </div>
+    </div>
+  </div>
+</div>
+`;

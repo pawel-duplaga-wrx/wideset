@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Wideset Component Docs'
+  short_description: 'Give a component its full docs page'
+  default_prompt: 'Use $wideset-component-docs to write the examples and playground for a new or changed Wideset component.'

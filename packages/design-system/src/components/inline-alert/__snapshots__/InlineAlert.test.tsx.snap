@@ -1,0 +1,321 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InlineAlert Snapshots > matches snapshot for each variant > InlineAlert error 1`] = `
+<div
+  class="rounded-ws-container-md gap-ws-7 px-ws-9 flex bg-ws-semantic-negative text-ws-semantic-on-subtle-negative py-ws-7 items-center"
+  data-slot="inline-alert"
+  role="alert"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon size-ws-11 shrink-0 text-ws-semantic-negative"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center"
+  >
+    <div
+      class="gap-ws-2 flex flex-1 flex-col"
+    >
+      <span
+        class="typography-body-md"
+        data-slot="inline-alert-message"
+      >
+        error
+         message
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Dismiss"
+    class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) text-inherit self-center"
+    data-slot="icon-button"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon shrink-0 h-ws-9 w-ws-9"
+      data-slot="button-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`InlineAlert Snapshots > matches snapshot for each variant > InlineAlert info 1`] = `
+<div
+  class="rounded-ws-container-md gap-ws-7 px-ws-9 flex bg-ws-semantic-info text-ws-semantic-on-subtle-info py-ws-7 items-center"
+  data-slot="inline-alert"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon size-ws-11 shrink-0 text-ws-semantic-info"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 11V17H13V11H11ZM11 7V9H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center"
+  >
+    <div
+      class="gap-ws-2 flex flex-1 flex-col"
+    >
+      <span
+        class="typography-body-md"
+        data-slot="inline-alert-message"
+      >
+        info
+         message
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Dismiss"
+    class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) text-inherit self-center"
+    data-slot="icon-button"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon shrink-0 h-ws-9 w-ws-9"
+      data-slot="button-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`InlineAlert Snapshots > matches snapshot for each variant > InlineAlert success 1`] = `
+<div
+  class="rounded-ws-container-md gap-ws-7 px-ws-9 flex bg-ws-semantic-positive text-ws-semantic-on-subtle-positive py-ws-7 items-center"
+  data-slot="inline-alert"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon size-ws-11 shrink-0 text-ws-semantic-positive"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM17.4571 9.45711L11 15.9142L6.79289 11.7071L8.20711 10.2929L11 13.0858L16.0429 8.04289L17.4571 9.45711Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center"
+  >
+    <div
+      class="gap-ws-2 flex flex-1 flex-col"
+    >
+      <span
+        class="typography-body-md"
+        data-slot="inline-alert-message"
+      >
+        success
+         message
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Dismiss"
+    class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) text-inherit self-center"
+    data-slot="icon-button"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon shrink-0 h-ws-9 w-ws-9"
+      data-slot="button-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`InlineAlert Snapshots > matches snapshot for each variant > InlineAlert warning 1`] = `
+<div
+  class="rounded-ws-container-md gap-ws-7 px-ws-9 flex bg-ws-semantic-notice text-ws-semantic-on-subtle-notice py-ws-7 items-center"
+  data-slot="inline-alert"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon size-ws-11 shrink-0 text-ws-semantic-notice"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 items-center"
+  >
+    <div
+      class="gap-ws-2 flex flex-1 flex-col"
+    >
+      <span
+        class="typography-body-md"
+        data-slot="inline-alert-message"
+      >
+        warning
+         message
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Dismiss"
+    class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) text-inherit self-center"
+    data-slot="icon-button"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon shrink-0 h-ws-9 w-ws-9"
+      data-slot="button-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`InlineAlert Snapshots > matches snapshot for vertical alert with title and action > InlineAlert vertical full 1`] = `
+<div
+  class="rounded-ws-container-md gap-ws-7 px-ws-9 flex bg-ws-semantic-notice text-ws-semantic-on-subtle-notice py-ws-9 items-start extra"
+  data-slot="inline-alert"
+  role="status"
+>
+  <svg
+    aria-hidden="true"
+    class="remixicon size-ws-11 shrink-0 text-ws-semantic-notice"
+    fill="currentColor"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"
+    />
+  </svg>
+  <div
+    class="gap-ws-7 flex flex-1 flex-col"
+  >
+    <div
+      class="gap-ws-2 flex flex-1 flex-col"
+    >
+      <span
+        class="typography-label-strong-sm"
+        data-slot="inline-alert-title"
+      >
+        Title
+      </span>
+      <span
+        class="typography-body-md"
+        data-slot="inline-alert-message"
+      >
+        Vertical content
+      </span>
+    </div>
+    <div
+      class="gap-ws-5 flex shrink-0 items-center"
+    >
+      <button
+        class="w-fit whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default border typography-label-strong-sm h-ws-forms-sm gap-ws-2 rounded-ws-control-lg px-ws-6 border-ws-dynamic-secondary-default shadow-ws-controls-control bg-ws-static-highlight-subtle outline-ws-dynamic-primary-strong-default hover:border-ws-dynamic-secondary-hover hover:text-ws-dynamic-secondary-hover active:border-ws-dynamic-secondary-pressed active:text-ws-dynamic-secondary-pressed disabled:border-ws-dynamic-secondary-disabled disabled:text-ws-dynamic-secondary-disabled transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) text-inherit"
+        data-slot="inline-alert-action"
+        type="button"
+      >
+        <span
+          class="px-ws-2"
+        >
+          Retry
+        </span>
+      </button>
+    </div>
+  </div>
+  <button
+    aria-label="Dismiss"
+    class="whitespace-nowrap box-border relative inline-flex cursor-pointer items-center justify-center focus-visible:wds-focus-visible focus-visible:select-none disabled:pointer-events-none disabled:cursor-default shrink-0 px-0 typography-label-strong-sm gap-ws-2 rounded-ws-control-lg h-ws-forms-sm w-ws-forms-sm bg-ws-dynamic-secondary-alpha-default outline-ws-dynamic-primary-strong-default hover:bg-ws-dynamic-secondary-alpha-hover hover:text-ws-dynamic-secondary-hover active:bg-ws-dynamic-secondary-alpha-pressed active:text-ws-dynamic-secondary-pressed disabled:text-ws-dynamic-secondary-disabled disabled:bg-none transition-[background-color,border-color,color,box-shadow,scale,opacity] duration-(--ws-motion-duration-quick) ease-(--ws-motion-ease-out) active:not-disabled:not-aria-disabled:duration-(--ws-motion-duration-micro) active:not-disabled:not-aria-disabled:scale-(--ws-motion-scale-small) text-inherit"
+    data-slot="icon-button"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="remixicon shrink-0 h-ws-9 w-ws-9"
+      data-slot="button-icon"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+      />
+    </svg>
+  </button>
+</div>
+`;

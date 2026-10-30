@@ -1,0 +1,404 @@
+/* ── Page font ── Wideset does not set the page font; a consumer app does, and so does Storybook. */
+
+html {
+  font-family: var(--font-ws-sans);
+}
+
+/* ── Page backgrounds ── */
+
+html.dark body .sbdocs.sbdocs-wrapper {
+  background-color: var(--background-color-ws-static-background);
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .sbdocs.sbdocs-preview {
+  background-color: var(--background-color-ws-static-background);
+  border-color: var(--ws-colors-dark-neutral-900);
+}
+html.dark body .sb-previewBlock {
+  background-color: var(--background-color-ws-static-foreground);
+  border-color: var(--ws-colors-dark-neutral-900);
+}
+html.dark body .sb-nopreview_main {
+  background-color: var(--background-color-ws-static-foreground);
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .sb-preparing-story,
+html.dark body .sb-preparing-docs {
+  background-color: var(--background-color-ws-static-foreground);
+}
+html.dark body .sb-argstableBlock,
+html.dark body .sb-argstableBlock td {
+  background-color: var(--background-color-ws-static-foreground);
+  border-color: var(--ws-colors-dark-neutral-800);
+}
+html.dark body .sb-errordisplay_main {
+  background-color: var(--background-color-ws-static-foreground);
+  color: var(--text-color-ws-static-base);
+}
+
+/* ── Canvas (single story) background ── */
+
+html.dark body {
+  background-color: var(--background-color-ws-static-background);
+  color: var(--text-color-ws-static-base);
+}
+
+/* ── Show code / Copy code buttons ── */
+
+html.dark body .sbdocs-preview-actions button {
+  color: var(--text-color-ws-static-base);
+}
+html body .sbdocs-preview-actions button:hover {
+  color: var(--ws-colors-dark-brand-500);
+  background-color: color-mix(in srgb, var(--ws-colors-dark-brand-500) 10%, transparent);
+}
+html.dark body .sbdocs-preview-actions button:hover {
+  color: var(--ws-colors-dark-brand-300);
+  background-color: color-mix(in srgb, var(--ws-colors-dark-brand-300) 10%, transparent);
+}
+html body .sbdocs-preview-actions button:focus,
+html body .sbdocs-preview-actions button:focus-visible {
+  outline: none;
+  color: var(--ws-colors-dark-brand-500);
+  box-shadow: var(--ws-colors-dark-brand-500) 0px 0px 0px 1px inset;
+}
+html.dark body .sbdocs-preview-actions button:focus,
+html.dark body .sbdocs-preview-actions button:focus-visible {
+  outline: none;
+  color: var(--ws-colors-dark-brand-300);
+  box-shadow: var(--ws-colors-dark-brand-300) 0px 0px 0px 1px inset;
+}
+
+/* ── Story toolbar in docs ── */
+
+html.dark body .sbdocs-preview [role='toolbar'] {
+  background-color: var(--ws-colors-dark-neutral-900);
+  color: var(--text-color-ws-static-base);
+}
+
+html.dark body .sbdocs-preview [role='toolbar'] button,
+html.dark body .sbdocs-preview [role='toolbar'] a,
+html.dark body .sbdocs-preview [role='toolbar'] svg {
+  color: var(--text-color-ws-static-base);
+  fill: var(--text-color-ws-static-base);
+}
+
+/* ── Story tabs (variant selector) ── */
+/* Scoped to the Storybook toolbar tab bar that lives directly inside the story
+   block wrapper — NOT inside .sbdocs-preview where component tabs are rendered. */
+
+html.dark body .sbdocs.sbdocs-content > .sb-anchor + div > div:first-child {
+  background-color: var(--background-color-ws-static-background);
+  box-shadow: var(--ws-colors-dark-neutral-800) 0px -1px 0px 0px inset;
+}
+html.dark body .sbdocs.sbdocs-content > .sb-anchor + div > div:first-child [role='tab'] {
+  color: var(--text-color-ws-static-base);
+  background-color: transparent;
+}
+html body .sbdocs.sbdocs-content > .sb-anchor + div > div:first-child [role='tab']:hover {
+  color: var(--ws-colors-dark-brand-500);
+}
+html.dark body .sbdocs.sbdocs-content > .sb-anchor + div > div:first-child [role='tab']:hover {
+  color: var(--ws-colors-dark-brand-300);
+}
+html
+  body
+  .sbdocs.sbdocs-content
+  > .sb-anchor
+  + div
+  > div:first-child
+  [role='tab'][aria-selected='true'] {
+  color: var(--ws-colors-dark-brand-500);
+  border-bottom-color: var(--ws-colors-dark-brand-500);
+}
+html.dark
+  body
+  .sbdocs.sbdocs-content
+  > .sb-anchor
+  + div
+  > div:first-child
+  [role='tab'][aria-selected='true'] {
+  color: var(--ws-colors-dark-brand-300);
+  border-bottom-color: var(--ws-colors-dark-brand-300);
+}
+
+/* ── Args table ── */
+
+html.dark body .docblock-argstable th {
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .docblock-argstable td {
+  background-color: var(--background-color-ws-static-background);
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .docblock-argstable td span {
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .docblock-argstable td > div + div span,
+html.dark body .docblock-argstable td > div + div code,
+html.dark body .docblock-argstable td code,
+html.dark body .docblock-argstable th code {
+  background-color: transparent;
+  color: var(--ws-colors-dark-neutral-600);
+}
+html.dark body .docblock-argstable td {
+  border-top: 1px solid var(--ws-colors-dark-neutral-800);
+}
+html.dark body .docblock-argstable thead th {
+  border-bottom: 1px solid var(--ws-colors-dark-neutral-800);
+}
+html.dark body .docblock-argstable tbody tr:hover td {
+  background-color: var(--background-color-ws-static-container);
+}
+
+/* ── Controls ── */
+
+html body button[aria-label='Reset controls']:hover {
+  color: var(--ws-colors-dark-brand-500);
+  background-color: color-mix(in srgb, var(--ws-colors-dark-brand-500) 10%, transparent);
+}
+html.dark body button[aria-label='Reset controls']:hover {
+  color: var(--ws-colors-dark-brand-300);
+  background-color: color-mix(in srgb, var(--ws-colors-dark-brand-300) 10%, transparent);
+}
+html body button[aria-label='Reset controls']:focus,
+html body button[aria-label='Reset controls']:focus-visible {
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-500) 0px 0px 0px 1px inset;
+}
+html.dark body button[aria-label='Reset controls']:focus,
+html.dark body button[aria-label='Reset controls']:focus-visible {
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-300) 0px 0px 0px 1px inset;
+}
+html.dark body .docblock-argstable input[type='text'],
+html.dark body .docblock-argstable input[type='number'],
+html.dark body .docblock-argstable input[type='color'],
+html.dark body .docblock-argstable textarea,
+html.dark body .docblock-argstable select {
+  background-color: var(--background-color-ws-static-overlay);
+  color: var(--text-color-ws-static-base);
+  border-color: var(--ws-colors-dark-neutral-700);
+}
+html body .docblock-argstable input[type='text']:focus,
+html body .docblock-argstable input[type='text']:focus-visible,
+html body .docblock-argstable input[type='number']:focus,
+html body .docblock-argstable input[type='number']:focus-visible,
+html body .docblock-argstable input[type='color']:focus,
+html body .docblock-argstable input[type='color']:focus-visible,
+html body .docblock-argstable textarea:focus,
+html body .docblock-argstable textarea:focus-visible,
+html body .docblock-argstable select:focus,
+html body .docblock-argstable select:focus-visible {
+  border-color: var(--ws-colors-dark-brand-500);
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-500) 0px 0px 0px 1px inset;
+}
+html.dark body .docblock-argstable input[type='text']:focus,
+html.dark body .docblock-argstable input[type='text']:focus-visible,
+html.dark body .docblock-argstable input[type='number']:focus,
+html.dark body .docblock-argstable input[type='number']:focus-visible,
+html.dark body .docblock-argstable textarea:focus,
+html.dark body .docblock-argstable textarea:focus-visible,
+html.dark body .docblock-argstable select:focus,
+html.dark body .docblock-argstable select:focus-visible {
+  border-color: var(--ws-colors-dark-brand-300);
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-300) 0px 0px 0px 1px inset;
+}
+html body .docblock-argstable input[role='switch']:focus,
+html body .docblock-argstable input[role='switch']:focus-visible {
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-500) 0px 0px 0px 2px;
+}
+html.dark body .docblock-argstable input[role='switch']:focus,
+html.dark body .docblock-argstable input[role='switch']:focus-visible {
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-300) 0px 0px 0px 2px;
+}
+html.dark body .docblock-argstable td label:has(input[type='checkbox']) {
+  background-color: var(--background-color-ws-static-container);
+  color: var(--text-color-ws-static-base);
+  border-color: var(--ws-colors-dark-neutral-700);
+}
+html.dark body .docblock-argstable td label:has(input[type='checkbox']) span {
+  background-color: transparent;
+  color: var(--ws-colors-dark-neutral-600);
+}
+html.dark
+  body
+  .docblock-argstable
+  td
+  label:has(input[type='checkbox']:not(:checked))
+  span:first-of-type,
+html.dark body .docblock-argstable td label:has(input[type='checkbox']:checked) span:last-of-type {
+  background-color: var(--ws-colors-dark-neutral-700);
+  color: var(--text-color-ws-static-strong);
+}
+html body .docblock-argstable input[type='radio'] {
+  accent-color: var(--ws-colors-dark-brand-500);
+}
+html.dark body .docblock-argstable input[type='radio'] {
+  accent-color: var(--ws-colors-dark-brand-300);
+}
+html.dark body .docblock-argstable td label:has(input[type='radio']) {
+  background-color: transparent;
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .docblock-argstable td label:has(input[type='radio']) span {
+  background-color: transparent;
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .docblock-argstable button {
+  background-color: var(--background-color-ws-static-overlay);
+  color: var(--text-color-ws-static-base);
+  border-color: var(--ws-colors-dark-neutral-900);
+  box-shadow: none;
+}
+html body .docblock-argstable button:focus,
+html body .docblock-argstable button:focus-visible {
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-500) 0px 0px 0px 1px inset;
+}
+html.dark body .docblock-argstable button:focus,
+html.dark body .docblock-argstable button:focus-visible {
+  outline: none;
+  box-shadow: var(--ws-colors-dark-brand-300) 0px 0px 0px 1px inset;
+}
+
+/* ── MDX content ── */
+
+html.dark body .sbdocs p,
+html.dark body .sbdocs li,
+html.dark body .sbdocs td,
+html.dark body .sbdocs th {
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .sbdocs code {
+  background-color: var(--background-color-ws-static-container);
+  color: var(--text-color-ws-static-base);
+  border-color: var(--ws-colors-dark-neutral-700);
+}
+html.dark body .docblock-source {
+  background-color: var(--background-color-ws-static-container);
+  color: var(--text-color-ws-static-base);
+}
+html.dark body .docblock-source > div {
+  background-color: var(--background-color-ws-static-container);
+}
+html.dark body .docblock-source button {
+  background-color: var(--background-color-ws-static-overlay);
+  color: var(--text-color-ws-static-base);
+  border-color: var(--ws-colors-dark-neutral-700);
+}
+
+/* ── Code syntax highlighting (dark) ── */
+/* Storybook's default Prism theme renders keywords, CSS custom-property names
+   and strings in low-contrast reds/blues that are hard to read on the dark code
+   background. Remap the token classes to high-contrast, theme-consistent hues.
+   Scoped to dark mode only — light mode keeps the default palette. */
+
+html.dark body .docblock-source .token.comment,
+html.dark body .docblock-source .token.prolog,
+html.dark body .docblock-source .token.doctype,
+html.dark body .docblock-source .token.cdata {
+  color: var(--ws-colors-dark-neutral-300) !important;
+  font-style: italic;
+}
+html.dark body .docblock-source .token.punctuation,
+html.dark body .docblock-source .token.operator,
+html.dark body .docblock-source .token.entity {
+  color: var(--ws-colors-dark-neutral-200) !important;
+}
+html.dark body .docblock-source .token.property,
+html.dark body .docblock-source .token.tag,
+html.dark body .docblock-source .token.constant,
+html.dark body .docblock-source .token.symbol,
+html.dark body .docblock-source .token.variable {
+  color: var(--ws-colors-dark-cyan-300) !important;
+}
+html.dark body .docblock-source .token.selector,
+html.dark body .docblock-source .token.attr-name,
+html.dark body .docblock-source .token.function,
+html.dark body .docblock-source .token.class-name,
+html.dark body .docblock-source .token.builtin {
+  color: var(--ws-colors-dark-gold-300) !important;
+}
+html.dark body .docblock-source .token.string,
+html.dark body .docblock-source .token.char,
+html.dark body .docblock-source .token.attr-value,
+html.dark body .docblock-source .token.inserted,
+html.dark body .docblock-source .token.url {
+  color: var(--ws-colors-dark-green-300) !important;
+}
+html.dark body .docblock-source .token.atrule,
+html.dark body .docblock-source .token.keyword,
+html.dark body .docblock-source .token.rule,
+html.dark body .docblock-source .token.important {
+  color: var(--ws-colors-dark-violet-300) !important;
+}
+html.dark body .docblock-source .token.boolean,
+html.dark body .docblock-source .token.number,
+html.dark body .docblock-source .token.unit {
+  color: var(--ws-colors-dark-orange-300) !important;
+}
+html.dark body .docblock-source .token.deleted {
+  color: var(--ws-colors-dark-red-300) !important;
+}
+
+/* ── MDX prose tables (dark) ── */
+/* Storybook stripes docs tables with a hardcoded light background on even rows
+   that doesn't adapt to dark mode, leaving light text on a near-white row.
+   Replace the stripe with a subtle dark tint and keep cell text/borders dark. */
+
+html.dark body .sbdocs table tr,
+html.dark body .sbdocs table tbody tr {
+  background-color: transparent !important;
+}
+html.dark body .sbdocs table tbody tr:nth-of-type(2n) {
+  background-color: var(--background-color-ws-static-container) !important;
+}
+html.dark body .sbdocs table td,
+html.dark body .sbdocs table th {
+  color: var(--text-color-ws-static-base) !important;
+  border-bottom-color: var(--ws-colors-dark-neutral-800) !important;
+}
+
+/* ── Headings ── */
+
+/* More air between sections; Storybook's default is 20px, and 0 for the first H2 on a page
+   (`:first-of-type`), which the second selector overrides. */
+html body .sbdocs h2,
+html body .sbdocs h2:first-of-type {
+  margin-top: 48px;
+}
+
+html.dark body .sbdocs h1,
+html.dark body .sbdocs h2,
+html.dark body .sbdocs h3,
+html.dark body .sbdocs h4 {
+  color: var(--text-color-ws-static-strong);
+}
+
+/* ── "On this page" (docs table of contents) ── Storybook draws it with its light theme's
+   colours in both modes: near-black links and a near-white guide line on the dark page. */
+
+html.dark body .toc-wrapper .toc-link {
+  color: var(--text-color-ws-static-subtle);
+}
+html.dark body .toc-wrapper .toc-link:hover {
+  color: var(--text-color-ws-static-strong);
+}
+html.dark body .toc-wrapper .toc-link.is-active-link {
+  color: var(--text-color-ws-static-strong);
+}
+html.dark body .toc-wrapper .toc-list,
+html.dark body .toc-wrapper .toc-list-item > .toc-list {
+  border-color: var(--ws-colors-dark-neutral-800);
+}
+html.dark body .toc-wrapper .toc-link::before {
+  background-color: var(--ws-colors-dark-neutral-800);
+}
+html.dark body .toc-wrapper .is-active-link::before {
+  background-color: var(--text-color-ws-static-strong);
+}

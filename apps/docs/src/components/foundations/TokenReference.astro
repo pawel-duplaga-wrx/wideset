@@ -1,0 +1,73 @@
+---
+import tokens from '../../generated/tokens.json';
+
+/**
+ * Every token family the library's classes read, one collapsible table each: class, variable,
+ * light value and dark value (only where it differs). Colours end on a palette primitive
+ * (`--ws-colors-light-red-600`, printed as `red-600` under Light) and show a swatch painted with that primitive, so the light and dark columns are both visible
+ * whatever the site theme is.
+ */
+const isColour = (value: string) => value.startsWith('--ws-colors-');
+const short = (value: string) => value.replace(/^--ws-colors-(light|dark)-/, '');
+---
+
+{tokens.reference.map((family) => (
+  <details
+    id={`family-${family.family}`}
+    class="border-ws-static-subtle mt-4 rounded-[12px] border"
+  >
+    <summary class="text-ws-static-strong cursor-pointer px-4 py-3 text-[14px] leading-5 font-medium">
+      {family.title}{' '}
+      <span class="text-ws-static-subtle font-normal">
+        · {family.tokens.length}
+        {family.utility ? ` · ${family.utility}-*` : ' · no class'}
+      </span>
+    </summary>
+    <div class="border-ws-static-subtle overflow-x-auto border-t">
+      <table class="w-full text-left text-[13px] leading-5">
+        <thead>
+          <tr class="border-ws-static-subtle text-ws-static-subtle border-b">
+            <th class="px-4 py-2 font-normal">Class and variable</th>
+            <th class="px-4 py-2 font-normal">Light</th>
+            <th class="px-4 py-2 font-normal">Dark</th>
+          </tr>
+        </thead>
+        <tbody>
+          {family.tokens.map((token) => (
+            <tr class="border-ws-static-subtle border-b last:border-0">
+              <td class="px-4 py-2 whitespace-nowrap">
+                {token.className ? (
+                  <code>{token.className}</code>
+                ) : (
+                  <span class="text-ws-static-subtle">No class</span>
+                )}
+                <div class="text-ws-static-subtle font-mono text-[11px] leading-4 break-all whitespace-normal">
+                  {token.name}
+                </div>
+              </td>
+              {[token.light, token.dark].map((value) => (
+                <td class="text-ws-static-strong px-4 py-2 font-mono text-[12px]">
+                  {value === null ? (
+                    <span class="text-ws-static-subtle font-sans">Same</span>
+                  ) : isColour(value) ? (
+                    <span class="flex items-center gap-2 whitespace-nowrap">
+                      <span
+                        class="border-ws-static-subtle size-4 shrink-0 rounded-[4px] border"
+                        style={`background: var(${value})`}
+                      />
+                      {short(value)}
+                    </span>
+                  ) : (
+                    <span class="block max-w-64 truncate" title={value}>
+                      {value}
+                    </span>
+                  )}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+))}
