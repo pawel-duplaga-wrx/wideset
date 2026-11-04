@@ -16,7 +16,8 @@ export const formFieldLabelVariants = cva('', {
   variants: {
     variant: {
       vertical: '',
-      horizontal: 'gap-ws-5 flex w-full max-w-[10rem] shrink-0 flex-col',
+      // ws-3 (4px) plus the helper text's own Gap/3 top padding keeps 8px label → helper text.
+      horizontal: 'gap-ws-3 flex w-full max-w-[10rem] shrink-0 flex-col',
     },
   },
   defaultVariants: {
@@ -24,7 +25,8 @@ export const formFieldLabelVariants = cva('', {
   },
 });
 
-export const formFieldContentVariants = cva('flex flex-col gap-[0.375rem]', {
+// ws-2 (2px) plus the helper text's own Gap/3 top padding keeps 6px control → helper text.
+export const formFieldContentVariants = cva('gap-ws-2 flex flex-col', {
   variants: {
     variant: {
       vertical: '',
